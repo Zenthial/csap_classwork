@@ -13,6 +13,29 @@ All indices and group numbers are 0-based.
 author: Thomas Schollenberger
 """
 
+def juggle(msg: str) -> str:
+    """ Extra credit function. Juggle works like this: 
+        Given str "abcd", juggle returns "badc"
+        Given str "abcdefgh", juggle returns "dcbahgfe"
+        
+        Juggled strings can be decrypted by passing back through the juggle function
+
+    Args:
+        msg (str): The string to be juggled
+
+    Returns:
+        (str): Returns the juggled string
+    """
+    length = len(msg)
+    mid = length // 2 -1
+    new_msg: list[str] = [''] * length
+    for i in range(length-1, -1, -1):
+        new_pos = mid-i # if mid >= i else i - mid;
+        new_msg[new_pos] = msg[i]
+    
+    return ''.join(new_msg)
+
+
 def shift(msg: str, transformation: str, decrypt: bool) -> str:
     """Shifts a given character with the passed msg up by whatever number is given
 
@@ -157,6 +180,15 @@ def normal_trade(msg: str, first: int, second: int) -> str:
         
     
 def trade(msg: str, transformation: str) -> str:
+    """Parses trade commands to determine if it is an exponent trade or a normal trade, then calls the internal corresponding methods
+
+    Args:
+        msg (str): The string to be traded
+        transformation (str): The information, containing the optional exponent data and the two trade indexes
+
+    Returns:
+        str: Returns the traded string
+    """
     input_data = transformation[1:].split(",")
     if input_data[0].find(")") != -1:
         # exponent
@@ -169,7 +201,7 @@ def trade(msg: str, transformation: str) -> str:
         return normal_trade(msg, int(input_data[0]), int(input_data[1]))
         
 
-transformation_types = ["S", "R", "D", "T"]
+TRANSFORMATION_TYPES = ["S", "R", "D", "T", "J"]
 def find_transformation_type(transformation: str) -> str:
     """Parses a string for it's transformation type
 
@@ -179,7 +211,7 @@ def find_transformation_type(transformation: str) -> str:
     Returns:
         (str): A single chr corresponding to a transformation
     """
-    for trans_type in transformation_types:
+    for trans_type in TRANSFORMATION_TYPES:
         if transformation.find(trans_type) != -1:
             return trans_type
     return "N"
@@ -209,6 +241,8 @@ def transform(msg: str, transformation: str, encryption_string: str) -> str:
             msg = duplicate(msg, trans, decrypt)
         elif trans_type == "T":
             msg = trade(msg, trans)
+        elif trans_type == "J":
+            msg = juggle(msg)
         
     return msg
 
