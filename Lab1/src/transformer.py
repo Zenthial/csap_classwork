@@ -7,6 +7,7 @@ The transformation operations are:
     rotate - R[n] rotates the string n positions to the right
     duplicate - Da[,n] follows character at index a with n copies of itself
     trade - T[(g)]a,b swaps the places of the a-th and b-th groups of g total
+    juggle - J moves inner characters out and outter characters in
 
 All indices and group numbers are 0-based.
 
@@ -27,10 +28,10 @@ def juggle(msg: str) -> str:
         (str): Returns the juggled string
     """
     length = len(msg)
-    mid = length // 2 -1
+    mid = length // 2 - 1
     new_msg: list[str] = [''] * length
     for i in range(length-1, -1, -1):
-        new_pos = mid-i # if mid >= i else i - mid;
+        new_pos = mid-i
         new_msg[new_pos] = msg[i]
     
     return ''.join(new_msg)
