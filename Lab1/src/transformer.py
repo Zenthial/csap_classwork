@@ -21,6 +21,8 @@ def juggle(msg: str) -> str:
         
         Juggled strings can be decrypted by passing back through the juggle function
 
+        The extra-credit-message.txt and extra-credit-ops.txt demonstrates this function
+
     Args:
         msg (str): The string to be juggled
 
