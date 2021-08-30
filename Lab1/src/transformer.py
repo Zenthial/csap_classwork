@@ -14,10 +14,14 @@ All indices and group numbers are 0-based.
 author: Thomas Schollenberger
 """
 
+
 def juggle(msg: str) -> str:
     """ Extra credit function. Juggle works like this: 
         Given str "abcd", juggle returns "badc"
         Given str "abcdefgh", juggle returns "dcbahgfe"
+        
+        To put that into words, it moves the characters closest to the middle to the outside, and those on the outside to the middle.
+        The closer to the middle, the further outside it goes. That means, on an even length string, the two middle character will end up at the start and end of the string
         
         Juggled strings can be decrypted by passing back through the juggle function
 
@@ -29,10 +33,11 @@ def juggle(msg: str) -> str:
     Returns:
         (str): Returns the juggled string
     """
+
     length = len(msg)
     mid = length // 2 - 1
     new_msg: list[str] = [''] * length
-    for i in range(length-1, -1, -1):
+    for i in range(0, length):
         new_pos = mid-i
         new_msg[new_pos] = msg[i]
     
@@ -79,6 +84,7 @@ def shift(msg: str, transformation: str, decrypt: bool) -> str:
         else:
             new_msg += msg[i]
     return new_msg
+
     
 def rotate(msg: str, transformation: str, decrypt: bool) -> str:
     """Rotates the passed msg
@@ -99,6 +105,7 @@ def rotate(msg: str, transformation: str, decrypt: bool) -> str:
     if decrypt:
         exponent = -exponent
     return msg[-exponent:] + msg[:-exponent]
+
     
 def duplicate(msg: str, transformation: str, decrypt: bool) -> str:
     """Duplicates a character at a given index, K amount of times
@@ -129,6 +136,7 @@ def duplicate(msg: str, transformation: str, decrypt: bool) -> str:
             new_msg += msg[index+times+1:]
     return new_msg
 
+
 def exponent_trade(msg: str, exponent: int, first: int, second: int) -> str:
     """
     To only be called internally by the trade function
@@ -156,6 +164,7 @@ def exponent_trade(msg: str, exponent: int, first: int, second: int) -> str:
     for word in separated_group:
         new_msg += word
     return new_msg
+
     
 def normal_trade(msg: str, first: int, second: int) -> str:
     """The default trade, when no exponent is passed. To only be called internally by the trade function
@@ -180,8 +189,8 @@ def normal_trade(msg: str, first: int, second: int) -> str:
             new_msg += msg[i]
         
     return new_msg
-        
-    
+
+
 def trade(msg: str, transformation: str) -> str:
     """Parses trade commands to determine if it is an exponent trade or a normal trade, then calls the internal corresponding methods
 
@@ -202,8 +211,8 @@ def trade(msg: str, transformation: str) -> str:
         return exponent_trade(msg, exponent, first, second)
     else:
         return normal_trade(msg, int(input_data[0]), int(input_data[1]))
-        
 
+        
 TRANSFORMATION_TYPES = ["S", "R", "D", "T", "J"]
 def find_transformation_type(transformation: str) -> str:
     """Parses a string for it's transformation type
@@ -218,6 +227,7 @@ def find_transformation_type(transformation: str) -> str:
         if transformation.find(trans_type) != -1:
             return trans_type
     return "N"
+
 
 def transform(msg: str, transformation: str, encryption_string: str) -> str:
     """Parses the operation strings given, returns a new string with the given operations applied
@@ -248,6 +258,7 @@ def transform(msg: str, transformation: str, encryption_string: str) -> str:
             msg = juggle(msg)
         
     return msg
+
 
 def main() -> None:
     """
