@@ -14,6 +14,7 @@ All indices and group numbers are 0-based.
 author: Thomas Schollenberger
 """
 
+TRANSFORMATION_TYPES = ["S", "R", "D", "T", "J"]
 
 def juggle(msg: str) -> str:
     """ Extra credit function. Juggle works like this: 
@@ -213,7 +214,6 @@ def trade(msg: str, transformation: str) -> str:
         return normal_trade(msg, int(input_data[0]), int(input_data[1]))
 
         
-TRANSFORMATION_TYPES = ["S", "R", "D", "T", "J"]
 def find_transformation_type(transformation: str) -> str:
     """Parses a string for it's transformation type
 
