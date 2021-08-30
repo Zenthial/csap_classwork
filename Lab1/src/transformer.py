@@ -19,6 +19,9 @@ def juggle(msg: str) -> str:
         Given str "abcd", juggle returns "badc"
         Given str "abcdefgh", juggle returns "dcbahgfe"
         
+        To put that into words, it moves the characters closest to the middle to the outside, and those on the outside to the middle.
+        The closer to the middle, the further outside it goes. That means, on an even length string, the two middle character will end up at the start and end of the string
+        
         Juggled strings can be decrypted by passing back through the juggle function
 
     Args:
@@ -30,7 +33,7 @@ def juggle(msg: str) -> str:
     length = len(msg)
     mid = length // 2 - 1
     new_msg: list[str] = [''] * length
-    for i in range(length-1, -1, -1):
+    for i in range(0, length):
         new_pos = mid-i
         new_msg[new_pos] = msg[i]
     
