@@ -30,6 +30,7 @@ def juggle(msg: str) -> str:
     Returns:
         (str): Returns the juggled string
     """
+    
     length = len(msg)
     mid = length // 2 - 1
     new_msg: list[str] = [''] * length
