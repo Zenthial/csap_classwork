@@ -15,6 +15,7 @@ author: Thomas Schollenberger
 """
 
 TRANSFORMATION_TYPES = ["S", "R", "D", "T", "J"]
+"""Chr list of all transformation types, used in the find_transformation_type function"""
 
 def juggle(msg: str) -> str:
     """ Extra credit function. Juggle works like this: 
