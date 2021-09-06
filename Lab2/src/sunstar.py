@@ -112,6 +112,8 @@ def main():
         Takes typechecked user input and passes it to the draw_sides function
         Prints out total_length and halts until the user closes the program
     """
+    setup()
+
     num_sides = int(get_input("Please provide number of sides:\n", INT_EXPRESSION, "int"))
     length = float(get_input("Please provide side length:\n", FLOAT_EXPRESSION, "float"))
     levels = int(get_input("Please provide levels:\n", INT_EXPRESSION, "int"))
@@ -122,5 +124,4 @@ def main():
     t.mainloop()
     
 if __name__ == "__main__":
-    setup()
     main()
