@@ -1,5 +1,13 @@
 """
     Sunstar generates a star based off of user input. No negative numbers are allowed.
+
+    Sample input:
+        Number of sides: 10
+        Length of initial side: 150
+        Number of levels: 4
+        Deflection angle: 45
+        
+        Total length is 2185.6601717798208
     
     Author: Thomas Schollenberger
 """
@@ -37,7 +45,7 @@ def get_input(input_string: str, input_expression: str, expected_type: str) -> s
     received_input = input(input_string)
     matched = re.fullmatch(input_expression, received_input)
     if matched == None:
-        print(f"Incorrect input type, expected {expected_type}. Please provide the correct type\n")
+        print(f"Value must be a {expected_type}. You entered {received_input}.\n")
         return get_input(input_string, input_expression, expected_type)
     return received_input
 
@@ -112,15 +120,19 @@ def main():
         Takes typechecked user input and passes it to the draw_sides function
         Prints out total_length and halts until the user closes the program
     """
-    num_sides = int(get_input("Please provide number of sides:\n", INT_EXPRESSION, "int"))
-    length = float(get_input("Please provide side length:\n", FLOAT_EXPRESSION, "float"))
-    levels = int(get_input("Please provide levels:\n", INT_EXPRESSION, "int"))
-    angle = float(get_input("Please input deflection angle:\n", FLOAT_EXPRESSION, "float"))
+    setup()
+
+    num_sides = int(get_input("Please provide the number of sides:\n", INT_EXPRESSION, "int"))
+    length = float(get_input("Please provide the side length:\n", FLOAT_EXPRESSION, "float"))
+    levels = int(get_input("Please provide the number of levels:\n", INT_EXPRESSION, "int"))
+    if levels > 1:
+        angle = float(get_input("Please provide the deflection angle:\n", FLOAT_EXPRESSION, "float"))
+    else:
+        angle = 0
     
     total_length = draw_sides(length, levels, angle, num_sides)
     print(f"This went {total_length} total distance")
     t.mainloop()
     
 if __name__ == "__main__":
-    setup()
     main()
