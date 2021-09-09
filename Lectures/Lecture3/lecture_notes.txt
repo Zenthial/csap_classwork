@@ -1,0 +1,224 @@
+CSAPX Week 3 Lecture Notes
+
+#A. Overview
+-----------
+
+1. Lists and Command Line Arguments
+2. Sorting (insertion & merge) and Introduction to Complexity
+3. Files
+4. Dataclasses
+5. Searching
+
+This week relies more on code examples to present the lecture topics. 
+The first hour covers lists and sorting, and
+the second hour covers files, dataclasses and searching.
+
+#B. Lists
+--------
+
+arg_demo.py - learn how to process command line arguments to python programs.
+list_demo.py - learn the major list operations and how tuples are immutable.
+
+
+#C. Sorting
+----------
+
+##Time Complexity and Big O
+-----------------------------
+
+Big O notation, O( ... ), is a complexity measure.
+This focuses on notions of proportionality and best and worst case.
+The formal definition will occur in the Algorithms course.
+
+If we say that an algorithm is of order O(f(N)), it roughly means that the
+time to run the algorithm is proportional to some function, f(N), where N
+is the size of the input.  Refining this, we may say that:
+
+    - f(N) is the worst case (i.e. some inputs could run faster);
+    - the proportionality could be affected by some constant factor; and
+    - this is asymptotic behavior (i.e. it might not be true for small N).
+
+##Sort Algorithms
+
+rit_sort.py - The four sorts implemented are:
+
+    1. Selection sort
+    2. Insertion sort
+    3. Merge sort
+    4. Quick sort
+
+###For a visual demonstration of these sorts and their complexities,
+    view: 
+        the AlgoRythmic dancers: https://www.youtube.com/user/AlgoRythmics
+    or
+        this: https://www.toptal.com/developers/sorting-algorithms
+    and
+        study the implementations during the demonstration.
+
+
+1. Selection sort illustration and notes
+
+    9 2 5 7 4 8
+    2 | 9 5 7 4 8
+    2 4 | 5 7 9 8
+    2 4 5 | 7 9 8
+    2 4 5 7 | 9 8
+    2 4 5 7 8 9
+
+    notes:
+    - selection sort is O(N^2) because the number of comparisons is always:
+
+      N-1 + N-2 + ... = (N-1)*N/2 = (N^2 - N) / 2 which 
+      is proportional to N^2, the largest term.
+
+    - "marker" is an invariant that divides sorted from unsorted sections.
+
+2. Insertion sort illustration and notes
+
+    9 2 5 7 4 8
+    9 | 2 5 7 4 8
+    2 9 | 5 7 4 8
+    2 5 9 | 7 4 8
+    2 5 7 9 | 4 8
+    2 4 5 7 9 | 8
+    2 4 5 7 8 9
+
+    notes:
+    - if the data is sorted runtime is proportional to O(N), but 
+      the worst case, a reverse-ordered list, is proportional to N^2.
+
+
+3. Merge sort illustration and notes
+
+    9 2 5 7 4 8
+    9 2 5 || 7 4 8
+    9 2 | 5 || 7 4 | 8
+    9 | 2 | 5 || 7 | 4 | 8
+    2 9 | 5 || 4 7 | 8
+    2 5 9 || 4 7 8
+    2 4 5 7 8 9
+
+    notes:
+    - this algorithm splits the list in half using len() function; 
+      if len() is not a constant time operation (i.e. length is not known),
+      then using an even-odd split algorithm will produce equivalent results.
+
+    - merge sort is always proportional to N log N because:
+        height is proportional to 2 * log N;
+        width is proportional to N; and
+        height * width is proportional to N * log N after removing constants.
+
+4. Quick sort illustration and notes
+
+    9 2 5 7 4 8
+    2 5 7 4 8 | 9
+    2 | 4 5 7 8 | 9
+    2 4 | 5 7 8 | 9
+    2 4 5 | 7 8 | 9
+    2 4 5 7 | 8 | 9
+    2 4 5 7 8 | 9
+    2 4 5 7 8 9
+
+    notes:
+    - quick sort has an expected complexity proportional to N log N, but
+      specific implementation choices for the pivot and the order of
+      the inputs can affect this.
+
+    - our implementation uses the pivot as the first element, and
+      this can cause trouble. If the data is already sorted, or nearly so,
+      then using the first element as the pivot will be N^2. 
+
+      We can avoid the N^2 case if we scan the data to see how closely
+      sorted it already is.
+      Or we can implement by choosing a different pivot value.
+
+
+#D. Files
+--------
+
+people_list.py - implementation reads a CSV file using simple tuples to
+    represent a person and searches file, and searches for entries using
+    a linear search and a binary search.
+
+    The example Person files are in data/*.csv. 
+    The contents have been sorted by last name.
+
+##Operations on Files
+
+    - open a file and get a file reference: fd = open( "some_name")
+    - read a line of data and split() it into a list of string 'tokens'.
+    - close an opened file when finished with fd.close().
+    - Using 'with' file syntax means Python will automatically close the file.
+
+##Representing Composite Data
+
+    - Each person has several kinds of associated data.
+    - Using a list of people and indexing will work but is not very readable
+      or understandable; we would have to know that index 2 is the last name.
+    - If we wanted to sort a list of entries, we could sort the list
+      only one way using the list index without writing additional code.
+
+    - In C, we could use structs. In Java, we would use classes.
+
+    - In Python we will look at dataclasses.
+
+#E. Dataclasses
+--------------
+
+dataclass_demo.py - introduces dataclasses.
+
+    - A dataclass instance is mutable.
+
+    - A dataclass is better for representing people than lists or tuples.
+
+people_init.py - live-coding file to read and search lists of dataclass objects.
+
+    - Modify the file reading method from people_list.py so that it
+      uses dataclasses to store in the resulting list. 
+
+      The full dataclass definition is:
+
+    @dataclass
+    class Person:
+        id: int
+        first: str
+        last: str
+        email: str
+        gender: str
+        ip: str
+
+    - To create an instance:  pj = Person( ... )
+
+people.py - completed implementation reads a CSV file using dataclasses and
+    searches for entries using a linear search and a binary search.
+
+#F. Searching
+------------
+
+Using people_list.py:
+    - Study how linear_search works with simple tuple fields, and 
+      understand why linear search complexity is proportional to N.
+
+    - Study how binary search works with simple tuple fields, and 
+      understand why binary search complexity is proportional to log N.
+
+Using people.py:
+    - Study how linear_search works with dataclass fields, and
+      understand why linear search complexity is proportional to N.
+
+    - Study how binary search works with dataclass fields, and
+      understand why binary search complexity is proportional to log N.
+
+    notes:
+    - Why does binary search have a helper function to handle the recursion?
+      The helper function needs the initial start and end indices, and
+      the client should not have to compute and supply that manually.
+      The main function computes those indices for the client and passes
+      the information to the helper.
+
+    - pre-condition: data must be sorted by the key used for binary search.
+
+      Since the csv file data is ordered by primarily last name and
+      secondarily by first name, the code successfully binary searches.
+      If it were not ordered this way, the search would be faulty.
+

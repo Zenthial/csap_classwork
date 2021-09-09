@@ -1,0 +1,8 @@
+physical-object artifact living-thing
+living-thing animal
+artifact clothing vehicle
+clothing shoe shirt
+vehicle car
+animal mammal fish reptile
+mammal dog cat
+reptile snake lizard

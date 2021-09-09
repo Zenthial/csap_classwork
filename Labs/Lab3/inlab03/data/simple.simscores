@@ -1,0 +1,15 @@
+Sim( reptile , dog ) =  0.25
+Sim( reptile , cat ) =  0.25
+Sim( animal , dog ) =  0.333
+Sim( animal , cat ) =  0.333
+Sim( mammal , reptile ) =  0.333
+Sim( animal , mammal ) =  0.5
+Sim( animal , reptile ) =  0.5
+Sim( dog , cat ) =  0.5
+Sim( mammal , dog ) =  0.667
+Sim( mammal , cat ) =  0.667
+Sim( animal , animal ) =  1.0
+Sim( mammal , mammal ) =  1.0
+Sim( reptile , reptile ) =  1.0
+Sim( dog , dog ) =  1.0
+Sim( cat , cat ) =  1.0

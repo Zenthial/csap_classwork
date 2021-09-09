@@ -1,0 +1,153 @@
+phys-object agent group-object shape-object functional-phys-object phys-representation manufactured-object material geo-object natural-object object-defined-by-relationship
+agent harmful-agency assistant
+group-object quantity combination sequence formation implicit-group collection
+shape-object sheet opening
+functional-phys-object commodity repository
+phys-representation symbolic-representation info-medium
+manufactured-object tableware cookware container device-component flag attire credit-card money writing-implement instrumentation fixture device card window wheel furnishings vessel stretcher vehicle automaton block technology
+material waste substance
+geo-object sunken-natural-formation watershed geo-formation location
+natural-object geo-sample anatomy natural-phenomenon planet molecular-part organism cell-line mutant-obj wildtype-obj physics-object
+object-defined-by-relationship defined-by-sequence-relationship
+quantity surplus
+sequence linear-grouping
+formation column-formation row-formation
+implicit-group social-group people-subgroup natural-group mail
+collection system data
+opening exit
+commodity crop product junk-reject
+symbolic-representation link graphic-symbol text-representation
+info-medium display communication-channel info-holder
+tableware glass mug cup cutlery
+cookware pot kettle
+container small-container dispenser
+device-component heating-element operating-switch support-stand covering
+attire washing
+fixture sink
+device computer-part product-model machine tool conductor musical-instrument weapon sensor acoustic-device optical-device medical-instrument appliance
+furnishings table storage-furnishings bedding furnishings-component
+vessel tank vehicle-container
+vehicle vehicle-part land-vehicle air-vehicle
+automaton robot
+substance power audio light food solid-substance liquid-substance gas-substance natural-substance chemical dust
+sunken-natural-formation crater hole
+geo-formation shore body-of-water valley mountain land
+location destination object-dependent-location coordinate setting loc-as-defined-by-reln-to-ground location-by-description loc-as-point wh-location place specific-loc
+anatomy body-part
+natural-phenomenon atmospheric-phenomenon physical-phenomenon
+molecular-part molecular-site molecular-domain promoter rna macromolecular-complex gene-protein biological-role terminus molecule
+organism imaginary-being supernatural-being eater animal fungus plant microorganism
+defined-by-sequence-relationship successor predecessor
+social-group military-group organization family-group
+natural-group plant-group animal-group
+mail email
+system economic-system ecosystem arrangement-configuration
+graphic-symbol icon
+text-representation letter-symbol punctuation font
+info-holder data-storage-medium template-info-object website list database feed info-representation copy document annotation
+cutlery spoon
+small-container bag box package
+dispenser inhaler
+operating-switch switch button
+support-stand base
+covering lid
+computer-part wireless io-device internal-computer-storage computer-processor computer-card computer-network computer-hardware computer-monitor
+machine computer projector recording-device
+tool gripping-tool hammer-tool drilling-tool cutting-tool
+weapon firearm bomb
+medical-instrument medical-dressing
+appliance microwave refrigerator heater
+storage-furnishings cupboard cabinet
+furnishings-component drawer
+vehicle-container tanker boxcar
+land-vehicle truck
+food dairy beverages pasta seafood meat ingredients prepared-food food-grains nutritional-supplement produce
+liquid-substance natural-liquid-substance
+gas-substance natural-gas-substance
+natural-substance earth-substance
+chemical minerals herbicide pesticide fertilizer pharmacologic-substance residue amino-acid
+object-dependent-location surface-location side-location end-location bottom-location top-location back-location front-location
+loc-as-defined-by-reln-to-ground loc-wrt-orientation loc-wrt-ground-as-spatial-obj
+location-by-description hotspot cardinal-point edge corner junction loc-as-area
+specific-loc relative-location geographic-region
+body-part internal-body-part external-body-part
+atmospheric-phenomenon pollution cloud-like-object storm precipitation air-current climate weather
+rna mrna
+gene-protein protein-family protein gene
+animal vertebrate invertebrate
+plant alga plant-part vine herbaceous-plant shrub tree grains
+microorganism bacterium virus
+organization regulatory-organization professional-organization federal-organization financial-organization legal-organization internet-organization institution enterprise
+animal-group people-group
+arrangement-configuration structure
+letter-symbol greek-letter-symbol
+template-info-object order text-field
+info-representation plot-diagram-drawing chart image map
+document musical-document prescription publication letter-mail official-document chronicle
+computer-hardware computer-firmware computer-input-device
+computer computer-type computer-make computer-model
+truck fire-truck tow-truck
+dairy butter cheese milk yogurt
+beverages coffee teas blends energy-drink juice soda alcohol-cocktails
+seafood freshwater-fish saltwater-fish
+meat poultry wild-game meat-product lamb pork beef
+ingredients condiments nuts-seeds preservatives dressings-sauces-coatings spices-herbs fats-oils sugar
+prepared-food fast-food cereals meals sweets baked-goods
+nutritional-supplement vitamins-minerals
+produce vegetable fruit
+natural-liquid-substance water bodily-fluid fuel
+natural-gas-substance air
+pharmacologic-substance medication
+loc-wrt-orientation left-loc right-loc
+loc-wrt-ground-as-spatial-obj center waypoint startpoint
+loc-as-area loc-defined-by-contrast area-def-by-use loc-def-by-intersection loc-def-by-goal
+geographic-region functional-region religious-region political-region
+internal-body-part cell-part
+external-body-part head
+vertebrate mammal reptile fish bird amphibian
+invertebrate crustaceans mollusks insect
+herbaceous-plant grass
+institution financial-institution company
+enterprise airline
+publication reference-work article book
+official-document financial-statement
+juice lemonade-limeade
+poultry turkey ostrich duck pigeon quail pheasant goose chicken
+meals soup
+baked-goods bagels-biscuits cake-pie cookies crackers bread
+vitamins-minerals vitamins
+vegetable beans-peas
+medication pain-reliever antibiotic allergy-medication bronchodilator
+area-def-by-use workplace garden-grounds
+functional-region route man-made-structure region-for-activity
+political-region district city county country state
+cell-part genome nucleoplasm cytosol plasma-membrane cell-compartment cell
+mammal person nonhuman-animal
+bird emu
+company shipping-company research-institution supplier affiliate software-company office-supply-company electronics-company
+bronchodilator quick-relief-drug long-term-control-drug
+workplace farm lumberyard bakery fishery mine
+route thoroughfare shortcut tunnel highway road
+man-made-structure tower facility building general-structure
+state us-state
+cell-compartment cytoplasm nucleus
+person recipient official addressee scout unfortunate entrant male-person female-person consumer traveller athlete professional person-reln family-relation user referential-person
+research-institution academic-institution
+highway thruway
+road lane
+facility religious-facility education-facility health-care-facility lodging transportation-facility production-facility storage-facility commercial-facility business-facility athletic-facility research-facility public-service-facility
+general-structure stairs structural-component structural-opening internal-enclosure bridge
+unfortunate patient
+male-person male-child
+female-person female-child
+professional health-professional author scholar
+person-reln possessor-reln person-defined-by-membership communication-party identity-and-origin friend specialist
+family-relation child
+lodging accommodation
+transportation-facility airport
+commercial-facility eating-establishment entertainment-establishment
+structural-component step structure-external-component structure-internal-component
+identity-and-origin religious-identity inhabitant foreigner regional-identity person-of-nationality
+accommodation bedandbreakfast
+eating-establishment coffee-shop restaurant
+entertainment-establishment drinking-establishment

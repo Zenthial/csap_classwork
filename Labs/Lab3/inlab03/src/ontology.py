@@ -1,5 +1,3 @@
-from typing import List
-
 
 class Concept:
 	_slots__=['name','children', 'parent']
