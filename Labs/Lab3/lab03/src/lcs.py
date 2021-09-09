@@ -1,4 +1,6 @@
-"""[summary]
+"""
+    Given an onthology, this finds the similarity scores for every concept in the onthology
+    Prints them out in sorted order
 
     Author: Thomas Schollenberger
 """
@@ -8,19 +10,19 @@ from dataclasses import dataclass
 from sys import argv
 
 @dataclass
-class Similarlity:
+class Similarity:
     concept1: Concept
     concept2: Concept
     similarity_score: int
     
-def sim(concept1: Concept, concept2: Concept, onto: Ontology) -> Similarlity:
+def sim(concept1: Concept, concept2: Concept, onto: Ontology) -> Similarity:
     lcs = binary_LCS(concept1, concept2, onto)
     s1 = len(concept1.getPathToTop())
     s2 = len(concept2.getPathToTop())
     s3 = len(lcs.getPathToTop())
     sim_score = round((s3/(s1+s2-s3)),3)
     # side effect, append to the similarities list
-    return Similarlity(concept1, concept2, sim_score)
+    return Similarity(concept1, concept2, sim_score)
 
 def part(arr, pivot):
     left, middle, right = [], [], []

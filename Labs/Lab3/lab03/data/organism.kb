@@ -1,0 +1,17 @@
+organism imaginary-being supernatural-being eater animal fungus plant microorganism
+animal vertebrate invertebrate
+plant alga plant-part vine herbaceous-plant shrub tree grains
+microorganism bacterium virus
+vertebrate mammal reptile fish bird amphibian
+invertebrate crustaceans mollusks insect
+herbaceous-plant grass
+mammal person nonhuman-animal
+bird emu
+person recipient official addressee scout unfortunate entrant male-person female-person consumer traveller athlete professional person-reln family-relation user referential-person
+unfortunate patient
+male-person male-child
+female-person female-child
+professional health-professional author scholar
+person-reln possessor-reln person-defined-by-membership communication-party identity-and-origin friend specialist
+family-relation child
+identity-and-origin religious-identity inhabitant foreigner regional-identity person-of-nationality
