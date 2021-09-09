@@ -5,21 +5,25 @@
     Author: Thomas Schollenberger
 """
 
+
 from ontology import Ontology, Concept
 from dataclasses import dataclass
 from sys import argv
 from typing import TypeVar, Union
 
+
 T = TypeVar("T")
 """Allow the use of generics"""
+
 
 @dataclass
 class Similarity:
     """Contains the similarity data between two concepts, used to sort off of and display how closely two concepts are related"""
-    
+
     concept1: Concept
     concept2: Concept
     similarity_score: int
+
     
 def sim(concept1: Concept, concept2: Concept, onto: Ontology) -> Similarity:
     """[summary]
@@ -42,6 +46,7 @@ def sim(concept1: Concept, concept2: Concept, onto: Ontology) -> Similarity:
 
     return Similarity(concept1, concept2, sim_score)
 
+
 def part(arr: list[T], pivot: T) -> (list[T]):
     """Splits a given array into three parts, based off of the given pivot
 
@@ -63,6 +68,7 @@ def part(arr: list[T], pivot: T) -> (list[T]):
             middle.append(elm)
     return left, middle, right
 
+
 def quick_sort(arr: list[T]) -> list[T]:
     """Performs the quick sort sorting algorithm. In most cases, it will be O(n log n)
 
@@ -77,6 +83,7 @@ def quick_sort(arr: list[T]) -> list[T]:
     else:
         left, middle, right = part(arr, arr[0])
         return quick_sort(left) + middle + quick_sort(right)
+
 
 def binary_search(path: list[Concept], target: Concept, start: int, end: int, onto: Ontology) -> int:
     """Performs the binary search algorithm, recursively. Cannot fail due to the nature of an ontology
@@ -104,11 +111,13 @@ def binary_search(path: list[Concept], target: Concept, start: int, end: int, on
     else:
         return binary_search(path, target, mid_index + 1, end, onto)
 
+
 def binary_LCS(concept1: Concept, concept2: Concept, onto: Ontology) -> Concept:
     """Wrapper method for binary_search"""
 
     arr = concept1.getPathToTop()
     return arr[binary_search(arr, concept2, 0, len(arr), onto)]
+
 
 def linear_LCS(concept1: Concept, concept2: Concept) -> Concept:
     """Linear LCS search, replaced by the binary LCS search"""
@@ -129,6 +138,7 @@ def linear_LCS(concept1: Concept, concept2: Concept) -> Concept:
     
     return conecept1_path[lcs_index]
 
+
 def index_of(arr: list[T], elm: T) -> int:
     """Replicates the java Array.indexOf() method, which returns -1 if the item does not exist, rather than erroring
 
@@ -147,6 +157,7 @@ def index_of(arr: list[T], elm: T) -> int:
             break
     
     return index
+
 
 def has_pair(one: Concept, two: Concept, pairs: list[list[Concept]]) -> bool:
     """[summary]
@@ -169,12 +180,14 @@ def has_pair(one: Concept, two: Concept, pairs: list[list[Concept]]) -> bool:
 
     return False
 
+
 def parse_input() -> Union[str, bool]:
     """Checks to see if argv arguments were passed
 
     :return: Returns the file path, if it was provided, else returns False
     :rtype: Union[str, bool]
     """
+
     if len(argv) > 1:
         file_path = argv[1]
         return file_path
@@ -182,8 +195,10 @@ def parse_input() -> Union[str, bool]:
         print("Usage: python3 lcs.py filepath")
         return False
 
+
 def main():
     """Program entry point"""
+
     file_path = parse_input()
     if file_path == False:
         return
@@ -203,6 +218,7 @@ def main():
     sims = quick_sort(sims)
     for sim_class in sims:
         print(f"sim({sim_class.concept1.name}, {sim_class.concept2.name}) = {sim_class.similarity_score}")
+        
     
 if __name__ == "__main__":
     main()
