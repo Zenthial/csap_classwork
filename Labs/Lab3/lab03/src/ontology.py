@@ -8,7 +8,7 @@ class Concept:
 		self.parent= parent
 		self.children = children	
 
-	def getPathToTop(self):
+	def getPathToTop(self) -> list["Concept"]:
 		"""
 		:return: A list representing the path between this Concept and the top of the Ontology
 		"""
