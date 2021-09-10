@@ -1,5 +1,5 @@
 """
-    Given an onthology, this finds the similarity scores for every concept in the onthology
+    Given an ontology, this finds the similarity scores for every concept in the ontology
     Prints them out in sorted order
 
     Author: Thomas Schollenberger
@@ -56,6 +56,8 @@ def part(arr: list[T], pivot: T) -> (list[T]):
     :type pivot: T
     :return: Returns a tuple of 3 lists of type T
     :rtype: (list[T])
+
+    Author: Originally Sean Strout, edited by Thomas Schollenberger
     """
 
     left, middle, right = [], [], []
@@ -76,6 +78,8 @@ def quick_sort(arr: list[T]) -> list[T]:
     :type arr: list[T]
     :return: New sorted array
     :rtype: T
+
+    Author: Originally Sean Strout, edited by Thomas Schollenberger
     """
 
     if len(arr) == 0:
@@ -122,21 +126,21 @@ def binary_LCS(concept1: Concept, concept2: Concept, onto: Ontology) -> Concept:
 def linear_LCS(concept1: Concept, concept2: Concept) -> Concept:
     """Linear LCS search, replaced by the binary LCS search"""
 
-    conecept1_path = concept1.getPathToTop()[::-1]
-    conecept2_path = concept2.getPathToTop()[::-1]
+    concept1_path = concept1.getPathToTop()[::-1]
+    concept2_path = concept2.getPathToTop()[::-1]
 
-    length = len(conecept1_path) if len(conecept1_path) < len(conecept2_path) else len(conecept2_path)
+    length = len(concept1_path) if len(concept1_path) < len(concept2_path) else len(concept2_path)
     lcs_index = 0
     for i in range(length):
-        elm1 = conecept1_path[i]
-        elm2 = conecept2_path[i]
+        elm1 = concept1_path[i]
+        elm2 = concept2_path[i]
         
         if elm1 == elm2:
             lcs_index = i
         else:
             break
     
-    return conecept1_path[lcs_index]
+    return concept1_path[lcs_index]
 
 
 def parse_input() -> Union[str, bool]:
