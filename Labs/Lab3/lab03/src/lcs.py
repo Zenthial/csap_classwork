@@ -139,48 +139,6 @@ def linear_LCS(concept1: Concept, concept2: Concept) -> Concept:
     return conecept1_path[lcs_index]
 
 
-def index_of(arr: list[T], elm: T) -> int:
-    """Replicates the java Array.indexOf() method, which returns -1 if the item does not exist, rather than erroring
-
-    :param arr: The array to be searched
-    :type arr: list[T]
-    :param elm: The element, of type T, to be searched in the array
-    :type elm: T
-    :return: Returns the index of the found element, or -1
-    :rtype: int
-    """
-
-    index = -1
-    for i in range(len(arr)):
-        if arr[i] == elm:
-            index = i
-            break
-    
-    return index
-
-
-def has_pair(one: Concept, two: Concept, pairs: list[list[Concept]]) -> bool:
-    """[summary]
-
-    :param one: The first item of the pair to be checked
-    :type one: Concept
-    :param two: The second item of the pair to be checked
-    :type two: Concept
-    :param pairs: The matrix of pairs passed
-    :type pairs: list[list[Concept]]
-    :return: Returns True if a pair is found, False if not
-    :rtype: bool
-    """
-
-    for pair in pairs:
-        i1 = index_of(pair, one)
-        i2 = index_of(pair, two)
-        if i1 > -1 and i2 > -1 and i1 != i2:
-            return True
-
-    return False
-
-
 def parse_input() -> Union[str, bool]:
     """Checks to see if argv arguments were passed
 
@@ -188,7 +146,7 @@ def parse_input() -> Union[str, bool]:
     :rtype: Union[str, bool]
     """
 
-    if len(argv) > 1:
+    if len(argv) == 2:
         file_path = argv[1]
         return file_path
     else:
@@ -206,19 +164,18 @@ def main():
     o = Ontology(file_path)
     
     sims: list[Similarity] = []
-    used_pairs = []
     concepts = o.getAllConcepts()
-    for concept1 in concepts:
-        for concept2 in concepts:
-            if not has_pair(concept1, concept2, used_pairs):
-                pair = [concept1, concept2]
-                used_pairs.append(pair)
-                sims.append(sim(concept1, concept2, o))
+    for i in range(len(concepts)):
+        for j in range(i, len(concepts)):
+            concept1 = concepts[i]
+            concept2 = concepts[j]
+            sims.append(sim(concept1, concept2, o))
+                
     
     sims = quick_sort(sims)
     for sim_class in sims:
         print(f"sim({sim_class.concept1.name}, {sim_class.concept2.name}) = {sim_class.similarity_score}")
-        
+
     
 if __name__ == "__main__":
     main()
