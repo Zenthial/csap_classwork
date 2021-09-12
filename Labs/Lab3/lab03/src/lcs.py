@@ -177,8 +177,12 @@ def main():
                 
     
     sims = quick_sort(sims)
-    for sim_class in sims:
-        print(f"sim({sim_class.concept1.name}, {sim_class.concept2.name}) = {sim_class.similarity_score}")
+    with open("./output.txt", "w") as file_to_write:
+        for sim_class in sims:
+            file_to_write.write(f"Sim( {sim_class.concept1.name} , {sim_class.concept2.name} ) =  {sim_class.similarity_score}\n")
+            print(f"sim({sim_class.concept1.name}, {sim_class.concept2.name}) = {sim_class.similarity_score}")
+    
+    print("Written to output.txt for your convenience in checking sample outputs vs this program's. Done because when running phys-object.kb, it outputs more lines than the console can hold.")
 
     
 if __name__ == "__main__":
