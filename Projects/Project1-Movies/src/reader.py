@@ -1,11 +1,11 @@
 from classes import Movie, Rating
 from time import time
+from threading import Thread
 
 TITLE_BASICS = "../data/title.basics.tsv"
 TITLE_RATINGS = "../data/title.ratings.tsv"
 
-def _get_basics_dict():
-    basics: dict[str, Movie] = {}
+def _get_movies_dict(movies: dict[str, Movie]):
     with open(TITLE_BASICS) as basics_file:
         line = basics_file.readline() #skip the header
         line = basics_file.readline()
@@ -35,19 +35,61 @@ def _get_basics_dict():
             else:
                 minutes = int(minutes)
 
-            basics[movie_info_array[0]] = Movie(movie_info_array[0], movie_info_array[1], movie_info_array[2], movie_info_array[3], start_year, end_year, minutes, genres_array)
+            movies[movie_info_array[0]] = Movie(movie_info_array[0], movie_info_array[1], movie_info_array[2], movie_info_array[3], start_year, end_year, minutes, genres_array)
             line = basics_file.readline()
     
-    return basics
-        
+    return movies
 
-def read_data():
+def _get_ratings_dict(ratings: dict[str, Rating], movies: dict[str, Movie]):
+    with open(TITLE_RATINGS) as ratings_file:
+        line = ratings_file.readline() #skip the header
+        line = ratings_file.readline()
+        while line:
+            rating_info_array = line.split("\t")
+
+            if movies.get(rating_info_array[0]) != None:
+                ratings[rating_info_array[0]] = Rating(rating_info_array[0], float(rating_info_array[1]), float(rating_info_array[2]))
+            line = ratings_file.readline()
+    
+    return ratings
+        
+def _get_movies(movies):
     print(f"reading movies from {TITLE_BASICS}. this may take a while")
     start = time()
-    basics = _get_basics_dict()
+    _get_movies_dict(movies)
     end = time() - start
-    print(f"elapsed time (s): {end}")
-
-    print(f"num movies {len(basics)}")
+    print(f"elapsed movies time (s): {end}")
     
-    return basics
+    return movies
+
+def _get_ratings(ratings, movies):
+    print(f"reading ratings from {TITLE_RATINGS}. this may take a while")
+    start = time()
+    _get_ratings_dict(ratings, movies)
+    end = time() - start
+    print(f"elapsed ratings time (s): {end}")
+    
+    return ratings
+
+def read_data():
+    movies = {}
+    ratings = {}
+    
+    # movies_thread = Thread(target=_get_movies, args=(movies,))
+    # ratings_thread = Thread(target=_get_ratings, args=(ratings,))
+    
+    # movies_thread.start()
+    # ratings_thread.start()
+    
+    # print("reading from both files simultaneously")
+    
+    # ratings_thread.join()
+    # movies_thread.join()
+    
+    _get_movies(movies)
+    _get_ratings(ratings, movies)
+    
+    print(f"num movies: {len(movies)}")
+    print(f"num ratings: {len(ratings)}")
+    
+    return movies, ratings
