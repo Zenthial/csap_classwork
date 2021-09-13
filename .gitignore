@@ -3,3 +3,5 @@
 *.zip
 *.tsv
 **.tsv
+**/.DS_Store
+.DS_Store
