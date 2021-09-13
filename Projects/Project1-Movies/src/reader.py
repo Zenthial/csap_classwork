@@ -6,7 +6,7 @@ TITLE_BASICS = "../data/title.basics.tsv"
 TITLE_RATINGS = "../data/title.ratings.tsv"
 
 def _get_movies_dict(movies: dict[str, Movie]):
-    with open(TITLE_BASICS) as basics_file:
+    with open(TITLE_BASICS, encoding="utf8") as basics_file:
         line = basics_file.readline() #skip the header
         line = basics_file.readline()
         while line:
@@ -41,7 +41,7 @@ def _get_movies_dict(movies: dict[str, Movie]):
     return movies
 
 def _get_ratings_dict(ratings: dict[str, Rating], movies: dict[str, Movie]):
-    with open(TITLE_RATINGS) as ratings_file:
+    with open(TITLE_RATINGS, encoding="utf8") as ratings_file:
         line = ratings_file.readline() #skip the header
         line = ratings_file.readline()
         while line:
@@ -57,8 +57,7 @@ def _get_movies(movies):
     print(f"reading movies from {TITLE_BASICS}. this may take a while")
     start = time()
     _get_movies_dict(movies)
-    end = time() - start
-    print(f"elapsed movies time (s): {end}")
+    print(f"elapsed movies time (s): {time() - start}")
     
     return movies
 
@@ -66,8 +65,7 @@ def _get_ratings(ratings, movies):
     print(f"reading ratings from {TITLE_RATINGS}. this may take a while")
     start = time()
     _get_ratings_dict(ratings, movies)
-    end = time() - start
-    print(f"elapsed ratings time (s): {end}")
+    print(f"elapsed ratings time (s): {time() - start}")
     
     return ratings
 
