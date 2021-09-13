@@ -1,4 +1,3 @@
-from typing_extensions import Unpack
 from classes import Movie, Rating
 from time import time
 
@@ -17,7 +16,25 @@ def _get_basics_dict():
                 continue
             
             genres_array = movie_info_array[8].split(",")
-            basics[movie_info_array[0]] = Movie(movie_info_array[0], movie_info_array[1], movie_info_array[2], movie_info_array[3], int(movie_info_array[5]), int(movie_info_array[6]), int(movie_info_array[7]), genres_array)
+            start_year = movie_info_array[5]
+            if start_year == "\\N":
+                start_year = 0
+            else:
+                start_year = int(start_year)
+
+            end_year = movie_info_array[6]
+            if end_year == "\\N":
+                end_year = 0
+            else:
+                end_year = int(end_year)
+
+            minutes = movie_info_array[7]
+            if minutes == "\\N":
+                minutes = 0
+            else:
+                minutes = int(minutes)
+
+            basics[movie_info_array[0]] = Movie(movie_info_array[0], movie_info_array[1], movie_info_array[2], movie_info_array[3], start_year, end_year, minutes, genres_array)
             line = basics_file.readline()
     
     return basics
