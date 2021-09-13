@@ -184,9 +184,9 @@ def main():
     #         print(f"sim({sim_class.concept1.name}, {sim_class.concept2.name}) = {sim_class.similarity_score}") # this has the better formatting
     
     for sim_class in sims:
-        print(f"sim({sim_class.concept1.name}, {sim_class.concept2.name}) = {sim_class.similarity_score}") # this has the better formatting
+        print(f"Sim( {sim_class.concept1.name} , {sim_class.concept2.name} ) =  {sim_class.similarity_score}") # this has the better formatting
             
-    print("Written to output.txt for your convenience in checking sample outputs vs this program's. Done because when running phys-object.kb, it outputs more lines than the console can hold.")
+    #print("Written to output.txt for your convenience in checking sample outputs vs this program's. Done because when running phys-object.kb, it outputs more lines than the console can hold.")
 
     
 if __name__ == "__main__":
