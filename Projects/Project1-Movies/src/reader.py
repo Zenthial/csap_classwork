@@ -13,6 +13,7 @@ def _get_basics_dict():
             movie_info_array = line.split("\t")
             
             if movie_info_array[4] == "1":
+                line = basics_file.readline()
                 continue
             
             genres_array = movie_info_array[8].split(",")
@@ -41,12 +42,12 @@ def _get_basics_dict():
         
 
 def read_data():
-    print(f"reading movies from {TITLE_BASICS}")
+    print(f"reading movies from {TITLE_BASICS}. this may take a while")
     start = time()
     basics = _get_basics_dict()
     end = time() - start
-    print(f"elapsed time: {end}")
+    print(f"elapsed time (s): {end}")
 
-    print(f"Num Movies {len(basics)}")
+    print(f"num movies {len(basics)}")
     
     return basics
