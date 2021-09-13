@@ -29,5 +29,7 @@ def read_data():
     basics = _get_basics_dict()
     end = time() - start
     print(f"elapsed time: {end}")
+
+    print(f"Num Movies {len(basics)}")
     
     return basics
