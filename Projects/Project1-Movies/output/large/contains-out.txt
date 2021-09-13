@@ -1,0 +1,122 @@
+/usr/local/bin/python3.9 /Users/sps/Documents/CSapx/20211/Projects/01-Movies/sol/movies_main.py
+Input is being redirected from /Users/sps/Documents/CSapx/20211/Projects/01-Movies/input/contains.txt
+reading data/title.basics.tsv into dict...
+elapsed time (s): 58.219456322 
+
+reading data/title.ratings.tsv into dict...
+elapsed time (s): 2.8861413720000044 
+
+Total movies: 7965199
+Total ratings: 1161579 
+
+processing: CONTAINS movie Avengers
+	Identifier: tt0034639, Title: The Avengers, Type: movie, Year: 1942, Runtime: 98, Genres: Drama, War
+	Identifier: tt0036194, Title: The People's Avengers, Type: movie, Year: 1943, Runtime: 55, Genres: Documentary, War
+	Identifier: tt0058651, Title: The Three Avengers, Type: movie, Year: 1964, Runtime: 101, Genres: Action, Adventure, Comedy
+	Identifier: tt0069746, Title: Avengers of the Reef, Type: movie, Year: 1973, Runtime: 84, Genres: Adventure, Family
+	Identifier: tt0074513, Title: The Shaolin Avengers, Type: movie, Year: 1976, Runtime: 97, Genres: Action, Drama
+	Identifier: tt0077292, Title: Crippled Avengers, Type: movie, Year: 1978, Runtime: 104, Genres: Action, Drama
+	Identifier: tt0079110, Title: Three Avengers, Type: movie, Year: 1979, Runtime: 86, Genres: Action, Drama
+	Identifier: tt0082153, Title: The Masked Avengers, Type: movie, Year: 1981, Runtime: 92, Genres: Action, Drama
+	Identifier: tt0118661, Title: The Avengers, Type: movie, Year: 1998, Runtime: 89, Genres: Action, Adventure, Sci-Fi
+	Identifier: tt0167779, Title: The Avengers, Type: movie, Year: 1950, Runtime: 90, Genres: Adventure
+	Identifier: tt0199812, Title: Ninja Avengers, Type: movie, Year: 1987, Runtime: 0, Genres: Action
+	Identifier: tt0492596, Title: The Dark Avengers, Type: movie, Year: 2005, Runtime: 110, Genres: Action, Crime, Drama
+	Identifier: tt0848228, Title: The Avengers, Type: movie, Year: 2012, Runtime: 143, Genres: Action, Adventure, Sci-Fi
+	Identifier: tt10075836, Title: The Avengers Assemble Premiere, Type: movie, Year: 2012, Runtime: 0, Genres: Action
+	Identifier: tt10197932, Title: Spanish Avengers, Type: movie, Year: 0, Runtime: 0, Genres: Comedy
+	Identifier: tt11590024, Title: Avengers 5, Type: movie, Year: 2024, Runtime: 0, Genres: None
+	Identifier: tt1190633, Title: Blackbelt Avengers, Type: movie, Year: 1969, Runtime: 0, Genres: Action
+	Identifier: tt13836554, Title: Lego Justice League vs the Avengers, Type: movie, Year: 2016, Runtime: 50, Genres: Action, Animation, Comedy
+	Identifier: tt13925114, Title: Avengers: Infinity War Demastered, Type: movie, Year: 2019, Runtime: 135, Genres: Action, Adventure, Comedy
+	Identifier: tt1472588, Title: Vegas Avengers, Type: movie, Year: 0, Runtime: 0, Genres: Action
+	Identifier: tt2395427, Title: Avengers: Age of Ultron, Type: movie, Year: 2015, Runtime: 141, Genres: Action, Adventure, Sci-Fi
+	Identifier: tt4154756, Title: Avengers: Infinity War, Type: movie, Year: 2018, Runtime: 149, Genres: Action, Adventure, Sci-Fi
+	Identifier: tt4154796, Title: Avengers: Endgame, Type: movie, Year: 2019, Runtime: 181, Genres: Action, Adventure, Drama
+	Identifier: tt6172666, Title: Avengers of Justice: Farce Wars, Type: movie, Year: 2018, Runtime: 87, Genres: Action, Comedy, Family
+	Identifier: tt7870278, Title: The Lesbian Avengers Eat Fire, Too, Type: movie, Year: 1993, Runtime: 56, Genres: Documentary
+	Identifier: tt8875872, Title: Avengers: Reassembled, Type: movie, Year: 2018, Runtime: 52, Genres: Sci-Fi
+	Identifier: tt9303032, Title: Avengers: Legacy, Type: movie, Year: 2020, Runtime: 87, Genres: Sci-Fi
+elapsed time (s): 1.0239311630000003 
+
+processing: CONTAINS movie Starman
+	Identifier: tt0088172, Title: Starman, Type: movie, Year: 1984, Runtime: 115, Genres: Romance, Sci-Fi
+	Identifier: tt12248228, Title: Starman, Type: movie, Year: 2020, Runtime: 52, Genres: Documentary
+	Identifier: tt5603512, Title: Starman, Type: movie, Year: 0, Runtime: 0, Genres: Adventure, Drama, Romance
+	Identifier: tt6989456, Title: David Bowie: Starman, Type: movie, Year: 2016, Runtime: 0, Genres: Documentary
+elapsed time (s): 0.9171026470000001 
+
+processing: CONTAINS movie The Big Lebowski
+	Identifier: tt0118715, Title: The Big Lebowski, Type: movie, Year: 1998, Runtime: 117, Genres: Comedy, Crime, Sport
+elapsed time (s): 1.0297606959999968 
+
+processing: CONTAINS movie WXYZ
+	No match found!
+elapsed time (s): 0.9719056419999959 
+
+processing: CONTAINS movie Philadelphia
+	Identifier: tt0032904, Title: The Philadelphia Story, Type: movie, Year: 1940, Runtime: 112, Genres: Comedy, Romance
+	Identifier: tt0053462, Title: The Young Philadelphians, Type: movie, Year: 1959, Runtime: 136, Genres: Drama
+	Identifier: tt0087910, Title: The Philadelphia Experiment, Type: movie, Year: 1984, Runtime: 102, Genres: Adventure, Drama, Romance
+	Identifier: tt0107818, Title: Philadelphia, Type: movie, Year: 1993, Runtime: 125, Genres: Drama
+	Identifier: tt0107819, Title: Philadelphia Experiment II, Type: movie, Year: 1993, Runtime: 97, Genres: Action, Adventure, Sci-Fi
+	Identifier: tt0284690, Title: Philadelphia, Here I Come!, Type: movie, Year: 1977, Runtime: 95, Genres: Drama
+	Identifier: tt0357774, Title: I'd Rather Be in Philadelphia, Type: movie, Year: 2003, Runtime: 0, Genres: Comedy, Thriller
+	Identifier: tt10197800, Title: Target: Philadelphia, Type: movie, Year: 2019, Runtime: 56, Genres: Documentary
+	Identifier: tt11742456, Title: Philadelphia Flyers Origin Story, Type: movie, Year: 0, Runtime: 0, Genres: Drama
+	Identifier: tt12023640, Title: Philadelphia's Sleeper, Type: movie, Year: 2020, Runtime: 0, Genres: Crime
+	Identifier: tt1821661, Title: The Philadelphia Orchestra Concert Series Live in HD: Kavakos Plays Tchaikovsky, Type: movie, Year: 2010, Runtime: 0, Genres: Music
+	Identifier: tt1821662, Title: The Philadelphia Orchestra Concert Series Live in HD: Nezet-Seguin Haydn to Mahler, Type: movie, Year: 2010, Runtime: 0, Genres: Music
+	Identifier: tt1821663, Title: The Philadelphia Orchestra Concert Series Live in HD: Spano Conducts Sibelius, Type: movie, Year: 2010, Runtime: 0, Genres: Music
+	Identifier: tt1821664, Title: The Philadelphia Orchestra Concert Series Live in HD: Starry Night of Romeo & Juliet, Type: movie, Year: 2010, Runtime: 0, Genres: Music
+	Identifier: tt1830856, Title: The Philadelphia Orchestra Concert Series Live in HD: Gilbert Conducts, Type: movie, Year: 2011, Runtime: 120, Genres: Music
+	Identifier: tt1842312, Title: Arthur B. Carles: Philadelphia Artist, Type: movie, Year: 2004, Runtime: 45, Genres: Documentary
+	Identifier: tt1863431, Title: The Truth About The Philadelphia Experiment: Invisibility, Time Travel and Mind Control - The Shocking Truth, Type: movie, Year: 2010, Runtime: 180, Genres: Documentary
+	Identifier: tt2177792, Title: The Philadelphia Experiment Revealed: Final Countdown to Disclosure from the Area 51 Archives, Type: movie, Year: 2012, Runtime: 300, Genres: Documentary
+	Identifier: tt2196476, Title: Beirut, Philadelphia, Type: movie, Year: 2013, Runtime: 50, Genres: Documentary, Drama
+	Identifier: tt2585208, Title: Louis Theroux: Law and Disorder in Philadelphia, Type: movie, Year: 2008, Runtime: 60, Genres: Documentary
+	Identifier: tt2625510, Title: A Historical Approach to the Positive Music: Jazz in Philadelphia!, Type: movie, Year: 2013, Runtime: 113, Genres: Biography, Documentary, History
+	Identifier: tt3587848, Title: Rudess Morgenstein Project: Live in Philadelphia, Type: movie, Year: 2014, Runtime: 0, Genres: Music
+	Identifier: tt4073086, Title: Radio Disney Philadelphia, Type: movie, Year: 2014, Runtime: 0, Genres: Musical
+	Identifier: tt4108340, Title: The Philadelphia Orchestra: Yannick Nézet-Séguin Conducts the Rite of Spring, Type: movie, Year: 2013, Runtime: 111, Genres: Music
+	Identifier: tt5119528, Title: The Last Ride: A Philadelphia Story, Type: movie, Year: 0, Runtime: 175, Genres: Documentary, Drama
+	Identifier: tt5187360, Title: The Philadelphia Bicycle Vignette Story, Type: movie, Year: 2017, Runtime: 0, Genres: Comedy
+	Identifier: tt5291706, Title: World Meeting of Families: 2015 Philadelphia, Type: movie, Year: 2015, Runtime: 0, Genres: Documentary
+	Identifier: tt5897790, Title: Revolution in Philadelphia, Type: movie, Year: 0, Runtime: 0, Genres: Documentary
+	Identifier: tt6197514, Title: Philadelphia Project, Type: movie, Year: 2016, Runtime: 60, Genres: Documentary
+	Identifier: tt6899026, Title: It's Always Sunny in Philadelphia: Cast & Creators Live at the Paley Center, Type: movie, Year: 2010, Runtime: 73, Genres: Comedy
+	Identifier: tt7874338, Title: Before Hollywood: Philadelphia and the Birth of the Movies, Type: movie, Year: 2017, Runtime: 0, Genres: Documentary
+	Identifier: tt8174096, Title: Casual Encounters: Philadelphia True Crime Confessions, Type: movie, Year: 0, Runtime: 0, Genres: Crime, Drama, Mystery
+	Identifier: tt8947210, Title: Monsters of Philadelphia, Type: movie, Year: 0, Runtime: 0, Genres: None
+elapsed time (s): 0.9673623190000029 
+
+processing: CONTAINS tvEpisode Ozymandias
+	Identifier: tt0520517, Title: Ozymandias, Type: tvEpisode, Year: 1988, Runtime: 49, Genres: Crime, Drama, Fantasy
+	Identifier: tt0665716, Title: Ozymandias 2.0, Type: tvEpisode, Year: 2000, Runtime: 60, Genres: Drama, Family, Romance
+	Identifier: tt10239360, Title: Ozymandias, Type: tvEpisode, Year: 2019, Runtime: 0, Genres: Comedy
+	Identifier: tt1101487, Title: Ozymandias, Type: tvEpisode, Year: 2007, Runtime: 0, Genres: Animation, Comedy
+	Identifier: tt11154018, Title: Superhero Origins: Ozymandias, Type: tvEpisode, Year: 2019, Runtime: 0, Genres: Comedy, Talk-Show
+	Identifier: tt11785652, Title: Breaking Bad 5x14 REACTION!! "Ozymandias", Type: tvEpisode, Year: 2020, Runtime: 31, Genres: Talk-Show
+	Identifier: tt13080420, Title: Ozymandias, Type: tvEpisode, Year: 2011, Runtime: 77, Genres: Adventure, Sci-Fi
+	Identifier: tt2301451, Title: Ozymandias, Type: tvEpisode, Year: 2013, Runtime: 48, Genres: Crime, Drama, Thriller
+	Identifier: tt3175558, Title: Ozymandias, Type: tvEpisode, Year: 2013, Runtime: 0, Genres: Talk-Show
+	Identifier: tt5130696, Title: Ozymandias, Type: tvEpisode, Year: 1953, Runtime: 0, Genres: Drama
+	Identifier: tt5450872, Title: Ozymandias, Type: tvEpisode, Year: 2016, Runtime: 0, Genres: Comedy, Drama, Mystery
+	Identifier: tt7031552, Title: Ozymandias, Type: tvEpisode, Year: 2014, Runtime: 0, Genres: Crime, Drama, Thriller
+	Identifier: tt8447602, Title: Percy Bysshe Shelley - Ozymandias, Type: tvEpisode, Year: 2015, Runtime: 0, Genres: None
+elapsed time (s): 1.3385001890000012 
+
+processing: CONTAINS videoGame Silent Hill
+	Identifier: tt0194376, Title: Silent Hill, Type: videoGame, Year: 1999, Runtime: 0, Genres: Action, Adventure, Drama
+	Identifier: tt0282975, Title: Silent Hill 2, Type: videoGame, Year: 2001, Runtime: 0, Genres: Action, Adventure, Drama
+	Identifier: tt0323974, Title: Silent Hill 3, Type: videoGame, Year: 2003, Runtime: 0, Genres: Action, Adventure, Drama
+	Identifier: tt0386788, Title: Silent Hill 4: The Room, Type: videoGame, Year: 2004, Runtime: 0, Genres: Action, Adventure, Drama
+	Identifier: tt1235071, Title: Silent Hill: Origins, Type: videoGame, Year: 2007, Runtime: 0, Genres: Action, Adventure, Drama
+	Identifier: tt1303901, Title: Silent Hill: Homecoming, Type: videoGame, Year: 2008, Runtime: 0, Genres: Action, Adventure, Horror
+	Identifier: tt1502419, Title: Silent Hill: Shattered Memories, Type: videoGame, Year: 2009, Runtime: 0, Genres: Action, Adventure, Drama
+	Identifier: tt1885369, Title: Silent Hill: Downpour, Type: videoGame, Year: 2011, Runtime: 0, Genres: Action, Adventure, Crime
+	Identifier: tt2338235, Title: Silent Hill: Book of Memories, Type: videoGame, Year: 2012, Runtime: 0, Genres: Action, Adventure, Horror
+	Identifier: tt6435172, Title: Silent Hill HD Collection, Type: videoGame, Year: 2012, Runtime: 0, Genres: Action, Fantasy, Horror
+	Identifier: tt9832476, Title: Silent Hill: The Arcade, Type: videoGame, Year: 2007, Runtime: 0, Genres: Action, Horror
+	Identifier: tt9832508, Title: Silent Hill: Play Novel, Type: videoGame, Year: 2001, Runtime: 0, Genres: Adventure, Horror
+elapsed time (s): 0.9108321530000012

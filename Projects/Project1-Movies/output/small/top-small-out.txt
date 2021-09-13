@@ -1,0 +1,171 @@
+reading data/small.basics.tsv into dict...
+elapsed time (s): 0.00016813999999999718 
+
+reading data/small.ratings.tsv into dict...
+elapsed time (s): 8.05619999999993e-05 
+
+Total movies: 16
+Total ratings: 15 
+
+processing: TOP movie 3 1994 1995
+	YEAR: 1994
+		1. RATING: 9.3, VOTES: 2346808, MOVIE: Identifier: tt0111161, Title: The Shawshank Redemption, Type: movie, Year: 1994, Runtime: 142, Genres: Drama
+		2. RATING: 8.9, VOTES: 1829154, MOVIE: Identifier: tt0110912, Title: Pulp Fiction, Type: movie, Year: 1994, Runtime: 154, Genres: Crime, Drama
+		3. RATING: 7.3, VOTES: 217034, MOVIE: Identifier: tt0110632, Title: Natural Born Killers, Type: movie, Year: 1994, Runtime: 118, Genres: Action, Crime, Drama
+	YEAR: 1995
+		1. RATING: 8.5, VOTES: 992642, MOVIE: Identifier: tt0114814, Title: The Usual Suspects, Type: movie, Year: 1995, Runtime: 106, Genres: Crime, Mystery, Thriller
+		2. RATING: 8.5, VOTES: 3755, MOVIE: Identifier: tt0285665, Title: Kuruthipunal, Type: movie, Year: 1995, Runtime: 143, Genres: Action, Drama, Thriller
+		3. RATING: 7.2, VOTES: 67297, MOVIE: Identifier: tt0114558, Title: Strange Days, Type: movie, Year: 1995, Runtime: 145, Genres: Action, Crime, Drama
+elapsed time (s): 2.4210999999996208e-05 
+
+processing: TOP movie 10 1990 1995
+	YEAR: 1990
+		No match found!
+	YEAR: 1991
+		No match found!
+	YEAR: 1992
+		No match found!
+	YEAR: 1993
+		No match found!
+	YEAR: 1994
+		1. RATING: 9.3, VOTES: 2346808, MOVIE: Identifier: tt0111161, Title: The Shawshank Redemption, Type: movie, Year: 1994, Runtime: 142, Genres: Drama
+		2. RATING: 8.9, VOTES: 1829154, MOVIE: Identifier: tt0110912, Title: Pulp Fiction, Type: movie, Year: 1994, Runtime: 154, Genres: Crime, Drama
+		3. RATING: 7.3, VOTES: 217034, MOVIE: Identifier: tt0110632, Title: Natural Born Killers, Type: movie, Year: 1994, Runtime: 118, Genres: Action, Crime, Drama
+	YEAR: 1995
+		1. RATING: 8.5, VOTES: 992642, MOVIE: Identifier: tt0114814, Title: The Usual Suspects, Type: movie, Year: 1995, Runtime: 106, Genres: Crime, Mystery, Thriller
+		2. RATING: 8.5, VOTES: 3755, MOVIE: Identifier: tt0285665, Title: Kuruthipunal, Type: movie, Year: 1995, Runtime: 143, Genres: Action, Drama, Thriller
+		3. RATING: 7.2, VOTES: 67297, MOVIE: Identifier: tt0114558, Title: Strange Days, Type: movie, Year: 1995, Runtime: 145, Genres: Action, Crime, Drama
+		4. RATING: 6.0, VOTES: 9565, MOVIE: Identifier: tt0114885, Title: Waiting to Exhale, Type: movie, Year: 1995, Runtime: 124, Genres: Comedy, Drama, Romance
+		5. RATING: 4.9, VOTES: 62570, MOVIE: Identifier: tt0114436, Title: Showgirls, Type: movie, Year: 1995, Runtime: 128, Genres: Drama
+elapsed time (s): 1.6487000000002527e-05 
+
+processing: TOP movie 20 2010 2010
+	YEAR: 2010
+		No match found!
+elapsed time (s): 9.55300000000242e-06 
+
+processing: TOP movie 10 2015 2019
+	YEAR: 2015
+		No match found!
+	YEAR: 2016
+		No match found!
+	YEAR: 2017
+		No match found!
+	YEAR: 2018
+		1. RATING: 8.4, VOTES: 837203, MOVIE: Identifier: tt4154756, Title: Avengers: Infinity War, Type: movie, Year: 2018, Runtime: 149, Genres: Action, Adventure, Sci-Fi
+	YEAR: 2019
+		No match found!
+elapsed time (s): 8.881000000002248e-06 
+
+processing: TOP movie 1 2000 2020
+	YEAR: 2000
+		No match found!
+	YEAR: 2001
+		No match found!
+	YEAR: 2002
+		No match found!
+	YEAR: 2003
+		No match found!
+	YEAR: 2004
+		No match found!
+	YEAR: 2005
+		No match found!
+	YEAR: 2006
+		No match found!
+	YEAR: 2007
+		No match found!
+	YEAR: 2008
+		No match found!
+	YEAR: 2009
+		No match found!
+	YEAR: 2010
+		No match found!
+	YEAR: 2011
+		No match found!
+	YEAR: 2012
+		No match found!
+	YEAR: 2013
+		No match found!
+	YEAR: 2014
+		1. RATING: 8.6, VOTES: 1515781, MOVIE: Identifier: tt0816692, Title: Interstellar, Type: movie, Year: 2014, Runtime: 169, Genres: Adventure, Drama, Sci-Fi
+	YEAR: 2015
+		No match found!
+	YEAR: 2016
+		No match found!
+	YEAR: 2017
+		No match found!
+	YEAR: 2018
+		1. RATING: 8.4, VOTES: 837203, MOVIE: Identifier: tt4154756, Title: Avengers: Infinity War, Type: movie, Year: 2018, Runtime: 149, Genres: Action, Adventure, Sci-Fi
+	YEAR: 2019
+		No match found!
+	YEAR: 2020
+		No match found!
+elapsed time (s): 2.0873999999997117e-05 
+
+processing: TOP videoGame 5 2010 2020
+	YEAR: 2010
+		No match found!
+	YEAR: 2011
+		No match found!
+	YEAR: 2012
+		No match found!
+	YEAR: 2013
+		No match found!
+	YEAR: 2014
+		No match found!
+	YEAR: 2015
+		No match found!
+	YEAR: 2016
+		No match found!
+	YEAR: 2017
+		No match found!
+	YEAR: 2018
+		No match found!
+	YEAR: 2019
+		No match found!
+	YEAR: 2020
+		No match found!
+elapsed time (s): 8.254000000006145e-06 
+
+processing: TOP tvSeries 4 2000 2019
+	YEAR: 2000
+		No match found!
+	YEAR: 2001
+		No match found!
+	YEAR: 2002
+		No match found!
+	YEAR: 2003
+		No match found!
+	YEAR: 2004
+		No match found!
+	YEAR: 2005
+		No match found!
+	YEAR: 2006
+		No match found!
+	YEAR: 2007
+		No match found!
+	YEAR: 2008
+		No match found!
+	YEAR: 2009
+		No match found!
+	YEAR: 2010
+		No match found!
+	YEAR: 2011
+		No match found!
+	YEAR: 2012
+		No match found!
+	YEAR: 2013
+		No match found!
+	YEAR: 2014
+		No match found!
+	YEAR: 2015
+		No match found!
+	YEAR: 2016
+		No match found!
+	YEAR: 2017
+		No match found!
+	YEAR: 2018
+		No match found!
+	YEAR: 2019
+		No match found!
+elapsed time (s): 8.209000000002076e-06

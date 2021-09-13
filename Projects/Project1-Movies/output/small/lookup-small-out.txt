@@ -1,0 +1,63 @@
+reading data/small.basics.tsv into dict...
+elapsed time (s): 0.00018620999999999915 
+
+reading data/small.ratings.tsv into dict...
+elapsed time (s): 7.268399999999647e-05 
+
+Total movies: 16
+Total ratings: 15 
+
+processing: LOOKUP tt0081505
+	MOVIE: Identifier: tt0081505, Title: The Shining, Type: movie, Year: 1980, Runtime: 146, Genres: Drama, Horror
+	RATING: Identifier: tt0081505, Rating: 8.4, Votes: 899812
+elapsed time (s): 3.616000000004893e-06 
+
+processing: LOOKUP tt0816692
+	MOVIE: Identifier: tt0816692, Title: Interstellar, Type: movie, Year: 2014, Runtime: 169, Genres: Adventure, Drama, Sci-Fi
+	RATING: Identifier: tt0816692, Rating: 8.6, Votes: 1515781
+elapsed time (s): 2.3810000000026865e-06 
+
+processing: LOOKUP tt0052357
+	MOVIE: Identifier: tt0052357, Title: Vertigo, Type: movie, Year: 1958, Runtime: 128, Genres: Mystery, Romance, Thriller
+	RATING: Identifier: tt0052357, Rating: 8.3, Votes: 365021
+elapsed time (s): 1.7679999999992146e-06 
+
+processing: LOOKUP tt0080684
+	Movie not found!
+	Rating not found!
+elapsed time (s): 8.329999999986959e-07 
+
+processing: LOOKUP tt0338013
+	Movie not found!
+	Rating not found!
+elapsed time (s): 6.139999999960066e-07 
+
+processing: LOOKUP tt0245429
+	Movie not found!
+	Rating not found!
+elapsed time (s): 5.409999999997361e-07 
+
+processing: LOOKUP tt2301451
+	Movie not found!
+	Rating not found!
+elapsed time (s): 4.4999999999906226e-07 
+
+processing: LOOKUP tt0204657
+	Movie not found!
+	Rating not found!
+elapsed time (s): 5.840000000048584e-07 
+
+processing: LOOKUP tt5753856
+	Movie not found!
+	Rating not found!
+elapsed time (s): 4.7300000000083386e-07 
+
+processing: LOOKUP tt7149678
+	Movie not found!
+	Rating not found!
+elapsed time (s): 8.990000000055898e-07 
+
+processing: LOOKUP tt9999999
+	Movie not found!
+	Rating not found!
+elapsed time (s): 2.498000000003553e-06

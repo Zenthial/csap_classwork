@@ -1,0 +1,1 @@
+py -u "../src/movies_main.py" < "../input/top.txt"

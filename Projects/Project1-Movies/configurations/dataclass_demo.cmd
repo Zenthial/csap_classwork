@@ -1,0 +1,1 @@
+py -u "../src/dataclass_demo.py"

@@ -1,0 +1,34 @@
+reading data/small.basics.tsv into dict...
+elapsed time (s): 0.000273190999999999 
+
+reading data/small.ratings.tsv into dict...
+elapsed time (s): 0.00013062200000000385 
+
+Total movies: 16
+Total ratings: 15 
+
+processing: YEAR_AND_GENRE movie 1995 Action
+	Identifier: tt0285665, Title: Kuruthipunal, Type: movie, Year: 1995, Runtime: 143, Genres: Action, Drama, Thriller
+	Identifier: tt0114558, Title: Strange Days, Type: movie, Year: 1995, Runtime: 145, Genres: Action, Crime, Drama
+	Identifier: tt1579705, Title: Street Fighter, Type: movie, Year: 1995, Runtime: 148, Genres: Action
+elapsed time (s): 4.884200000000033e-05 
+
+processing: YEAR_AND_GENRE movie 2010 Musical
+	No match found!
+elapsed time (s): 7.717000000004304e-06 
+
+processing: YEAR_AND_GENRE movie 1976 War
+	No match found!
+elapsed time (s): 5.497999999999614e-06 
+
+processing: YEAR_AND_GENRE videoGame 1999 Horror
+	No match found!
+elapsed time (s): 6.2750000000000306e-06 
+
+processing: YEAR_AND_GENRE tvSeries 1997 Reality-TV
+	No match found!
+elapsed time (s): 3.822000000000547e-06 
+
+processing: YEAR_AND_GENRE tvEpisode 1974 Biography
+	No match found!
+elapsed time (s): 2.0713999999998067e-05
