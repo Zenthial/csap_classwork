@@ -1,0 +1,1 @@
+python3 -u "../src/movies_main.py" small < "../input/year_genre.txt"

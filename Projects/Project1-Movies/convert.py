@@ -44,12 +44,12 @@ def main() -> None:
         print(f.name, "->", cmd_name) # debug but also tells you its doing stuff
 
         # gimme contents
-        with open(cmd_dir + "\\" + cmd_name, "w") as cmd:
-            tree = ET.parse(xml_dir + "\\" + f.name)
+        with open(cmd_dir + "/" + cmd_name, "w") as cmd:
+            tree = ET.parse(xml_dir + "/" + f.name)
             root = tree.getroot()
 
             # py [-u] script [args] [< input]
-            command = "py "
+            command = "python3 "
 
             # -u
             if root.find(".//*[@name='PYTHONUNBUFFERED']") is not None: # if it's specified assume 1

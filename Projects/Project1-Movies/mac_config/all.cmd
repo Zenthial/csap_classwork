@@ -1,0 +1,1 @@
+python3 -u "../src/movies_main.py" < "../input/all.txt"
