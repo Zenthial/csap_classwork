@@ -1,5 +1,5 @@
 from classes import Movie, Rating
-from time import time
+from timeit import default_timer as timer
 
 TITLE_BASICS = "../data/title.basics.tsv"
 TITLE_RATINGS = "../data/title.ratings.tsv"
@@ -60,16 +60,16 @@ def _get_ratings_dict(ratings: dict[str, Rating], movies: dict[str, Movie], smal
     return ratings
         
 def _get_movies(movies: dict[str, Movie], small: bool):
-    start = time()
+    start = timer()
     _get_movies_dict(movies, small)
-    print(f"elapsed movies time (s): {time() - start}\n")
+    print(f"elapsed movies time (s): {timer() - start}\n")
     
     return movies
 
 def _get_ratings(ratings: dict[str, Rating], movies: dict[str, Movie], small: bool):
-    start = time()
+    start = timer()
     _get_ratings_dict(ratings, movies, small)
-    print(f"elapsed ratings time (s): {time() - start}\n")
+    print(f"elapsed ratings time (s): {timer() - start}\n")
     
     return ratings
 

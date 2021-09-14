@@ -42,8 +42,8 @@ def parse_input(movies: dict[str, Movie], ratings: dict[str, Rating]):
     for rating in ratings.values():
         ratings_list.append(rating)
 
-    sorted_votes = sorts.quick_sort_votes(ratings_list[::])
-    sorted_ratings = sorts.quick_sort_rating(ratings_list[::])
+    sorted_votes = sorts.quick_sort_class(ratings_list[::], "num_votes")
+    sorted_ratings = sorts.quick_sort_class(ratings_list[::], "average_rating")
 
     input = sys.stdin
     line = input.readline()
