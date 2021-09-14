@@ -23,7 +23,7 @@ def _part_rating_class(arr: list, pivot: Rating, prop: str) -> (list):
             else:
                 middle.append(elm)
         except:
-            raise Exception(f"Property doesn't exist on class {elm.__class__.__name__}")
+            raise Exception(f"Property {prop} doesn't exist on class {elm.__class__.__name__}")
 
     return left, middle, right
 
@@ -45,26 +45,8 @@ def quick_sort_class(arr: list, prop: str) -> list:
     else:
         left, middle, right = _part_rating_class(arr, arr[0], prop)
         return quick_sort_class(left, prop) + middle + quick_sort_class(right, prop)
-
-
-def quick_sort_most_votes_name(arr: list[list]) -> list[list]:
-    """Performs the quick sort sorting algorithm. In most cases, it will be O(n log n)
-
-    :param arr: Array to be sorted
-    :type arr: list[Rating]
-    :return: New sorted array
-    :rtype: Rating
-
-    Author: Originally Sean Strout, edited by Thomas Schollenberger
-    """
-
-    if len(arr) == 0:
-        return []
-    else:
-        left, middle, right = _part_most_votes_name(arr, arr[0][1])
-        return quick_sort_most_votes_name(left) + middle + quick_sort_most_votes_name(right)
-
-def _part_most_votes(arr: list[list], pivot: Rating) -> (list[list]):
+    
+def _part_rating_class_nested(arr: list[list[Rating, Movie]], pivot: Rating, prop: str, index: int) -> (list):
     """Splits a given array into three parts, based off of the given pivot
 
     :param arr: The array to be partitioned
@@ -78,22 +60,24 @@ def _part_most_votes(arr: list[list], pivot: Rating) -> (list[list]):
     """
 
     left, middle, right = [], [], []
-    for elm in arr:
-        if elm[0].average_rating > pivot.average_rating:
-            right.append(elm)
-        elif elm[0].average_rating < pivot.average_rating:
-            left.append(elm)
-        else:
-            middle.append(elm)
-
-    if len(middle) > 1:
-        middle = quick_sort_most_votes_name(middle)
+    for entry in arr:
+        elm = entry[index]
+        try:
+            if elm.__getattribute__(prop) > pivot.__getattribute__(prop):
+                right.append(entry)
+            elif elm.__getattribute__(prop) < pivot.__getattribute__(prop):
+                left.append(entry)
+            else:
+                middle.append(entry)
+        except:
+            raise Exception(f"Property {prop} doesn't exist on class {elm.__class__.__name__}")
 
     return left, middle, right
 
 
-def quick_sort_most_votes(arr: list[list]) -> list[list]:
+def quick_sort_class_nested(arr: list, prop: str, index) -> list:
     """Performs the quick sort sorting algorithm. In most cases, it will be O(n log n)
+    Uses sneaky hidden class methods to work for any class properties. Avoids having to have individual functions for each class prop
 
     :param arr: Array to be sorted
     :type arr: list[Rating]
@@ -106,5 +90,14 @@ def quick_sort_most_votes(arr: list[list]) -> list[list]:
     if len(arr) == 0:
         return []
     else:
-        left, middle, right = _part_most_votes(arr, arr[0][0])
-        return quick_sort_most_votes(left) + middle + quick_sort_most_votes(right)
+        left, middle, right = _part_rating_class_nested(arr, arr[0][index], prop, index)
+        return quick_sort_class_nested(left, prop, index) + middle + quick_sort_class_nested(right, prop, index)
+    
+MOVIE_ELM = 1
+RATING_ELM = 0
+def quick_sort_top(arr: list[list[(Rating, Movie)]]) -> list[list[(Rating, Movie)]]:
+    return quick_sort_class_nested(quick_sort_class_nested(quick_sort_class_nested(arr, "primary_title", MOVIE_ELM), "average_rating", RATING_ELM)[::-1], "num_votes", RATING_ELM)[::-1]
+
+
+def quick_sort_most_votes(arr):
+    return quick_sort_class_nested(quick_sort_class_nested(arr, "primary_title", MOVIE_ELM), "num_votes", RATING_ELM)[::-1]

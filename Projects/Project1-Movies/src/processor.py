@@ -4,7 +4,7 @@ import sorts
 
 from classes import Movie, Rating
 
-def _parse_line(line: str, movies: dict[str, Movie], ratings: dict[str, Rating], sorted_votes: list[Rating], sorted_ratings: list[Rating]):
+def _parse_line(line: str, movies: dict[str, Movie], ratings: dict[str, Rating]):
     line_array = line.strip("\n").split(" ")
     type = line_array[0]
     print("processing: ", end="")
@@ -28,25 +28,18 @@ def _parse_line(line: str, movies: dict[str, Movie], ratings: dict[str, Rating],
     elif type == "MOST_VOTES":
         title_type = line_array[1]
         count = int(line_array[2])
-        functions.most_votes(movies, sorted_votes, title_type, count)
+        functions.most_votes(movies, ratings, title_type, count)
     elif type == "TOP":
         title_type = line_array[1]
         count = int(line_array[2])
         start_year = int(line_array[3])
         end_year = int(line_array[4])
-        functions.top(movies, sorted_ratings, title_type, count, start_year, end_year)
+        functions.top(movies, ratings, title_type, count, start_year, end_year)
 
 
 def parse_input(movies: dict[str, Movie], ratings: dict[str, Rating]):
-    ratings_list = []
-    for rating in ratings.values():
-        ratings_list.append(rating)
-
-    sorted_votes = sorts.quick_sort_class(ratings_list[::], "num_votes")
-    sorted_ratings = sorts.quick_sort_class(ratings_list[::], "average_rating")
-
     input = sys.stdin
     line = input.readline()
     while line:
-        _parse_line(line, movies, ratings, sorted_votes, sorted_ratings)
+        _parse_line(line, movies, ratings)
         line = input.readline()

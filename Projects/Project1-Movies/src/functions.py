@@ -78,28 +78,39 @@ def runtime(movies: dict[str, Movie], title_type: str, start_time: int, end_time
     
     print(f"elapsed timer (s): {timer() - start}\n")
 
-def most_votes(movies: dict[str, Movie], ratings: list[Rating], title_type: str, count: int):
+def most_votes(movies: dict[str, Movie], ratings: dict[str, Rating], title_type: str, count: int):
     print(f"MOST_VOTES {title_type} {count}")
     start = timer()
+    
+    rat_table = []
+    for rating in ratings.values():
+        rat_table.append(rating)
+        
+    ratings = sorts.quick_sort_class(rat_table, "num_votes")
+    
     matches = []
+    found = 0
     for rating in ratings[::-1]:
         movie_info = movies.get(rating.tconst)
         if movie_info.title_type == title_type:
-            matches.append([rating, movie_info, len(matches) + 1])
-            if len(matches) == count:
+            found += 1
+            matches.append([rating, movie_info])
+            if found == count:
                 break
-
+            
     matches = sorts.quick_sort_most_votes(matches)
     
-    if len(matches) == 0:
+    if found == 0:
         print("\tNo match found!")
     else:
-        for entry in matches[::-1]:
-            print(f"\t{entry[2]}. VOTES: {entry[0].num_votes}, MOVIE: {get_movie_info(entry[1])}")
+        i = 1
+        for entry in matches:
+            print(f"\t{i}. VOTES: {entry[0].num_votes}, MOVIE: {get_movie_info(entry[1])}")
+            i += 1
     
     print(f"elapsed timer (s): {timer() - start}\n")
 
-def top(movies: dict[str, Movie], ratings: list[Rating], title_type: str, count: int, start_year: int, end_year: int):
+def top(movies: dict[str, Movie], ratings: dict[str, Rating], title_type: str, count: int, start_year: int, end_year: int):
     print(f"TOP {title_type} {count} {start_year} {end_year}")
     start = timer()
     
@@ -111,19 +122,24 @@ def top(movies: dict[str, Movie], ratings: list[Rating], title_type: str, count:
         years_dict[year] = []
         years_count[year] = 0
 
-    for rating in ratings[::-1]:
+    for rating in ratings.values():
+        movie_info = movies.get(rating.tconst)
         if rating.num_votes > 1000:
-            movie_info = movies[rating.tconst]
             if movie_info.start_year in years and years_count[movie_info.start_year] < count:
                 years_count[movie_info.start_year] += 1
-                years_dict[movie_info.start_year].append(f"\t\t{years_count[movie_info.start_year]}. RATING: {rating.average_rating}, VOTES: {rating.num_votes}, MOVIE: {get_movie_info(movie_info)}")
+                years_dict[movie_info.start_year].append([rating, movie_info])
+                
+    for year in years_dict:
+        years_dict[year] = sorts.quick_sort_top(years_dict[year])
 
     for year in years_dict:
         print(f"\tYEAR: {year}")
         entry = years_dict[year]
         if len(entry) > 0:
+            i = 1
             for line in entry:
-                print(line)
+                f"\t\t{i}. RATING: {line[0].average_rating}, VOTES: {line[0].num_votes}, MOVIE: {get_movie_info(line[1])}"
+                i += 1
         else:
             print("\t\tNo match found!")
     
