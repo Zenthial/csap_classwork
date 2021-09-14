@@ -47,7 +47,7 @@ def _get_ratings_dict(ratings: dict[str, Rating], movies: dict[str, Movie]):
         while line:
             rating_info_array = line.split("\t")
 
-            if movies.get(rating_info_array[0]) != None:
+            if movies.get(rating_info_array[0]) is not None:
                 ratings[rating_info_array[0]] = Rating(rating_info_array[0], float(rating_info_array[1]), float(rating_info_array[2]))
             line = ratings_file.readline()
     
@@ -71,20 +71,24 @@ def _get_ratings(ratings, movies):
     
     return ratings
 
-def read_data():
+def threading_test():
     movies = {}
     ratings = {}
     
-    # movies_thread = Thread(target=_get_movies, args=(movies,))
-    # ratings_thread = Thread(target=_get_ratings, args=(ratings,))
+    movies_thread = Thread(target=_get_movies, args=(movies,))
+    ratings_thread = Thread(target=_get_ratings, args=(ratings,))
     
-    # movies_thread.start()
-    # ratings_thread.start()
+    movies_thread.start()
+    ratings_thread.start()
     
-    # print("reading from both files simultaneously")
+    print("reading from both files simultaneously")
     
-    # ratings_thread.join()
-    # movies_thread.join()
+    ratings_thread.join()
+    movies_thread.join()
+
+def read_data():
+    movies = {}
+    ratings = {}
     
     _get_movies(movies)
     _get_ratings(ratings, movies)

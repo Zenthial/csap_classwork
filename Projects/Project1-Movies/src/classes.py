@@ -1,14 +1,14 @@
 from dataclasses import dataclass
 
 
-@dataclass
+@dataclass(frozen=True)
 class Rating:
     tconst: str
     average_rating: str
     num_votes: int
 
     
-@dataclass
+@dataclass(frozen=True)
 class Movie:
     tconst: str
     title_type: str
