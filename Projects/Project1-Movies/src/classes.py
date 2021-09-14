@@ -4,7 +4,7 @@ from dataclasses import dataclass
 @dataclass
 class Rating:
     tconst: str
-    average_rating: str
+    average_rating: float
     num_votes: int
 
     
