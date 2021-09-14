@@ -1,0 +1,68 @@
+reading data/title.basics.tsv into dict...
+elapsed time (s): 54.28925404300001 
+
+reading data/title.ratings.tsv into dict...
+elapsed time (s): 2.9987123780000005 
+
+Total movies: 7965199
+Total ratings: 1161579 
+
+processing: MOST_VOTES movie 5
+	1. VOTES: 2450782, MOVIE: Identifier: tt0111161, Title: The Shawshank Redemption, Type: movie, Year: 1994, Runtime: 142, Genres: Drama
+	2. VOTES: 2406501, MOVIE: Identifier: tt0468569, Title: The Dark Knight, Type: movie, Year: 2008, Runtime: 152, Genres: Action, Crime, Drama
+	3. VOTES: 2158864, MOVIE: Identifier: tt1375666, Title: Inception, Type: movie, Year: 2010, Runtime: 148, Genres: Action, Adventure, Sci-Fi
+	4. VOTES: 1931052, MOVIE: Identifier: tt0137523, Title: Fight Club, Type: movie, Year: 1999, Runtime: 139, Genres: Drama
+	5. VOTES: 1899715, MOVIE: Identifier: tt0110912, Title: Pulp Fiction, Type: movie, Year: 1994, Runtime: 154, Genres: Crime, Drama
+elapsed time (s): 1.7386240619999995 
+
+processing: MOST_VOTES tvSpecial 5
+	1. VOTES: 50704, MOVIE: Identifier: tt11337862, Title: The One Where They Get Back Together, Type: tvSpecial, Year: 2021, Runtime: 104, Genres: Comedy, Romance
+	2. VOTES: 35039, MOVIE: Identifier: tt13567480, Title: Death to 2020, Type: tvSpecial, Year: 2020, Runtime: 70, Genres: Comedy
+	3. VOTES: 34393, MOVIE: Identifier: tt14544192, Title: Inside, Type: tvSpecial, Year: 2021, Runtime: 87, Genres: Comedy, Drama, Music
+	4. VOTES: 22747, MOVIE: Identifier: tt10810424, Title: Dave Chappelle: Sticks & Stones, Type: tvSpecial, Year: 2019, Runtime: 65, Genres: Comedy
+	5. VOTES: 17132, MOVIE: Identifier: tt0085474, Title: Eddie Murphy: Delirious, Type: tvSpecial, Year: 1983, Runtime: 69, Genres: Comedy
+elapsed time (s): 0.6867020279999991 
+
+processing: MOST_VOTES movie 20
+	1. VOTES: 2450782, MOVIE: Identifier: tt0111161, Title: The Shawshank Redemption, Type: movie, Year: 1994, Runtime: 142, Genres: Drama
+	2. VOTES: 2406501, MOVIE: Identifier: tt0468569, Title: The Dark Knight, Type: movie, Year: 2008, Runtime: 152, Genres: Action, Crime, Drama
+	3. VOTES: 2158864, MOVIE: Identifier: tt1375666, Title: Inception, Type: movie, Year: 2010, Runtime: 148, Genres: Action, Adventure, Sci-Fi
+	4. VOTES: 1931052, MOVIE: Identifier: tt0137523, Title: Fight Club, Type: movie, Year: 1999, Runtime: 139, Genres: Drama
+	5. VOTES: 1899715, MOVIE: Identifier: tt0110912, Title: Pulp Fiction, Type: movie, Year: 1994, Runtime: 154, Genres: Crime, Drama
+	6. VOTES: 1894543, MOVIE: Identifier: tt0109830, Title: Forrest Gump, Type: movie, Year: 1994, Runtime: 142, Genres: Drama, Romance
+	7. VOTES: 1744365, MOVIE: Identifier: tt0133093, Title: The Matrix, Type: movie, Year: 1999, Runtime: 136, Genres: Action, Sci-Fi
+	8. VOTES: 1723737, MOVIE: Identifier: tt0120737, Title: The Lord of the Rings: The Fellowship of the Ring, Type: movie, Year: 2001, Runtime: 178, Genres: Action, Adventure, Drama
+	9. VOTES: 1702494, MOVIE: Identifier: tt0167260, Title: The Lord of the Rings: The Return of the King, Type: movie, Year: 2003, Runtime: 201, Genres: Action, Adventure, Drama
+	10. VOTES: 1696332, MOVIE: Identifier: tt0068646, Title: The Godfather, Type: movie, Year: 1972, Runtime: 175, Genres: Crime, Drama
+	11. VOTES: 1603268, MOVIE: Identifier: tt0816692, Title: Interstellar, Type: movie, Year: 2014, Runtime: 169, Genres: Adventure, Drama, Sci-Fi
+	12. VOTES: 1571268, MOVIE: Identifier: tt1345836, Title: The Dark Knight Rises, Type: movie, Year: 2012, Runtime: 164, Genres: Action, Adventure
+	13. VOTES: 1539253, MOVIE: Identifier: tt0167261, Title: The Lord of the Rings: The Two Towers, Type: movie, Year: 2002, Runtime: 179, Genres: Action, Adventure, Drama
+	14. VOTES: 1508547, MOVIE: Identifier: tt0114369, Title: Se7en, Type: movie, Year: 1995, Runtime: 127, Genres: Crime, Drama, Mystery
+	15. VOTES: 1418924, MOVIE: Identifier: tt1853728, Title: Django Unchained, Type: movie, Year: 2012, Runtime: 165, Genres: Drama, Western
+	16. VOTES: 1392534, MOVIE: Identifier: tt0172495, Title: Gladiator, Type: movie, Year: 2000, Runtime: 155, Genres: Action, Adventure, Drama
+	17. VOTES: 1354663, MOVIE: Identifier: tt0372784, Title: Batman Begins, Type: movie, Year: 2005, Runtime: 140, Genres: Action, Adventure
+	18. VOTES: 1325741, MOVIE: Identifier: tt0361748, Title: Inglourious Basterds, Type: movie, Year: 2009, Runtime: 153, Genres: Adventure, Drama, War
+	19. VOTES: 1325278, MOVIE: Identifier: tt0102926, Title: The Silence of the Lambs, Type: movie, Year: 1991, Runtime: 118, Genres: Crime, Drama, Thriller
+	20. VOTES: 1303088, MOVIE: Identifier: tt0848228, Title: The Avengers, Type: movie, Year: 2012, Runtime: 143, Genres: Action, Adventure, Sci-Fi
+elapsed time (s): 1.3199022049999982 
+
+processing: MOST_VOTES videoGame 10
+	1. VOTES: 54364, MOVIE: Identifier: tt2140553, Title: The Last of Us, Type: videoGame, Year: 2013, Runtime: 0, Genres: Action, Adventure, Drama
+	2. VOTES: 54299, MOVIE: Identifier: tt2103188, Title: Grand Theft Auto V, Type: videoGame, Year: 2013, Runtime: 0, Genres: Action, Adventure, Crime
+	3. VOTES: 37006, MOVIE: Identifier: tt0383385, Title: Grand Theft Auto: San Andreas, Type: videoGame, Year: 2004, Runtime: 0, Genres: Action, Adventure, Crime
+	4. VOTES: 32872, MOVIE: Identifier: tt0802999, Title: Grand Theft Auto IV, Type: videoGame, Year: 2008, Runtime: 0, Genres: Action, Adventure, Comedy
+	5. VOTES: 28245, MOVIE: Identifier: tt1568322, Title: Batman: Arkham City, Type: videoGame, Year: 2011, Runtime: 0, Genres: Action, Adventure, Crime
+	6. VOTES: 27361, MOVIE: Identifier: tt1814884, Title: The Elder Scrolls V: Skyrim, Type: videoGame, Year: 2011, Runtime: 0, Genres: Action, Adventure, Fantasy
+	7. VOTES: 26956, MOVIE: Identifier: tt6161168, Title: Red Dead Redemption II, Type: videoGame, Year: 2018, Runtime: 0, Genres: Action, Adventure, Crime
+	8. VOTES: 25248, MOVIE: Identifier: tt1282022, Title: Batman: Arkham Asylum, Type: videoGame, Year: 2009, Runtime: 0, Genres: Action, Adventure, Crime
+	9. VOTES: 24711, MOVIE: Identifier: tt1479962, Title: Red Dead Redemption, Type: videoGame, Year: 2010, Runtime: 0, Genres: Action, Adventure, Crime
+	10. VOTES: 24652, MOVIE: Identifier: tt0314123, Title: Grand Theft Auto: Vice City, Type: videoGame, Year: 2002, Runtime: 0, Genres: Action, Adventure, Crime
+elapsed time (s): 0.6926554400000029 
+
+processing: MOST_VOTES tvSeries 5
+	1. VOTES: 1862898, MOVIE: Identifier: tt0944947, Title: Game of Thrones, Type: tvSeries, Year: 2011, Runtime: 57, Genres: Action, Adventure, Drama
+	2. VOTES: 1568308, MOVIE: Identifier: tt0903747, Title: Breaking Bad, Type: tvSeries, Year: 2008, Runtime: 49, Genres: Crime, Drama, Thriller
+	3. VOTES: 898750, MOVIE: Identifier: tt4574334, Title: Stranger Things, Type: tvSeries, Year: 2016, Runtime: 51, Genres: Drama, Fantasy, Horror
+	4. VOTES: 892267, MOVIE: Identifier: tt1520211, Title: The Walking Dead, Type: tvSeries, Year: 2010, Runtime: 44, Genres: Drama, Horror, Thriller
+	5. VOTES: 889987, MOVIE: Identifier: tt0108778, Title: Friends, Type: tvSeries, Year: 1994, Runtime: 22, Genres: Comedy, Romance
+elapsed time (s): 0.834790218000002

@@ -4,7 +4,7 @@ from dataclasses import dataclass
 @dataclass(frozen=True)
 class Rating:
     tconst: str
-    average_rating: str
+    average_rating: float
     num_votes: int
 
     
@@ -19,3 +19,11 @@ class Movie:
     runtime: int
     genres: list[str]
     
+rat = Rating("test", 1.0, 1)
+print(rat.__getattribute__("tconst"))
+try:
+    print(rat.__getattribute__("test"))
+except:
+    print("uh oh")
+
+print(rat.__class__.__name__)

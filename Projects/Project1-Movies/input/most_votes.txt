@@ -1,0 +1,5 @@
+MOST_VOTES movie 5
+MOST_VOTES tvSpecial 5
+MOST_VOTES movie 20
+MOST_VOTES videoGame 10
+MOST_VOTES tvSeries 5

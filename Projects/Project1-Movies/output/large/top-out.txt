@@ -1,0 +1,387 @@
+reading data/title.basics.tsv into dict...
+elapsed time (s): 54.60715484 
+
+reading data/title.ratings.tsv into dict...
+elapsed time (s): 3.0237078030000006 
+
+Total movies: 7965199
+Total ratings: 1161579 
+
+processing: TOP movie 3 1994 1995
+	YEAR: 1994
+		1. RATING: 9.3, VOTES: 2450782, MOVIE: Identifier: tt0111161, Title: The Shawshank Redemption, Type: movie, Year: 1994, Runtime: 142, Genres: Drama
+		2. RATING: 9.1, VOTES: 2976, MOVIE: Identifier: tt0383177, Title: Aguner Poroshmoni, Type: movie, Year: 1994, Runtime: 123, Genres: Drama, War
+		3. RATING: 8.9, VOTES: 1899715, MOVIE: Identifier: tt0110912, Title: Pulp Fiction, Type: movie, Year: 1994, Runtime: 154, Genres: Crime, Drama
+	YEAR: 1995
+		1. RATING: 8.8, VOTES: 2902, MOVIE: Identifier: tt3189256, Title: Om, Type: movie, Year: 1995, Runtime: 150, Genres: Action, Crime, Drama
+		2. RATING: 8.6, VOTES: 1508547, MOVIE: Identifier: tt0114369, Title: Se7en, Type: movie, Year: 1995, Runtime: 127, Genres: Crime, Drama, Mystery
+		3. RATING: 8.6, VOTES: 5274, MOVIE: Identifier: tt0292246, Title: Spadikam, Type: movie, Year: 1995, Runtime: 150, Genres: Action, Drama
+elapsed time (s): 0.9851704440000049 
+
+processing: TOP movie 10 1990 1995
+	YEAR: 1990
+		1. RATING: 8.7, VOTES: 1064394, MOVIE: Identifier: tt0099685, Title: Goodfellas, Type: movie, Year: 1990, Runtime: 146, Genres: Biography, Crime, Drama
+		2. RATING: 8.6, VOTES: 3460, MOVIE: Identifier: tt0278501, Title: In Harihar Nagar, Type: movie, Year: 1990, Runtime: 133, Genres: Comedy, Crime, Mystery
+		3. RATING: 8.5, VOTES: 4431, MOVIE: Identifier: tt0102369, Title: Mother, Type: movie, Year: 1990, Runtime: 108, Genres: Drama
+		4. RATING: 8.5, VOTES: 4232, MOVIE: Identifier: tt0140377, Title: Michael Madana Kama Rajan, Type: movie, Year: 1990, Runtime: 162, Genres: Comedy
+		5. RATING: 8.3, VOTES: 17769, MOVIE: Identifier: tt0100234, Title: Close-Up, Type: movie, Year: 1990, Runtime: 98, Genres: Biography, Crime, Drama
+		6. RATING: 8.3, VOTES: 1372, MOVIE: Identifier: tt0345177, Title: Ek Doctor Ki Maut, Type: movie, Year: 1990, Runtime: 122, Genres: Biography, Drama
+		7. RATING: 8.3, VOTES: 1160, MOVIE: Identifier: tt0097851, Title: Mathilukal, Type: movie, Year: 1990, Runtime: 120, Genres: Drama, Romance
+		8. RATING: 8.2, VOTES: 13951, MOVIE: Identifier: tt0100332, Title: Paris Is Burning, Type: movie, Year: 1990, Runtime: 71, Genres: Documentary
+		9. RATING: 8.2, VOTES: 2945, MOVIE: Identifier: tt0099043, Title: Anjali, Type: movie, Year: 1990, Runtime: 150, Genres: Drama
+		10. RATING: 8.0, VOTES: 249339, MOVIE: Identifier: tt0099348, Title: Dances with Wolves, Type: movie, Year: 1990, Runtime: 181, Genres: Adventure, Drama, Western
+	YEAR: 1991
+		1. RATING: 9.0, VOTES: 4106, MOVIE: Identifier: tt0353975, Title: Sandesham, Type: movie, Year: 1991, Runtime: 138, Genres: Comedy, Drama
+		2. RATING: 8.6, VOTES: 1325278, MOVIE: Identifier: tt0102926, Title: The Silence of the Lambs, Type: movie, Year: 1991, Runtime: 118, Genres: Crime, Drama, Thriller
+		3. RATING: 8.6, VOTES: 3721, MOVIE: Identifier: tt0255306, Title: Kilukkam, Type: movie, Year: 1991, Runtime: 155, Genres: Comedy
+		4. RATING: 8.6, VOTES: 3284, MOVIE: Identifier: tt0353496, Title: Godfather, Type: movie, Year: 1991, Runtime: 150, Genres: Comedy, Drama, Romance
+		5. RATING: 8.5, VOTES: 1029736, MOVIE: Identifier: tt0103064, Title: Terminator 2: Judgment Day, Type: movie, Year: 1991, Runtime: 137, Genres: Action, Sci-Fi
+		6. RATING: 8.5, VOTES: 11147, MOVIE: Identifier: tt0101649, Title: Thalapathi, Type: movie, Year: 1991, Runtime: 157, Genres: Action, Crime, Drama
+		7. RATING: 8.4, VOTES: 8896, MOVIE: Identifier: tt0101985, Title: A Brighter Summer Day, Type: movie, Year: 1991, Runtime: 237, Genres: Crime, Drama, Romance
+		8. RATING: 8.4, VOTES: 2751, MOVIE: Identifier: tt0155487, Title: Amaram, Type: movie, Year: 1991, Runtime: 150, Genres: Drama
+		9. RATING: 8.4, VOTES: 2576, MOVIE: Identifier: tt0252196, Title: Aditya 369, Type: movie, Year: 1991, Runtime: 140, Genres: Adventure, Comedy, Sci-Fi
+		10. RATING: 8.4, VOTES: 2522, MOVIE: Identifier: tt0237038, Title: Bharatham, Type: movie, Year: 1991, Runtime: 147, Genres: Drama, Musical
+	YEAR: 1992
+		1. RATING: 9.0, VOTES: 2828, MOVIE: Identifier: tt0259534, Title: Ramayana: The Legend of Prince Rama, Type: movie, Year: 1992, Runtime: 170, Genres: Action, Adventure, Animation
+		2. RATING: 8.7, VOTES: 6307, MOVIE: Identifier: tt0105575, Title: Thevar Magan, Type: movie, Year: 1992, Runtime: 145, Genres: Drama
+		3. RATING: 8.6, VOTES: 37574, MOVIE: Identifier: tt0103767, Title: Baraka, Type: movie, Year: 1992, Runtime: 96, Genres: Documentary
+		4. RATING: 8.6, VOTES: 1467, MOVIE: Identifier: tt0108429, Title: Udzinarta mze, Type: movie, Year: 1992, Runtime: 123, Genres: Crime, Drama
+		5. RATING: 8.4, VOTES: 8447, MOVIE: Identifier: tt0104860, Title: We Are Not Angels, Type: movie, Year: 1992, Runtime: 98, Genres: Comedy, Fantasy, Romance
+		6. RATING: 8.4, VOTES: 4044, MOVIE: Identifier: tt0290937, Title: Yoddha, Type: movie, Year: 1992, Runtime: 149, Genres: Action, Comedy
+		7. RATING: 8.3, VOTES: 953898, MOVIE: Identifier: tt0105236, Title: Reservoir Dogs, Type: movie, Year: 1992, Runtime: 99, Genres: Crime, Drama, Thriller
+		8. RATING: 8.2, VOTES: 390087, MOVIE: Identifier: tt0105695, Title: Unforgiven, Type: movie, Year: 1992, Runtime: 130, Genres: Drama, Western
+		9. RATING: 8.2, VOTES: 22474, MOVIE: Identifier: tt0104561, Title: Jo Jeeta Wohi Sikandar, Type: movie, Year: 1992, Runtime: 174, Genres: Comedy, Drama, Romance
+		10. RATING: 8.2, VOTES: 12359, MOVIE: Identifier: tt0105271, Title: Roja, Type: movie, Year: 1992, Runtime: 137, Genres: Drama, Romance, Thriller
+	YEAR: 1993
+		1. RATING: 8.9, VOTES: 1260777, MOVIE: Identifier: tt0108052, Title: Schindler's List, Type: movie, Year: 1993, Runtime: 195, Genres: Biography, Drama, History
+		2. RATING: 8.7, VOTES: 9689, MOVIE: Identifier: tt0214915, Title: Manichitrathazhu, Type: movie, Year: 1993, Runtime: 169, Genres: Comedy, Horror, Music
+		3. RATING: 8.7, VOTES: 5286, MOVIE: Identifier: tt0291855, Title: Devasuram, Type: movie, Year: 1993, Runtime: 187, Genres: Action, Drama, Thriller
+		4. RATING: 8.5, VOTES: 2745, MOVIE: Identifier: tt0107472, Title: The Wonderful, Horrible Life of Leni Riefenstahl, Type: movie, Year: 1993, Runtime: 183, Genres: Biography, Documentary, History
+		5. RATING: 8.4, VOTES: 2794, MOVIE: Identifier: tt0271857, Title: Vatsalyam, Type: movie, Year: 1993, Runtime: 156, Genres: Drama
+		6. RATING: 8.4, VOTES: 1680, MOVIE: Identifier: tt0106534, Title: The Earth's Most Beloved Son, Type: movie, Year: 1993, Runtime: 138, Genres: Drama
+		7. RATING: 8.3, VOTES: 1174, MOVIE: Identifier: tt0253157, Title: Jamba Lakidi Pamba, Type: movie, Year: 1993, Runtime: 131, Genres: Comedy
+		8. RATING: 8.3, VOTES: 1007, MOVIE: Identifier: tt6823034, Title: Sendhoorapandi, Type: movie, Year: 1993, Runtime: 138, Genres: Action, Drama, Romance
+		9. RATING: 8.2, VOTES: 1952, MOVIE: Identifier: tt0107376, Title: Latcho Drom, Type: movie, Year: 1993, Runtime: 103, Genres: Documentary, Music
+		10. RATING: 8.2, VOTES: 1474, MOVIE: Identifier: tt0271459, Title: Dhruvam, Type: movie, Year: 1993, Runtime: 138, Genres: Action, Drama, Thriller
+	YEAR: 1994
+		1. RATING: 9.3, VOTES: 2450782, MOVIE: Identifier: tt0111161, Title: The Shawshank Redemption, Type: movie, Year: 1994, Runtime: 142, Genres: Drama
+		2. RATING: 9.1, VOTES: 2976, MOVIE: Identifier: tt0383177, Title: Aguner Poroshmoni, Type: movie, Year: 1994, Runtime: 123, Genres: Drama, War
+		3. RATING: 8.9, VOTES: 1899715, MOVIE: Identifier: tt0110912, Title: Pulp Fiction, Type: movie, Year: 1994, Runtime: 154, Genres: Crime, Drama
+		4. RATING: 8.8, VOTES: 1894543, MOVIE: Identifier: tt0109830, Title: Forrest Gump, Type: movie, Year: 1994, Runtime: 142, Genres: Drama, Romance
+		5. RATING: 8.8, VOTES: 1055, MOVIE: Identifier: tt0118521, Title: U2: Zoo TV Live from Sydney, Type: movie, Year: 1994, Runtime: 118, Genres: Documentary, Music
+		6. RATING: 8.6, VOTES: 3686, MOVIE: Identifier: tt0140348, Title: Mahanadhi, Type: movie, Year: 1994, Runtime: 162, Genres: Crime, Drama
+		7. RATING: 8.5, VOTES: 1076458, MOVIE: Identifier: tt0110413, Title: Léon: The Professional, Type: movie, Year: 1994, Runtime: 110, Genres: Action, Crime, Drama
+		8. RATING: 8.5, VOTES: 979196, MOVIE: Identifier: tt0110357, Title: The Lion King, Type: movie, Year: 1994, Runtime: 88, Genres: Adventure, Animation, Drama
+		9. RATING: 8.4, VOTES: 10137, MOVIE: Identifier: tt0111341, Title: Satantango, Type: movie, Year: 1994, Runtime: 439, Genres: Drama
+		10. RATING: 8.3, VOTES: 25436, MOVIE: Identifier: tt0110057, Title: Hoop Dreams, Type: movie, Year: 1994, Runtime: 170, Genres: Documentary, Drama, Sport
+	YEAR: 1995
+		1. RATING: 8.8, VOTES: 2902, MOVIE: Identifier: tt3189256, Title: Om, Type: movie, Year: 1995, Runtime: 150, Genres: Action, Crime, Drama
+		2. RATING: 8.6, VOTES: 1508547, MOVIE: Identifier: tt0114369, Title: Se7en, Type: movie, Year: 1995, Runtime: 127, Genres: Crime, Drama, Mystery
+		3. RATING: 8.6, VOTES: 5274, MOVIE: Identifier: tt0292246, Title: Spadikam, Type: movie, Year: 1995, Runtime: 150, Genres: Action, Drama
+		4. RATING: 8.5, VOTES: 1024809, MOVIE: Identifier: tt0114814, Title: The Usual Suspects, Type: movie, Year: 1995, Runtime: 106, Genres: Crime, Mystery, Thriller
+		5. RATING: 8.5, VOTES: 4136, MOVIE: Identifier: tt0285665, Title: Kuruthipunal, Type: movie, Year: 1995, Runtime: 143, Genres: Action, Drama, Thriller
+		6. RATING: 8.3, VOTES: 985599, MOVIE: Identifier: tt0112573, Title: Braveheart, Type: movie, Year: 1995, Runtime: 178, Genres: Biography, Drama, History
+		7. RATING: 8.3, VOTES: 923063, MOVIE: Identifier: tt0114709, Title: Toy Story, Type: movie, Year: 1995, Runtime: 81, Genres: Adventure, Animation, Comedy
+		8. RATING: 8.3, VOTES: 9623, MOVIE: Identifier: tt0139876, Title: Baasha, Type: movie, Year: 1995, Runtime: 145, Genres: Action, Crime, Drama
+		9. RATING: 8.3, VOTES: 1310, MOVIE: Identifier: tt0114774, Title: The Blue Villa, Type: movie, Year: 1995, Runtime: 100, Genres: Crime, Drama, Mystery
+		10. RATING: 8.2, VOTES: 603282, MOVIE: Identifier: tt0113277, Title: Heat, Type: movie, Year: 1995, Runtime: 170, Genres: Crime, Drama, Thriller
+elapsed time (s): 0.7793266669999994 
+
+processing: TOP movie 20 2010 2010
+	YEAR: 2010
+		1. RATING: 8.8, VOTES: 2158864, MOVIE: Identifier: tt1375666, Title: Inception, Type: movie, Year: 2010, Runtime: 148, Genres: Action, Adventure, Sci-Fi
+		2. RATING: 8.8, VOTES: 5736, MOVIE: Identifier: tt1754109, Title: Les Misérables in Concert: The 25th Anniversary, Type: movie, Year: 2010, Runtime: 178, Genres: Drama, Music, Musical
+		3. RATING: 8.6, VOTES: 4359, MOVIE: Identifier: tt1496729, Title: Aaranya Kaandam, Type: movie, Year: 2010, Runtime: 126, Genres: Action, Crime, Thriller
+		4. RATING: 8.5, VOTES: 66717, MOVIE: Identifier: tt1424432, Title: Senna, Type: movie, Year: 2010, Runtime: 106, Genres: Biography, Documentary, Sport
+		5. RATING: 8.4, VOTES: 4428, MOVIE: Identifier: tt1545103, Title: Rush: Beyond the Lighted Stage, Type: movie, Year: 2010, Runtime: 107, Genres: Biography, Documentary, Music
+		6. RATING: 8.4, VOTES: 1880, MOVIE: Identifier: tt1590129, Title: Natarang, Type: movie, Year: 2010, Runtime: 127, Genres: Drama
+		7. RATING: 8.4, VOTES: 1330, MOVIE: Identifier: tt1809387, Title: The War You Don't See, Type: movie, Year: 2010, Runtime: 97, Genres: Documentary, War
+		8. RATING: 8.4, VOTES: 1254, MOVIE: Identifier: tt1828232, Title: Life Cycles, Type: movie, Year: 2010, Runtime: 47, Genres: Documentary, Sport
+		9. RATING: 8.3, VOTES: 160490, MOVIE: Identifier: tt1255953, Title: Incendies, Type: movie, Year: 2010, Runtime: 131, Genres: Drama, Mystery, War
+		10. RATING: 8.3, VOTES: 5304, MOVIE: Identifier: tt1695800, Title: Pranchiyettan and the Saint, Type: movie, Year: 2010, Runtime: 140, Genres: Comedy, Drama
+		11. RATING: 8.3, VOTES: 2732, MOVIE: Identifier: tt1603362, Title: Prasthanam, Type: movie, Year: 2010, Runtime: 153, Genres: Action, Drama
+		12. RATING: 8.3, VOTES: 2369, MOVIE: Identifier: tt1789810, Title: José and Pilar, Type: movie, Year: 2010, Runtime: 117, Genres: Biography, Documentary
+		13. RATING: 8.3, VOTES: 2302, MOVIE: Identifier: tt1814642, Title: Bad Hero, Type: movie, Year: 2010, Runtime: 73, Genres: Comedy, Crime, Drama
+		14. RATING: 8.2, VOTES: 1188731, MOVIE: Identifier: tt1130884, Title: Shutter Island, Type: movie, Year: 2010, Runtime: 138, Genres: Mystery, Thriller
+		15. RATING: 8.2, VOTES: 783224, MOVIE: Identifier: tt0435761, Title: Toy Story 3, Type: movie, Year: 2010, Runtime: 103, Genres: Adventure, Animation, Comedy
+		16. RATING: 8.2, VOTES: 72438, MOVIE: Identifier: tt1645089, Title: Inside Job, Type: movie, Year: 2010, Runtime: 109, Genres: Crime, Documentary
+		17. RATING: 8.2, VOTES: 43796, MOVIE: Identifier: tt1639426, Title: Udaan, Type: movie, Year: 2010, Runtime: 134, Genres: Drama
+		18. RATING: 8.2, VOTES: 11777, MOVIE: Identifier: tt1634013, Title: Montevideo: Taste of a Dream, Type: movie, Year: 2010, Runtime: 140, Genres: Adventure, Comedy, Drama
+		19. RATING: 8.2, VOTES: 4316, MOVIE: Identifier: tt1789083, Title: The Weight of Chains, Type: movie, Year: 2010, Runtime: 125, Genres: Documentary, History, News
+		20. RATING: 8.2, VOTES: 1523, MOVIE: Identifier: tt1670703, Title: Footsteps in the Sand, Type: movie, Year: 2010, Runtime: 89, Genres: Comedy, Drama
+elapsed time (s): 0.6918665689999983 
+
+processing: TOP movie 10 2015 2019
+	YEAR: 2015
+		1. RATING: 8.8, VOTES: 2061, MOVIE: Identifier: tt5190958, Title: Katyar Kaljat Ghusali, Type: movie, Year: 2015, Runtime: 162, Genres: Musical
+		2. RATING: 8.7, VOTES: 8000, MOVIE: Identifier: tt3327994, Title: Human, Type: movie, Year: 2015, Runtime: 190, Genres: Documentary
+		3. RATING: 8.6, VOTES: 3317, MOVIE: Identifier: tt2473476, Title: Be Here Now, Type: movie, Year: 2015, Runtime: 100, Genres: Biography, Documentary, Drama
+		4. RATING: 8.5, VOTES: 9308, MOVIE: Identifier: tt4991384, Title: Visaaranai, Type: movie, Year: 2015, Runtime: 117, Genres: Crime, Drama, Thriller
+		5. RATING: 8.5, VOTES: 3117, MOVIE: Identifier: tt4846952, Title: Angrej, Type: movie, Year: 2015, Runtime: 130, Genres: Romance
+		6. RATING: 8.5, VOTES: 2459, MOVIE: Identifier: tt4658770, Title: Belaseshe, Type: movie, Year: 2015, Runtime: 141, Genres: Drama, Family
+		7. RATING: 8.5, VOTES: 2072, MOVIE: Identifier: tt4476736, Title: Hamlet, Type: movie, Year: 2015, Runtime: 217, Genres: Drama
+		8. RATING: 8.4, VOTES: 18262, MOVIE: Identifier: tt4987556, Title: Thani Oruvan, Type: movie, Year: 2015, Runtime: 160, Genres: Action, Crime, Thriller
+		9. RATING: 8.4, VOTES: 13616, MOVIE: Identifier: tt4908644, Title: Winter on Fire: Ukraine's Fight for Freedom, Type: movie, Year: 2015, Runtime: 102, Genres: Documentary
+		10. RATING: 8.4, VOTES: 6755, MOVIE: Identifier: tt4429128, Title: Papanasam, Type: movie, Year: 2015, Runtime: 179, Genres: Drama, Thriller
+	YEAR: 2016
+		1. RATING: 9.1, VOTES: 24753, MOVIE: Identifier: tt5354160, Title: Mirror Game, Type: movie, Year: 2016, Runtime: 147, Genres: Crime, Mystery, Thriller
+		2. RATING: 9.0, VOTES: 4671, MOVIE: Identifier: tt5510934, Title: The Unnamed, Type: movie, Year: 2016, Runtime: 100, Genres: Drama
+		3. RATING: 8.9, VOTES: 18582, MOVIE: Identifier: tt5275892, Title: O.J.: Made in America, Type: movie, Year: 2016, Runtime: 467, Genres: Biography, Crime, Documentary
+		4. RATING: 8.9, VOTES: 6087, MOVIE: Identifier: tt5311546, Title: Natsamrat, Type: movie, Year: 2016, Runtime: 166, Genres: Drama, Family
+		5. RATING: 8.7, VOTES: 106660, MOVIE: Identifier: tt5813916, Title: The Mountain II, Type: movie, Year: 2016, Runtime: 135, Genres: Action, Drama, War
+		6. RATING: 8.7, VOTES: 2820, MOVIE: Identifier: tt4909506, Title: Godhi Banna Sadharana Mykattu, Type: movie, Year: 2016, Runtime: 144, Genres: Drama, Thriller
+		7. RATING: 8.7, VOTES: 1977, MOVIE: Identifier: tt3917908, Title: An Insignificant Man, Type: movie, Year: 2016, Runtime: 96, Genres: Documentary, Thriller
+		8. RATING: 8.6, VOTES: 2810, MOVIE: Identifier: tt5069074, Title: A Billion Lives, Type: movie, Year: 2016, Runtime: 95, Genres: Documentary
+		9. RATING: 8.5, VOTES: 12175, MOVIE: Identifier: tt5867800, Title: Aruvi, Type: movie, Year: 2016, Runtime: 130, Genres: Drama
+		10. RATING: 8.5, VOTES: 1443, MOVIE: Identifier: tt5691226, Title: Pashupati Prasad, Type: movie, Year: 2016, Runtime: 140, Genres: Comedy, Drama, Romance
+	YEAR: 2017
+		1. RATING: 9.1, VOTES: 1603, MOVIE: Identifier: tt6095002, Title: Fade to Black, Type: movie, Year: 2017, Runtime: 81, Genres: Documentary
+		2. RATING: 9.0, VOTES: 6726, MOVIE: Identifier: tt5963218, Title: Aloko Udapadi, Type: movie, Year: 2017, Runtime: 113, Genres: Drama, History
+		3. RATING: 9.0, VOTES: 2204, MOVIE: Identifier: tt5552086, Title: Life Begins Now, Type: movie, Year: 2017, Runtime: 84, Genres: Drama, Romance
+		4. RATING: 9.0, VOTES: 1066, MOVIE: Identifier: tt6720298, Title: Muskurahatein, Type: movie, Year: 2017, Runtime: 132, Genres: Romance
+		5. RATING: 8.9, VOTES: 3209, MOVIE: Identifier: tt6679360, Title: On vam ne Dimon, Type: movie, Year: 2017, Runtime: 50, Genres: Documentary
+		6. RATING: 8.8, VOTES: 3216, MOVIE: Identifier: tt7662752, Title: You Go to My Head, Type: movie, Year: 2017, Runtime: 116, Genres: Drama, Mystery, Romance
+		7. RATING: 8.8, VOTES: 2783, MOVIE: Identifier: tt5810000, Title: I, Timon, Type: movie, Year: 2017, Runtime: 78, Genres: Drama, Thriller
+		8. RATING: 8.8, VOTES: 1151, MOVIE: Identifier: tt6481232, Title: Scream for Me Sarajevo, Type: movie, Year: 2017, Runtime: 95, Genres: Documentary, Music, War
+		9. RATING: 8.7, VOTES: 1448, MOVIE: Identifier: tt6498526, Title: Purgatory, Type: movie, Year: 2017, Runtime: 55, Genres: Drama, Horror, Thriller
+		10. RATING: 8.6, VOTES: 7817, MOVIE: Identifier: tt4640206, Title: Sachin - A Billion Dreams, Type: movie, Year: 2017, Runtime: 138, Genres: Documentary, Sport
+	YEAR: 2018
+		1. RATING: 9.3, VOTES: 1890, MOVIE: Identifier: tt7400974, Title: Turned Out, Type: movie, Year: 2018, Runtime: 0, Genres: Crime, Drama, Mystery
+		2. RATING: 9.3, VOTES: 1062, MOVIE: Identifier: tt6856044, Title: Something to Do with Death, Type: movie, Year: 2018, Runtime: 85, Genres: Drama
+		3. RATING: 9.1, VOTES: 3011, MOVIE: Identifier: tt5773402, Title: Dominion, Type: movie, Year: 2018, Runtime: 120, Genres: Documentary
+		4. RATING: 8.9, VOTES: 14080, MOVIE: Identifier: tt7738784, Title: Peranbu, Type: movie, Year: 2018, Runtime: 147, Genres: Drama
+		5. RATING: 8.9, VOTES: 5829, MOVIE: Identifier: tt7391996, Title: C/o Kancharapalem, Type: movie, Year: 2018, Runtime: 152, Genres: Drama
+		6. RATING: 8.9, VOTES: 1334, MOVIE: Identifier: tt9794412, Title: Morine, Type: movie, Year: 2018, Runtime: 115, Genres: Drama, History
+		7. RATING: 8.8, VOTES: 12108, MOVIE: Identifier: tt8176054, Title: Pariyerum Perumal, Type: movie, Year: 2018, Runtime: 154, Genres: Drama
+		8. RATING: 8.8, VOTES: 2706, MOVIE: Identifier: tt9151704, Title: Burn the Stage: The Movie, Type: movie, Year: 2018, Runtime: 84, Genres: Documentary, Music
+		9. RATING: 8.8, VOTES: 2697, MOVIE: Identifier: tt6058226, Title: Ekvtime: Man of God, Type: movie, Year: 2018, Runtime: 132, Genres: Biography, Drama, History
+		10. RATING: 8.7, VOTES: 4284, MOVIE: Identifier: tt9231140, Title: A Man Called Ahok, Type: movie, Year: 2018, Runtime: 102, Genres: Biography, Drama
+	YEAR: 2019
+		1. RATING: 9.0, VOTES: 1128, MOVIE: Identifier: tt10133066, Title: Swayamvada, Type: movie, Year: 2019, Runtime: 131, Genres: Drama
+		2. RATING: 8.8, VOTES: 4605, MOVIE: Identifier: tt6735740, Title: Love in Kilnerry, Type: movie, Year: 2019, Runtime: 100, Genres: Comedy
+		3. RATING: 8.8, VOTES: 1111, MOVIE: Identifier: tt10867504, Title: Fan, Type: movie, Year: 2019, Runtime: 145, Genres: Drama
+		4. RATING: 8.7, VOTES: 4477, MOVIE: Identifier: tt6463320, Title: Zana, Type: movie, Year: 2019, Runtime: 97, Genres: Drama, Mystery, Thriller
+		5. RATING: 8.7, VOTES: 1358, MOVIE: Identifier: tt10765852, Title: Metallica & San Francisco Symphony - S&M2, Type: movie, Year: 2019, Runtime: 150, Genres: Music
+		6. RATING: 8.7, VOTES: 1203, MOVIE: Identifier: tt10469118, Title: Hellaro, Type: movie, Year: 2019, Runtime: 121, Genres: Drama
+		7. RATING: 8.6, VOTES: 650136, MOVIE: Identifier: tt6751668, Title: Parasite, Type: movie, Year: 2019, Runtime: 132, Genres: Comedy, Drama, Thriller
+		8. RATING: 8.6, VOTES: 11953, MOVIE: Identifier: tt8413338, Title: Kumbalangi Nights, Type: movie, Year: 2019, Runtime: 135, Genres: Comedy, Drama, Romance
+		9. RATING: 8.6, VOTES: 11591, MOVIE: Identifier: tt8948790, Title: Jersey, Type: movie, Year: 2019, Runtime: 157, Genres: Drama, Sport
+		10. RATING: 8.6, VOTES: 1556, MOVIE: Identifier: tt8747560, Title: KD (A) Karuppudurai, Type: movie, Year: 2019, Runtime: 123, Genres: Drama
+elapsed time (s): 0.7345586499999968 
+
+processing: TOP movie 1 2000 2020
+	YEAR: 2000
+		1. RATING: 8.8, VOTES: 1580, MOVIE: Identifier: tt0270321, Title: Dr. Babasaheb Ambedkar, Type: movie, Year: 2000, Runtime: 197, Genres: Biography, History
+	YEAR: 2001
+		1. RATING: 8.8, VOTES: 1723737, MOVIE: Identifier: tt0120737, Title: The Lord of the Rings: The Fellowship of the Ring, Type: movie, Year: 2001, Runtime: 178, Genres: Action, Adventure, Drama
+	YEAR: 2002
+		1. RATING: 8.7, VOTES: 1539253, MOVIE: Identifier: tt0167261, Title: The Lord of the Rings: The Two Towers, Type: movie, Year: 2002, Runtime: 179, Genres: Action, Adventure, Drama
+	YEAR: 2003
+		1. RATING: 8.9, VOTES: 1702494, MOVIE: Identifier: tt0167260, Title: The Lord of the Rings: The Return of the King, Type: movie, Year: 2003, Runtime: 201, Genres: Action, Adventure, Drama
+	YEAR: 2004
+		1. RATING: 8.6, VOTES: 2979, MOVIE: Identifier: tt1601792, Title: Aa Naluguru, Type: movie, Year: 2004, Runtime: 141, Genres: Drama
+	YEAR: 2005
+		1. RATING: 8.7, VOTES: 18556, MOVIE: Identifier: tt0358456, Title: Earthlings, Type: movie, Year: 2005, Runtime: 95, Genres: Documentary
+	YEAR: 2006
+		1. RATING: 8.5, VOTES: 1238907, MOVIE: Identifier: tt0482571, Title: The Prestige, Type: movie, Year: 2006, Runtime: 130, Genres: Drama, Mystery, Sci-Fi
+	YEAR: 2007
+		1. RATING: 8.6, VOTES: 1859, MOVIE: Identifier: tt0965382, Title: Tom Petty and the Heartbreakers: Runnin' Down a Dream, Type: movie, Year: 2007, Runtime: 259, Genres: Documentary, Music
+	YEAR: 2008
+		1. RATING: 9.0, VOTES: 2406501, MOVIE: Identifier: tt0468569, Title: The Dark Knight, Type: movie, Year: 2008, Runtime: 152, Genres: Action, Crime, Drama
+	YEAR: 2009
+		1. RATING: 8.7, VOTES: 7059, MOVIE: Identifier: tt1621830, Title: Monpura, Type: movie, Year: 2009, Runtime: 136, Genres: Crime, Drama, Musical
+	YEAR: 2010
+		1. RATING: 8.8, VOTES: 2158864, MOVIE: Identifier: tt1375666, Title: Inception, Type: movie, Year: 2010, Runtime: 148, Genres: Action, Adventure, Sci-Fi
+	YEAR: 2011
+		1. RATING: 9.0, VOTES: 7202, MOVIE: Identifier: tt2185022, Title: Love on a Leash, Type: movie, Year: 2011, Runtime: 90, Genres: Comedy, Drama, Fantasy
+	YEAR: 2012
+		1. RATING: 8.8, VOTES: 2483, MOVIE: Identifier: tt2414166, Title: Led Zeppelin: Celebration Day, Type: movie, Year: 2012, Runtime: 124, Genres: Documentary, Music
+	YEAR: 2013
+		1. RATING: 9.2, VOTES: 44623, MOVIE: Identifier: tt2592910, Title: CM101MMXI Fundamentals, Type: movie, Year: 2013, Runtime: 139, Genres: Comedy, Documentary
+	YEAR: 2014
+		1. RATING: 9.1, VOTES: 1184, MOVIE: Identifier: tt3557258, Title: Through the Needle, Type: movie, Year: 2014, Runtime: 74, Genres: Biography, Documentary, Drama
+	YEAR: 2015
+		1. RATING: 8.8, VOTES: 2061, MOVIE: Identifier: tt5190958, Title: Katyar Kaljat Ghusali, Type: movie, Year: 2015, Runtime: 162, Genres: Musical
+	YEAR: 2016
+		1. RATING: 9.1, VOTES: 24753, MOVIE: Identifier: tt5354160, Title: Mirror Game, Type: movie, Year: 2016, Runtime: 147, Genres: Crime, Mystery, Thriller
+	YEAR: 2017
+		1. RATING: 9.1, VOTES: 1603, MOVIE: Identifier: tt6095002, Title: Fade to Black, Type: movie, Year: 2017, Runtime: 81, Genres: Documentary
+	YEAR: 2018
+		1. RATING: 9.3, VOTES: 1890, MOVIE: Identifier: tt7400974, Title: Turned Out, Type: movie, Year: 2018, Runtime: 0, Genres: Crime, Drama, Mystery
+	YEAR: 2019
+		1. RATING: 9.0, VOTES: 1128, MOVIE: Identifier: tt10133066, Title: Swayamvada, Type: movie, Year: 2019, Runtime: 131, Genres: Drama
+	YEAR: 2020
+		1. RATING: 9.5, VOTES: 2032, MOVIE: Identifier: tt12865416, Title: 30 Years and 15 Minutes, Type: movie, Year: 2020, Runtime: 95, Genres: Animation, Documentary
+elapsed time (s): 0.803774525999998 
+
+processing: TOP videoGame 5 2010 2020
+	YEAR: 2010
+		1. RATING: 9.5, VOTES: 18827, MOVIE: Identifier: tt1540125, Title: Mass Effect 2, Type: videoGame, Year: 2010, Runtime: 0, Genres: Action, Adventure, Sci-Fi
+		2. RATING: 9.4, VOTES: 24711, MOVIE: Identifier: tt1479962, Title: Red Dead Redemption, Type: videoGame, Year: 2010, Runtime: 0, Genres: Action, Adventure, Crime
+		3. RATING: 9.1, VOTES: 9329, MOVIE: Identifier: tt1199781, Title: God of War III, Type: videoGame, Year: 2010, Runtime: 0, Genres: Action, Adventure, Drama
+		4. RATING: 8.9, VOTES: 12506, MOVIE: Identifier: tt1606610, Title: Heavy Rain, Type: videoGame, Year: 2010, Runtime: 0, Genres: Adventure, Crime, Drama
+		5. RATING: 8.9, VOTES: 2147, MOVIE: Identifier: tt1698007, Title: Super Mario Galaxy 2, Type: videoGame, Year: 2010, Runtime: 0, Genres: Action, Adventure, Family
+	YEAR: 2011
+		1. RATING: 9.4, VOTES: 28245, MOVIE: Identifier: tt1568322, Title: Batman: Arkham City, Type: videoGame, Year: 2011, Runtime: 0, Genres: Action, Adventure, Crime
+		2. RATING: 9.4, VOTES: 27361, MOVIE: Identifier: tt1814884, Title: The Elder Scrolls V: Skyrim, Type: videoGame, Year: 2011, Runtime: 0, Genres: Action, Adventure, Fantasy
+		3. RATING: 9.4, VOTES: 14342, MOVIE: Identifier: tt1648163, Title: Portal 2, Type: videoGame, Year: 2011, Runtime: 0, Genres: Action, Adventure, Comedy
+		4. RATING: 9.1, VOTES: 3839, MOVIE: Identifier: tt2015348, Title: Dark Souls, Type: videoGame, Year: 2011, Runtime: 0, Genres: Action, Adventure, Fantasy
+		5. RATING: 9.0, VOTES: 19717, MOVIE: Identifier: tt1800763, Title: Uncharted 3: Drake's Deception, Type: videoGame, Year: 2011, Runtime: 0, Genres: Action, Adventure, Fantasy
+	YEAR: 2012
+		1. RATING: 9.2, VOTES: 11456, MOVIE: Identifier: tt2006890, Title: The Walking Dead, Type: videoGame, Year: 2012, Runtime: 0, Genres: Action, Adventure, Drama
+		2. RATING: 9.1, VOTES: 14708, MOVIE: Identifier: tt1839558, Title: Mass Effect 3, Type: videoGame, Year: 2012, Runtime: 0, Genres: Action, Adventure, Sci-Fi
+		3. RATING: 8.9, VOTES: 17112, MOVIE: Identifier: tt2321297, Title: Far Cry 3, Type: videoGame, Year: 2012, Runtime: 0, Genres: Action, Adventure
+		4. RATING: 8.7, VOTES: 5797, MOVIE: Identifier: tt2385021, Title: Borderlands 2, Type: videoGame, Year: 2012, Runtime: 0, Genres: Action, Adventure, Comedy
+		5. RATING: 8.7, VOTES: 3073, MOVIE: Identifier: tt1821474, Title: Journey, Type: videoGame, Year: 2012, Runtime: 0, Genres: Adventure, Fantasy
+	YEAR: 2013
+		1. RATING: 9.7, VOTES: 54364, MOVIE: Identifier: tt2140553, Title: The Last of Us, Type: videoGame, Year: 2013, Runtime: 0, Genres: Action, Adventure, Drama
+		2. RATING: 9.5, VOTES: 54299, MOVIE: Identifier: tt2103188, Title: Grand Theft Auto V, Type: videoGame, Year: 2013, Runtime: 0, Genres: Action, Adventure, Crime
+		3. RATING: 9.1, VOTES: 18830, MOVIE: Identifier: tt1712064, Title: BioShock Infinite, Type: videoGame, Year: 2013, Runtime: 0, Genres: Action, Adventure, Mystery
+		4. RATING: 9.0, VOTES: 1279, MOVIE: Identifier: tt3206522, Title: The Legend of Zelda: The Wind Waker HD, Type: videoGame, Year: 2013, Runtime: 0, Genres: Action, Adventure, Fantasy
+		5. RATING: 8.9, VOTES: 6400, MOVIE: Identifier: tt3186880, Title: The Wolf Among Us, Type: videoGame, Year: 2013, Runtime: 0, Genres: Action, Adventure, Crime
+	YEAR: 2014
+		1. RATING: 9.3, VOTES: 1449, MOVIE: Identifier: tt3291104, Title: P.T., Type: videoGame, Year: 2014, Runtime: 0, Genres: Horror
+		2. RATING: 9.0, VOTES: 8562, MOVIE: Identifier: tt3468818, Title: The Last of Us: Left Behind, Type: videoGame, Year: 2014, Runtime: 0, Genres: Action, Adventure, Drama
+		3. RATING: 8.9, VOTES: 4302, MOVIE: Identifier: tt2133326, Title: South Park: The Stick of Truth, Type: videoGame, Year: 2014, Runtime: 0, Genres: Action, Adventure, Comedy
+		4. RATING: 8.9, VOTES: 3583, MOVIE: Identifier: tt3782832, Title: Tales from the Borderlands: A Telltale Games Series, Type: videoGame, Year: 2014, Runtime: 0, Genres: Adventure, Comedy, Fantasy
+		5. RATING: 8.8, VOTES: 1818, MOVIE: Identifier: tt3898332, Title: BioShock Infinite: Burial at Sea, Type: videoGame, Year: 2014, Runtime: 0, Genres: Action, Adventure, Mystery
+	YEAR: 2015
+		1. RATING: 9.7, VOTES: 22328, MOVIE: Identifier: tt2993508, Title: The Witcher 3: Wild Hunt, Type: videoGame, Year: 2015, Runtime: 0, Genres: Action, Adventure, Drama
+		2. RATING: 9.5, VOTES: 5491, MOVIE: Identifier: tt5547960, Title: The Witcher 3: Wild Hunt - Hearts of Stone, Type: videoGame, Year: 2015, Runtime: 0, Genres: Action, Adventure, Crime
+		3. RATING: 9.4, VOTES: 4473, MOVIE: Identifier: tt5766946, Title: Uncharted: The Nathan Drake Collection, Type: videoGame, Year: 2015, Runtime: 0, Genres: Action, Adventure, Fantasy
+		4. RATING: 9.4, VOTES: 1139, MOVIE: Identifier: tt5032376, Title: Bloodborne: The Old Hunters, Type: videoGame, Year: 2015, Runtime: 0, Genres: Action, Adventure, Fantasy
+		5. RATING: 9.2, VOTES: 4107, MOVIE: Identifier: tt3814634, Title: Bloodborne, Type: videoGame, Year: 2015, Runtime: 0, Genres: Action, Adventure, Fantasy
+	YEAR: 2016
+		1. RATING: 9.7, VOTES: 6608, MOVIE: Identifier: tt5667286, Title: The Witcher 3: Wild Hunt - Blood and Wine, Type: videoGame, Year: 2016, Runtime: 0, Genres: Action, Adventure, Crime
+		2. RATING: 9.5, VOTES: 24081, MOVIE: Identifier: tt3334704, Title: Uncharted 4: A Thief's End, Type: videoGame, Year: 2016, Runtime: 0, Genres: Action, Adventure, Drama
+		3. RATING: 9.3, VOTES: 2247, MOVIE: Identifier: tt3944082, Title: Persona 5, Type: videoGame, Year: 2016, Runtime: 0, Genres: Adventure, Fantasy
+		4. RATING: 9.3, VOTES: 1334, MOVIE: Identifier: tt5734258, Title: Batman: Return to Arkham, Type: videoGame, Year: 2016, Runtime: 0, Genres: Action, Adventure, Crime
+		5. RATING: 9.1, VOTES: 3256, MOVIE: Identifier: tt4795016, Title: Dark Souls III, Type: videoGame, Year: 2016, Runtime: 0, Genres: Action, Adventure, Fantasy
+	YEAR: 2017
+		1. RATING: 9.4, VOTES: 5592, MOVIE: Identifier: tt3253986, Title: The Legend of Zelda: Breath of the Wild, Type: videoGame, Year: 2017, Runtime: 0, Genres: Action, Adventure, Fantasy
+		2. RATING: 9.1, VOTES: 10970, MOVIE: Identifier: tt4044024, Title: Horizon Zero Dawn, Type: videoGame, Year: 2017, Runtime: 0, Genres: Action, Adventure, Fantasy
+		3. RATING: 9.0, VOTES: 3214, MOVIE: Identifier: tt6423026, Title: Super Mario Odyssey, Type: videoGame, Year: 2017, Runtime: 0, Genres: Action, Adventure, Family
+		4. RATING: 8.9, VOTES: 2293, MOVIE: Identifier: tt5238626, Title: NieR: Automata, Type: videoGame, Year: 2017, Runtime: 0, Genres: Action, Adventure, Sci-Fi
+		5. RATING: 8.8, VOTES: 1241, MOVIE: Identifier: tt7791150, Title: Hollow Knight, Type: videoGame, Year: 2017, Runtime: 0, Genres: Action, Adventure, Animation
+	YEAR: 2018
+		1. RATING: 9.7, VOTES: 26956, MOVIE: Identifier: tt6161168, Title: Red Dead Redemption II, Type: videoGame, Year: 2018, Runtime: 0, Genres: Action, Adventure, Crime
+		2. RATING: 9.6, VOTES: 20088, MOVIE: Identifier: tt5838588, Title: God of War, Type: videoGame, Year: 2018, Runtime: 0, Genres: Action, Adventure, Drama
+		3. RATING: 9.2, VOTES: 15733, MOVIE: Identifier: tt5807780, Title: Spider-Man, Type: videoGame, Year: 2018, Runtime: 0, Genres: Action, Adventure, Comedy
+		4. RATING: 9.2, VOTES: 13494, MOVIE: Identifier: tt5158314, Title: Detroit: Become Human, Type: videoGame, Year: 2018, Runtime: 0, Genres: Adventure, Drama, Mystery
+		5. RATING: 9.0, VOTES: 2309, MOVIE: Identifier: tt5370130, Title: Super Smash Bros. Ultimate, Type: videoGame, Year: 2018, Runtime: 0, Genres: Action, Adventure, Animation
+	YEAR: 2019
+		1. RATING: 9.1, VOTES: 5531, MOVIE: Identifier: tt7826034, Title: Resident Evil 2, Type: videoGame, Year: 2019, Runtime: 0, Genres: Action, Adventure, Horror
+		2. RATING: 8.9, VOTES: 6448, MOVIE: Identifier: tt5807606, Title: Death Stranding, Type: videoGame, Year: 2019, Runtime: 0, Genres: Action, Adventure, Drama
+		3. RATING: 8.7, VOTES: 1996, MOVIE: Identifier: tt8558306, Title: Sekiro: Shadows Die Twice, Type: videoGame, Year: 2019, Runtime: 0, Genres: Action, Adventure, Fantasy
+		4. RATING: 8.6, VOTES: 7883, MOVIE: Identifier: tt5691474, Title: Star Wars Jedi: Fallen Order, Type: videoGame, Year: 2019, Runtime: 0, Genres: Action, Adventure, Drama
+		5. RATING: 8.6, VOTES: 1638, MOVIE: Identifier: tt8651604, Title: Devil May Cry 5, Type: videoGame, Year: 2019, Runtime: 0, Genres: Action, Adventure, Fantasy
+	YEAR: 2020
+		1. RATING: 9.3, VOTES: 5296, MOVIE: Identifier: tt7651352, Title: Ghost of Tsushima, Type: videoGame, Year: 2020, Runtime: 0, Genres: Action, Adventure, Drama
+		2. RATING: 9.1, VOTES: 2757, MOVIE: Identifier: tt6057416, Title: Final Fantasy VII Remake, Type: videoGame, Year: 2020, Runtime: 0, Genres: Action, Adventure, Fantasy
+		3. RATING: 8.7, VOTES: 2011, MOVIE: Identifier: tt8550890, Title: Doom Eternal, Type: videoGame, Year: 2020, Runtime: 0, Genres: Action, Adventure, Animation
+		4. RATING: 8.6, VOTES: 2817, MOVIE: Identifier: tt12496734, Title: Spider-Man: Miles Morales, Type: videoGame, Year: 2020, Runtime: 0, Genres: Action, Adventure, Crime
+		5. RATING: 8.5, VOTES: 1464, MOVIE: Identifier: tt12354406, Title: Mafia: Definitive Edition, Type: videoGame, Year: 2020, Runtime: 0, Genres: Action, Crime, Drama
+elapsed time (s): 0.6735979090000015 
+
+processing: TOP tvSeries 4 2000 2019
+	YEAR: 2000
+		1. RATING: 9.3, VOTES: 2163, MOVIE: Identifier: tt3109706, Title: Al-Zeer Salem, Type: tvSeries, Year: 2000, Runtime: 0, Genres: Action, Biography, Drama
+		2. RATING: 8.8, VOTES: 2213, MOVIE: Identifier: tt0292829, Title: Office Office, Type: tvSeries, Year: 2000, Runtime: 0, Genres: Comedy
+		3. RATING: 8.7, VOTES: 108981, MOVIE: Identifier: tt0264235, Title: Curb Your Enthusiasm, Type: tvSeries, Year: 2000, Runtime: 28, Genres: Comedy
+		4. RATING: 8.7, VOTES: 5968, MOVIE: Identifier: tt0481256, Title: Fighting Spirit, Type: tvSeries, Year: 2000, Runtime: 20, Genres: Action, Animation, Comedy
+	YEAR: 2001
+		1. RATING: 8.7, VOTES: 125959, MOVIE: Identifier: tt0248654, Title: Six Feet Under, Type: tvSeries, Year: 2001, Runtime: 55, Genres: Comedy, Drama
+		2. RATING: 8.5, VOTES: 103430, MOVIE: Identifier: tt0290978, Title: The Office, Type: tvSeries, Year: 2001, Runtime: 30, Genres: Comedy, Drama
+		3. RATING: 8.5, VOTES: 48646, MOVIE: Identifier: tt0278238, Title: Samurai Jack, Type: tvSeries, Year: 2001, Runtime: 25, Genres: Action, Adventure, Animation
+		4. RATING: 8.5, VOTES: 43323, MOVIE: Identifier: tt0275137, Title: Justice League, Type: tvSeries, Year: 2001, Runtime: 22, Genres: Action, Adventure, Animation
+	YEAR: 2002
+		1. RATING: 9.3, VOTES: 300931, MOVIE: Identifier: tt0306414, Title: The Wire, Type: tvSeries, Year: 2002, Runtime: 59, Genres: Crime, Drama, Thriller
+		2. RATING: 9.2, VOTES: 4274, MOVIE: Identifier: tt0316613, Title: Pretenders, Type: tvSeries, Year: 2002, Runtime: 60, Genres: Adventure, Comedy, Mystery
+		3. RATING: 9.1, VOTES: 2533, MOVIE: Identifier: tt0369131, Title: Madventures, Type: tvSeries, Year: 2002, Runtime: 35, Genres: Documentary
+		4. RATING: 9.0, VOTES: 250629, MOVIE: Identifier: tt0303461, Title: Firefly, Type: tvSeries, Year: 2002, Runtime: 44, Genres: Adventure, Drama, Sci-Fi
+	YEAR: 2003
+		1. RATING: 8.8, VOTES: 4246, MOVIE: Identifier: tt0386950, Title: Air Crash Investigation, Type: tvSeries, Year: 2003, Runtime: 46, Genres: Crime, Documentary, Drama
+		2. RATING: 8.7, VOTES: 286003, MOVIE: Identifier: tt0367279, Title: Arrested Development, Type: tvSeries, Year: 2003, Runtime: 22, Genres: Comedy
+		3. RATING: 8.7, VOTES: 58265, MOVIE: Identifier: tt0353049, Title: Chappelle's Show, Type: tvSeries, Year: 2003, Runtime: 22, Genres: Comedy, Music
+		4. RATING: 8.7, VOTES: 3008, MOVIE: Identifier: tt0364843, Title: Most Extreme Elimination Challenge, Type: tvSeries, Year: 2003, Runtime: 30, Genres: Action, Adventure, Comedy
+	YEAR: 2004
+		1. RATING: 8.8, VOTES: 16013, MOVIE: Identifier: tt1518542, Title: Sarabhai V/S Sarabhai, Type: tvSeries, Year: 2004, Runtime: 30, Genres: Comedy
+		2. RATING: 8.8, VOTES: 3412, MOVIE: Identifier: tt0441059, Title: Kaamelott, Type: tvSeries, Year: 2004, Runtime: 7, Genres: Adventure, Comedy, Fantasy
+		3. RATING: 8.7, VOTES: 428461, MOVIE: Identifier: tt0412142, Title: House, Type: tvSeries, Year: 2004, Runtime: 44, Genres: Drama, Mystery
+		4. RATING: 8.7, VOTES: 157296, MOVIE: Identifier: tt0407362, Title: Battlestar Galactica, Type: tvSeries, Year: 2004, Runtime: 44, Genres: Action, Adventure, Drama
+	YEAR: 2005
+		1. RATING: 9.7, VOTES: 2135, MOVIE: Identifier: tt7151672, Title: Choufli Hal, Type: tvSeries, Year: 2005, Runtime: 0, Genres: Comedy
+		2. RATING: 9.5, VOTES: 2693, MOVIE: Identifier: tt3062514, Title: Khawatir, Type: tvSeries, Year: 2005, Runtime: 25, Genres: Reality-TV
+		3. RATING: 9.3, VOTES: 269265, MOVIE: Identifier: tt0417299, Title: Avatar: The Last Airbender, Type: tvSeries, Year: 2005, Runtime: 23, Genres: Action, Adventure, Animation
+		4. RATING: 8.9, VOTES: 461810, MOVIE: Identifier: tt0386676, Title: The Office, Type: tvSeries, Year: 2005, Runtime: 22, Genres: Comedy
+	YEAR: 2006
+		1. RATING: 9.0, VOTES: 266756, MOVIE: Identifier: tt0877057, Title: Death Note, Type: tvSeries, Year: 2006, Runtime: 24, Genres: Animation, Crime, Drama
+		2. RATING: 9.0, VOTES: 1161, MOVIE: Identifier: tt0497294, Title: High Stakes Poker, Type: tvSeries, Year: 2006, Runtime: 60, Genres: Game-Show, Reality-TV, Sport
+		3. RATING: 8.7, VOTES: 56943, MOVIE: Identifier: tt0994314, Title: Code Geass, Type: tvSeries, Year: 2006, Runtime: 24, Genres: Action, Animation, Drama
+		4. RATING: 8.6, VOTES: 670269, MOVIE: Identifier: tt0773262, Title: Dexter, Type: tvSeries, Year: 2006, Runtime: 53, Genres: Crime, Drama, Mystery
+	YEAR: 2007
+		1. RATING: 9.7, VOTES: 1091, MOVIE: Identifier: tt8203520, Title: I stin Alpha i sti Vita oloi pan gia ti marmita, Type: tvSeries, Year: 2007, Runtime: 120, Genres: Sport
+		2. RATING: 8.9, VOTES: 7041, MOVIE: Identifier: tt1043822, Title: Vratice se rode, Type: tvSeries, Year: 2007, Runtime: 55, Genres: Comedy, Crime, Drama
+		3. RATING: 8.9, VOTES: 1912, MOVIE: Identifier: tt1743990, Title: Cinemassacre's Monster Madness, Type: tvSeries, Year: 2007, Runtime: 0, Genres: Documentary
+		4. RATING: 8.7, VOTES: 5615, MOVIE: Identifier: tt1051155, Title: The Universe, Type: tvSeries, Year: 2007, Runtime: 45, Genres: Documentary, History
+	YEAR: 2008
+		1. RATING: 9.6, VOTES: 1134, MOVIE: Identifier: tt2400629, Title: Coke Studio, Type: tvSeries, Year: 2008, Runtime: 60, Genres: Music
+		2. RATING: 9.4, VOTES: 1568308, MOVIE: Identifier: tt0903747, Title: Breaking Bad, Type: tvSeries, Year: 2008, Runtime: 49, Genres: Crime, Drama, Thriller
+		3. RATING: 9.0, VOTES: 2122, MOVIE: Identifier: tt1320363, Title: Departures, Type: tvSeries, Year: 2008, Runtime: 46, Genres: Documentary
+		4. RATING: 8.6, VOTES: 9922, MOVIE: Identifier: tt1298820, Title: Clannad: After Story, Type: tvSeries, Year: 2008, Runtime: 24, Genres: Animation, Comedy, Drama
+	YEAR: 2009
+		1. RATING: 9.1, VOTES: 137124, MOVIE: Identifier: tt1355642, Title: Fullmetal Alchemist: Brotherhood, Type: tvSeries, Year: 2009, Runtime: 24, Genres: Action, Adventure, Animation
+		2. RATING: 8.8, VOTES: 4640, MOVIE: Identifier: tt1408430, Title: 30 for 30, Type: tvSeries, Year: 2009, Runtime: 60, Genres: Biography, Documentary, History
+		3. RATING: 8.8, VOTES: 4489, MOVIE: Identifier: tt1400819, Title: Horrible Histories, Type: tvSeries, Year: 2009, Runtime: 28, Genres: Comedy, Family, History
+		4. RATING: 8.8, VOTES: 1028, MOVIE: Identifier: tt1547606, Title: The Great Queen Seondeok, Type: tvSeries, Year: 2009, Runtime: 60, Genres: Biography, Drama, History
+	YEAR: 2010
+		1. RATING: 9.1, VOTES: 845338, MOVIE: Identifier: tt1475582, Title: Sherlock, Type: tvSeries, Year: 2010, Runtime: 88, Genres: Crime, Drama, Mystery
+		2. RATING: 9.1, VOTES: 2310, MOVIE: Identifier: tt1708523, Title: The Island, Type: tvSeries, Year: 2010, Runtime: 45, Genres: Drama, History, Mystery
+		3. RATING: 9.0, VOTES: 2837, MOVIE: Identifier: tt2185037, Title: Running Man, Type: tvSeries, Year: 2010, Runtime: 80, Genres: Comedy, Game-Show, Reality-TV
+		4. RATING: 9.0, VOTES: 1231, MOVIE: Identifier: tt7248250, Title: VideoGameDunkey, Type: tvSeries, Year: 2010, Runtime: 0, Genres: Comedy
+	YEAR: 2011
+		1. RATING: 9.4, VOTES: 32676, MOVIE: Identifier: tt4202274, Title: The Filthy Frank Show, Type: tvSeries, Year: 2011, Runtime: 12, Genres: Comedy, Fantasy, Music
+		2. RATING: 9.3, VOTES: 4365, MOVIE: Identifier: tt2348531, Title: Half in the Bag, Type: tvSeries, Year: 2011, Runtime: 40, Genres: Comedy, Talk-Show
+		3. RATING: 9.2, VOTES: 1862898, MOVIE: Identifier: tt0944947, Title: Game of Thrones, Type: tvSeries, Year: 2011, Runtime: 57, Genres: Action, Adventure, Drama
+		4. RATING: 9.2, VOTES: 3193, MOVIE: Identifier: tt2147999, Title: Devon Ke Dev... Mahadev, Type: tvSeries, Year: 2011, Runtime: 22, Genres: Action, Drama, Fantasy
+	YEAR: 2012
+		1. RATING: 9.2, VOTES: 4845, MOVIE: Identifier: tt2063241, Title: Farouk Omar, Type: tvSeries, Year: 2012, Runtime: 45, Genres: Biography, Drama, History
+		2. RATING: 9.1, VOTES: 2929, MOVIE: Identifier: tt2910420, Title: Drzavni Posao, Type: tvSeries, Year: 2012, Runtime: 10, Genres: Comedy
+		3. RATING: 9.0, VOTES: 1380, MOVIE: Identifier: tt5804986, Title: The Big Lez Show, Type: tvSeries, Year: 2012, Runtime: 0, Genres: Comedy
+		4. RATING: 8.9, VOTES: 83923, MOVIE: Identifier: tt1865718, Title: Gravity Falls, Type: tvSeries, Year: 2012, Runtime: 23, Genres: Adventure, Animation, Comedy
+	YEAR: 2013
+		1. RATING: 10.0, VOTES: 2206, MOVIE: Identifier: tt12423408, Title: In Search of the Automatic House, Type: tvSeries, Year: 2013, Runtime: 0, Genres: Action, Adventure, Comedy
+		2. RATING: 9.4, VOTES: 2937, MOVIE: Identifier: tt3787912, Title: Best of the Worst, Type: tvSeries, Year: 2013, Runtime: 0, Genres: Comedy, Talk-Show
+		3. RATING: 9.2, VOTES: 423523, MOVIE: Identifier: tt2861424, Title: Rick and Morty, Type: tvSeries, Year: 2013, Runtime: 23, Genres: Adventure, Animation, Comedy
+		4. RATING: 9.1, VOTES: 2034, MOVIE: Identifier: tt4062640, Title: Pyarey Afzal, Type: tvSeries, Year: 2013, Runtime: 0, Genres: Drama, Romance
+	YEAR: 2014
+		1. RATING: 9.2, VOTES: 2250, MOVIE: Identifier: tt4266402, Title: Tiflisi, Type: tvSeries, Year: 2014, Runtime: 0, Genres: Action, History, Thriller
+		2. RATING: 9.0, VOTES: 1103, MOVIE: Identifier: tt5895684, Title: Every Frame a Painting, Type: tvSeries, Year: 2014, Runtime: 0, Genres: Documentary, History, Talk-Show
+		3. RATING: 8.9, VOTES: 519289, MOVIE: Identifier: tt2356777, Title: True Detective, Type: tvSeries, Year: 2014, Runtime: 55, Genres: Crime, Drama, Mystery
+		4. RATING: 8.9, VOTES: 343787, MOVIE: Identifier: tt2802850, Title: Fargo, Type: tvSeries, Year: 2014, Runtime: 53, Genres: Crime, Drama, Thriller
+	YEAR: 2015
+		1. RATING: 9.8, VOTES: 3070, MOVIE: Identifier: tt8560994, Title: Friday Five Sharp, Type: tvSeries, Year: 2015, Runtime: 0, Genres: Comedy
+		2. RATING: 9.2, VOTES: 7781, MOVIE: Identifier: tt4834232, Title: Critical Role, Type: tvSeries, Year: 2015, Runtime: 180, Genres: Adventure, Fantasy
+		3. RATING: 9.1, VOTES: 4912, MOVIE: Identifier: tt5182866, Title: Reply 1988, Type: tvSeries, Year: 2015, Runtime: 90, Genres: Comedy, Drama, Family
+		4. RATING: 9.1, VOTES: 1233, MOVIE: Identifier: tt4817038, Title: Casey Neistat Vlog, Type: tvSeries, Year: 2015, Runtime: 0, Genres: Documentary, Reality-TV
+	YEAR: 2016
+		1. RATING: 9.9, VOTES: 1556, MOVIE: Identifier: tt10116578, Title: Call Me Kevin, Type: tvSeries, Year: 2016, Runtime: 0, Genres: Comedy
+		2. RATING: 9.0, VOTES: 5430, MOVIE: Identifier: tt6244192, Title: Leah Remini: Scientology and the Aftermath, Type: tvSeries, Year: 2016, Runtime: 47, Genres: Documentary
+		3. RATING: 8.9, VOTES: 1337, MOVIE: Identifier: tt7194764, Title: BuzzFeed Unsolved: True Crime, Type: tvSeries, Year: 2016, Runtime: 0, Genres: Comedy, Crime, Documentary
+		4. RATING: 8.9, VOTES: 1179, MOVIE: Identifier: tt9169598, Title: UNHhhh, Type: tvSeries, Year: 2016, Runtime: 10, Genres: Comedy, Talk-Show
+	YEAR: 2017
+		1. RATING: 9.6, VOTES: 20928, MOVIE: Identifier: tt9471404, Title: The Chosen, Type: tvSeries, Year: 2017, Runtime: 54, Genres: Drama, History
+		2. RATING: 9.5, VOTES: 16935, MOVIE: Identifier: tt7450814, Title: Koombiyo, Type: tvSeries, Year: 2017, Runtime: 20, Genres: Crime, Drama, Thriller
+		3. RATING: 9.5, VOTES: 1251, MOVIE: Identifier: tt7690588, Title: Sahodaraya, Type: tvSeries, Year: 2017, Runtime: 0, Genres: Drama
+		4. RATING: 9.1, VOTES: 1331, MOVIE: Identifier: tt9434996, Title: The Real Bros of Simi Valley, Type: tvSeries, Year: 2017, Runtime: 30, Genres: Comedy
+	YEAR: 2018
+		1. RATING: 9.8, VOTES: 1654, MOVIE: Identifier: tt11207734, Title: Londra Merkez, Type: tvSeries, Year: 2018, Runtime: 0, Genres: Comedy, Sport
+		2. RATING: 9.7, VOTES: 3613, MOVIE: Identifier: tt7678620, Title: Bluey, Type: tvSeries, Year: 2018, Runtime: 7, Genres: Animation, Family
+		3. RATING: 9.5, VOTES: 1110, MOVIE: Identifier: tt8284230, Title: The Last Drive-In with Joe Bob Briggs, Type: tvSeries, Year: 2018, Runtime: 125, Genres: Comedy, Fantasy, Horror
+		4. RATING: 9.3, VOTES: 1046, MOVIE: Identifier: tt9098706, Title: Mesut Süre ile Iliski Testi, Type: tvSeries, Year: 2018, Runtime: 60, Genres: Comedy, Talk-Show
+	YEAR: 2019
+		1. RATING: 9.6, VOTES: 3946, MOVIE: Identifier: tt10680606, Title: Minecraft Epic, Type: tvSeries, Year: 2019, Runtime: 0, Genres: Action, Adventure, Comedy
+		2. RATING: 9.3, VOTES: 1041, MOVIE: Identifier: tt11357084, Title: Alif, Type: tvSeries, Year: 2019, Runtime: 39, Genres: Drama
+		3. RATING: 9.2, VOTES: 54344, MOVIE: Identifier: tt9432978, Title: Kota Factory, Type: tvSeries, Year: 2019, Runtime: 45, Genres: Comedy, Drama
+		4. RATING: 9.2, VOTES: 10244, MOVIE: Identifier: tt10530900, Title: Gullak, Type: tvSeries, Year: 2019, Runtime: 24, Genres: Comedy, Drama, Family
+elapsed time (s): 0.7026302550000025

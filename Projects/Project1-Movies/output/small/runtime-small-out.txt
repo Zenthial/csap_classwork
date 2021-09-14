@@ -1,0 +1,41 @@
+/usr/local/bin/python3.9 /Users/sps/Documents/CSapx/20211/Projects/01-Movies/sol/movies_main.py small
+Input is being redirected from /Users/sps/Documents/CSapx/20211/Projects/01-Movies/input/runtime.txt
+reading data/small.basics.tsv into dict...
+elapsed time (s): 0.00016175799999999796 
+
+reading data/small.ratings.tsv into dict...
+elapsed time (s): 6.709500000000312e-05 
+
+Total movies: 16
+Total ratings: 15 
+
+processing: RUNTIME movie 142 168
+	Identifier: tt0110912, Title: Pulp Fiction, Type: movie, Year: 1994, Runtime: 154, Genres: Crime, Drama
+	Identifier: tt4154756, Title: Avengers: Infinity War, Type: movie, Year: 2018, Runtime: 149, Genres: Action, Adventure, Sci-Fi
+	Identifier: tt0363921, Title: Raeeszada, Type: movie, Year: 1990, Runtime: 149, Genres: Drama
+	Identifier: tt1579705, Title: Street Fighter, Type: movie, Year: 1995, Runtime: 148, Genres: Action
+	Identifier: tt0081505, Title: The Shining, Type: movie, Year: 1980, Runtime: 146, Genres: Drama, Horror
+	Identifier: tt0114558, Title: Strange Days, Type: movie, Year: 1995, Runtime: 145, Genres: Action, Crime, Drama
+	Identifier: tt0285665, Title: Kuruthipunal, Type: movie, Year: 1995, Runtime: 143, Genres: Action, Drama, Thriller
+	Identifier: tt0111161, Title: The Shawshank Redemption, Type: movie, Year: 1994, Runtime: 142, Genres: Drama
+elapsed time (s): 2.1974000000000993e-05 
+
+processing: RUNTIME movie 237 240
+	No match found!
+elapsed time (s): 1.3126999999994726e-05 
+
+processing: RUNTIME short 58 59
+	No match found!
+elapsed time (s): 4.8600000000023624e-06 
+
+processing: RUNTIME tvEpisode 245 250
+	No match found!
+elapsed time (s): 3.7660000000022675e-06 
+
+processing: RUNTIME tvMiniSeries 600 600
+	No match found!
+elapsed time (s): 3.473999999996369e-06 
+
+processing: RUNTIME audiobook 10 20
+	No match found!
+elapsed time (s): 4.182999999997883e-06

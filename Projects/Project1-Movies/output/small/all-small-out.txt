@@ -1,0 +1,95 @@
+reading data/small.basics.tsv into dict...
+elapsed time (s): 0.000672869999999999 
+
+reading data/small.ratings.tsv into dict...
+elapsed time (s): 0.00037465799999999994 
+
+Total movies: 16
+Total ratings: 15 
+
+processing: LOOKUP tt0081505
+	MOVIE: Identifier: tt0081505, Title: The Shining, Type: movie, Year: 1980, Runtime: 146, Genres: Drama, Horror
+	RATING: Identifier: tt0081505, Rating: 8.4, Votes: 899812
+elapsed time (s): 3.5929999999961826e-06 
+
+processing: LOOKUP tt0816692
+	MOVIE: Identifier: tt0816692, Title: Interstellar, Type: movie, Year: 2014, Runtime: 169, Genres: Adventure, Drama, Sci-Fi
+	RATING: Identifier: tt0816692, Rating: 8.6, Votes: 1515781
+elapsed time (s): 2.2299999999988995e-06 
+
+processing: CONTAINS movie Avengers
+	Identifier: tt4154756, Title: Avengers: Infinity War, Type: movie, Year: 2018, Runtime: 149, Genres: Action, Adventure, Sci-Fi
+elapsed time (s): 1.1181999999998471e-05 
+
+processing: CONTAINS movie Starman
+	No match found!
+elapsed time (s): 7.571000000004824e-06 
+
+processing: YEAR_AND_GENRE movie 1995 Action
+	Identifier: tt0285665, Title: Kuruthipunal, Type: movie, Year: 1995, Runtime: 143, Genres: Action, Drama, Thriller
+	Identifier: tt0114558, Title: Strange Days, Type: movie, Year: 1995, Runtime: 145, Genres: Action, Crime, Drama
+	Identifier: tt1579705, Title: Street Fighter, Type: movie, Year: 1995, Runtime: 148, Genres: Action
+elapsed time (s): 2.357400000000537e-05 
+
+processing: YEAR_AND_GENRE movie 2010 Musical
+	No match found!
+elapsed time (s): 8.663999999998506e-06 
+
+processing: RUNTIME movie 142 168
+	Identifier: tt0110912, Title: Pulp Fiction, Type: movie, Year: 1994, Runtime: 154, Genres: Crime, Drama
+	Identifier: tt4154756, Title: Avengers: Infinity War, Type: movie, Year: 2018, Runtime: 149, Genres: Action, Adventure, Sci-Fi
+	Identifier: tt0363921, Title: Raeeszada, Type: movie, Year: 1990, Runtime: 149, Genres: Drama
+	Identifier: tt1579705, Title: Street Fighter, Type: movie, Year: 1995, Runtime: 148, Genres: Action
+	Identifier: tt0081505, Title: The Shining, Type: movie, Year: 1980, Runtime: 146, Genres: Drama, Horror
+	Identifier: tt0114558, Title: Strange Days, Type: movie, Year: 1995, Runtime: 145, Genres: Action, Crime, Drama
+	Identifier: tt0285665, Title: Kuruthipunal, Type: movie, Year: 1995, Runtime: 143, Genres: Action, Drama, Thriller
+	Identifier: tt0111161, Title: The Shawshank Redemption, Type: movie, Year: 1994, Runtime: 142, Genres: Drama
+elapsed time (s): 1.338399999999823e-05 
+
+processing: RUNTIME movie 237 240
+	No match found!
+elapsed time (s): 5.65099999999541e-06 
+
+processing: MOST_VOTES movie 5
+	1. VOTES: 2346808, MOVIE: Identifier: tt0111161, Title: The Shawshank Redemption, Type: movie, Year: 1994, Runtime: 142, Genres: Drama
+	2. VOTES: 1829154, MOVIE: Identifier: tt0110912, Title: Pulp Fiction, Type: movie, Year: 1994, Runtime: 154, Genres: Crime, Drama
+	3. VOTES: 1515781, MOVIE: Identifier: tt0816692, Title: Interstellar, Type: movie, Year: 2014, Runtime: 169, Genres: Adventure, Drama, Sci-Fi
+	4. VOTES: 992642, MOVIE: Identifier: tt0114814, Title: The Usual Suspects, Type: movie, Year: 1995, Runtime: 106, Genres: Crime, Mystery, Thriller
+	5. VOTES: 899812, MOVIE: Identifier: tt0081505, Title: The Shining, Type: movie, Year: 1980, Runtime: 146, Genres: Drama, Horror
+elapsed time (s): 1.5511000000002773e-05 
+
+processing: MOST_VOTES tvSpecial 5
+	No match found!
+elapsed time (s): 6.447999999999177e-06 
+
+processing: TOP movie 3 1994 1995
+	YEAR: 1994
+		1. RATING: 9.3, VOTES: 2346808, MOVIE: Identifier: tt0111161, Title: The Shawshank Redemption, Type: movie, Year: 1994, Runtime: 142, Genres: Drama
+		2. RATING: 8.9, VOTES: 1829154, MOVIE: Identifier: tt0110912, Title: Pulp Fiction, Type: movie, Year: 1994, Runtime: 154, Genres: Crime, Drama
+		3. RATING: 7.3, VOTES: 217034, MOVIE: Identifier: tt0110632, Title: Natural Born Killers, Type: movie, Year: 1994, Runtime: 118, Genres: Action, Crime, Drama
+	YEAR: 1995
+		1. RATING: 8.5, VOTES: 992642, MOVIE: Identifier: tt0114814, Title: The Usual Suspects, Type: movie, Year: 1995, Runtime: 106, Genres: Crime, Mystery, Thriller
+		2. RATING: 8.5, VOTES: 3755, MOVIE: Identifier: tt0285665, Title: Kuruthipunal, Type: movie, Year: 1995, Runtime: 143, Genres: Action, Drama, Thriller
+		3. RATING: 7.2, VOTES: 67297, MOVIE: Identifier: tt0114558, Title: Strange Days, Type: movie, Year: 1995, Runtime: 145, Genres: Action, Crime, Drama
+elapsed time (s): 1.814499999999719e-05 
+
+processing: TOP movie 10 1990 1995
+	YEAR: 1990
+		No match found!
+	YEAR: 1991
+		No match found!
+	YEAR: 1992
+		No match found!
+	YEAR: 1993
+		No match found!
+	YEAR: 1994
+		1. RATING: 9.3, VOTES: 2346808, MOVIE: Identifier: tt0111161, Title: The Shawshank Redemption, Type: movie, Year: 1994, Runtime: 142, Genres: Drama
+		2. RATING: 8.9, VOTES: 1829154, MOVIE: Identifier: tt0110912, Title: Pulp Fiction, Type: movie, Year: 1994, Runtime: 154, Genres: Crime, Drama
+		3. RATING: 7.3, VOTES: 217034, MOVIE: Identifier: tt0110632, Title: Natural Born Killers, Type: movie, Year: 1994, Runtime: 118, Genres: Action, Crime, Drama
+	YEAR: 1995
+		1. RATING: 8.5, VOTES: 992642, MOVIE: Identifier: tt0114814, Title: The Usual Suspects, Type: movie, Year: 1995, Runtime: 106, Genres: Crime, Mystery, Thriller
+		2. RATING: 8.5, VOTES: 3755, MOVIE: Identifier: tt0285665, Title: Kuruthipunal, Type: movie, Year: 1995, Runtime: 143, Genres: Action, Drama, Thriller
+		3. RATING: 7.2, VOTES: 67297, MOVIE: Identifier: tt0114558, Title: Strange Days, Type: movie, Year: 1995, Runtime: 145, Genres: Action, Crime, Drama
+		4. RATING: 6.0, VOTES: 9565, MOVIE: Identifier: tt0114885, Title: Waiting to Exhale, Type: movie, Year: 1995, Runtime: 124, Genres: Comedy, Drama, Romance
+		5. RATING: 4.9, VOTES: 62570, MOVIE: Identifier: tt0114436, Title: Showgirls, Type: movie, Year: 1995, Runtime: 128, Genres: Drama
+elapsed time (s): 1.6579000000002675e-05

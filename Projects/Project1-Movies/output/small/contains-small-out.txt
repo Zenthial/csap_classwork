@@ -1,0 +1,36 @@
+reading data/small.basics.tsv into dict...
+elapsed time (s): 0.0003517480000000059 
+
+reading data/small.ratings.tsv into dict...
+elapsed time (s): 0.00029023699999999875 
+
+Total movies: 16
+Total ratings: 15 
+
+processing: CONTAINS movie Avengers
+	Identifier: tt4154756, Title: Avengers: Infinity War, Type: movie, Year: 2018, Runtime: 149, Genres: Action, Adventure, Sci-Fi
+elapsed time (s): 2.7986000000000677e-05 
+
+processing: CONTAINS movie Starman
+	No match found!
+elapsed time (s): 4.17560000000039e-05 
+
+processing: CONTAINS movie The Big Lebowski
+	No match found!
+elapsed time (s): 7.669000000001813e-06 
+
+processing: CONTAINS movie WXYZ
+	No match found!
+elapsed time (s): 1.0510999999997772e-05 
+
+processing: CONTAINS movie Philadelphia
+	No match found!
+elapsed time (s): 4.98000000000165e-06 
+
+processing: CONTAINS tvEpisode Ozymandias
+	No match found!
+elapsed time (s): 3.2169999999998034e-06 
+
+processing: CONTAINS videoGame Silent Hill
+	No match found!
+elapsed time (s): 1.9424000000003994e-05

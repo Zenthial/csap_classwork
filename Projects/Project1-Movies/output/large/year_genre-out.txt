@@ -1,0 +1,986 @@
+reading data/title.basics.tsv into dict...
+elapsed time (s): 57.536652628 
+
+reading data/title.ratings.tsv into dict...
+elapsed time (s): 2.9831321799999984 
+
+Total movies: 7965199
+Total ratings: 1161579 
+
+processing: YEAR_AND_GENRE movie 1995 Action
+	Identifier: tt0978555, Title: 155 Alo Polis, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Drama
+	Identifier: tt0389725, Title: 7 Days, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama
+	Identifier: tt0114996, Title: A Chinese Odyssey: Part 2 - Cinderella, Type: movie, Year: 1995, Runtime: 98, Genres: Action, Adventure, Comedy
+	Identifier: tt0112778, Title: A Chinese Odyssey: Part One - Pandora's Box, Type: movie, Year: 1995, Runtime: 87, Genres: Action, Adventure, Comedy
+	Identifier: tt0287290, Title: A sangre fria, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt3669088, Title: Aaj Ka Maseeha, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt4862418, Title: Aaj Ka Romeo, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0172089, Title: Aatank Hi Aatank, Type: movie, Year: 1995, Runtime: 155, Genres: Action, Crime, Drama
+	Identifier: tt0109031, Title: Aazmayish, Type: movie, Year: 1995, Runtime: 147, Genres: Action, Drama, Romance
+	Identifier: tt0112272, Title: Ab Insaf Hoga, Type: movie, Year: 1995, Runtime: 125, Genres: Action, Drama
+	Identifier: tt2676096, Title: Ab to Jeene Do, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0109033, Title: Abducted II: The Reunion, Type: movie, Year: 1995, Runtime: 92, Genres: Action, Thriller
+	Identifier: tt6615988, Title: Abirbhab, Type: movie, Year: 1995, Runtime: 123, Genres: Action, Drama
+	Identifier: tt0273060, Title: Absuelto para matar, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Crime, Drama
+	Identifier: tt0236965, Title: Aksharam, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Crime, Drama
+	Identifier: tt0214458, Title: Al oltro lado de la ley, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0331168, Title: Al son de la metralleta, Type: movie, Year: 1995, Runtime: 90, Genres: Action
+	Identifier: tt0245704, Title: Alluda Majaaka!, Type: movie, Year: 1995, Runtime: 161, Genres: Action, Comedy, Drama
+	Identifier: tt0229429, Title: Amazons in White, Type: movie, Year: 1995, Runtime: 95, Genres: Action, Horror
+	Identifier: tt0182703, Title: American Chinatown, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Drama, Thriller
+	Identifier: tt0443845, Title: Amigos hasta la muerte, Type: movie, Year: 1995, Runtime: 78, Genres: Action, Crime, Drama
+	Identifier: tt0305209, Title: Amma Donga, Type: movie, Year: 1995, Runtime: 149, Genres: Action
+	Identifier: tt0153161, Title: Anatomia Extinction, Type: movie, Year: 1995, Runtime: 54, Genres: Action, Adult, Horror
+	Identifier: tt0112359, Title: Andolan, Type: movie, Year: 1995, Runtime: 165, Genres: Action, Comedy, Drama
+	Identifier: tt0423381, Title: Ang titser kong pogi, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Comedy, Drama
+	Identifier: tt0121074, Title: Angel on Fire, Type: movie, Year: 1995, Runtime: 95, Genres: Action
+	Identifier: tt0204823, Title: Angrakshak, Type: movie, Year: 1995, Runtime: 116, Genres: Action, Romance
+	Identifier: tt4936320, Title: Angrakshak: Body Guard, Type: movie, Year: 1995, Runtime: 153, Genres: Action
+	Identifier: tt0440043, Title: Anokhi Chaal, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama, Mystery
+	Identifier: tt0218821, Title: Asero, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Crime, Drama
+	Identifier: tt0112401, Title: Assassins, Type: movie, Year: 1995, Runtime: 132, Genres: Action, Crime, Thriller
+	Identifier: tt0284872, Title: Ataque salvaje, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0222755, Title: Atrapados, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Comedy, Crime
+	Identifier: tt0112408, Title: Attack of the 60 Foot Centerfolds, Type: movie, Year: 1995, Runtime: 84, Genres: Action, Adventure, Comedy
+	Identifier: tt0112418, Title: Aurora: Operation Intercept, Type: movie, Year: 1995, Runtime: 94, Genres: Action, Drama, Thriller
+	Identifier: tt0109178, Title: Automatic, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Sci-Fi, Thriller
+	Identifier: tt0121092, Title: BSR: The Trash Movie, Type: movie, Year: 1995, Runtime: 55, Genres: Action, Drama, Fantasy
+	Identifier: tt0139876, Title: Baasha, Type: movie, Year: 1995, Runtime: 145, Genres: Action, Crime, Drama
+	Identifier: tt0121989, Title: Baazi, Type: movie, Year: 1995, Runtime: 183, Genres: Action, Crime, Drama
+	Identifier: tt2672034, Title: Babar Adesh, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0112442, Title: Bad Boys, Type: movie, Year: 1995, Runtime: 119, Genres: Action, Comedy, Crime
+	Identifier: tt0377439, Title: Bahala vs. Sputnik, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0112451, Title: Ballistic, Type: movie, Year: 1995, Runtime: 96, Genres: Action, Thriller
+	Identifier: tt13561658, Title: Banglar Commando, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama, Romance
+	Identifier: tt1977713, Title: Banglar Nayok, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0112455, Title: Bao zha ling, Type: movie, Year: 1995, Runtime: 97, Genres: Action
+	Identifier: tt0467788, Title: Barkada walang atrasan, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Comedy
+	Identifier: tt0112459, Title: Barsaat, Type: movie, Year: 1995, Runtime: 166, Genres: Action, Romance
+	Identifier: tt0451644, Title: Batang-X, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Fantasy, Sci-Fi
+	Identifier: tt5321394, Title: Batas ang katapat mo, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0421692, Title: Batas ko ang katapat mo, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Comedy, Drama
+	Identifier: tt0112462, Title: Batman Forever, Type: movie, Year: 1995, Runtime: 121, Genres: Action, Adventure
+	Identifier: tt0452148, Title: Bawal na gamot 2, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama
+	Identifier: tt0112483, Title: Best of the Best 3: No Turning Back, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Crime, Drama
+	Identifier: tt0112494, Title: Beyond Desire, Type: movie, Year: 1995, Runtime: 87, Genres: Action, Thriller
+	Identifier: tt0112495, Title: Beyond Rangoon, Type: movie, Year: 1995, Runtime: 100, Genres: Action, Adventure, Drama
+	Identifier: tt3845320, Title: Bian cheng xiao xiong, Type: movie, Year: 1995, Runtime: 85, Genres: Action, Drama
+	Identifier: tt0245768, Title: Big Boss, Type: movie, Year: 1995, Runtime: 153, Genres: Action, Drama
+	Identifier: tt7197362, Title: Bisikan Cinta, Type: movie, Year: 1995, Runtime: 112, Genres: Action, Comedy, Romance
+	Identifier: tt0112519, Title: Black Scorpion, Type: movie, Year: 1995, Runtime: 92, Genres: Action, Crime, Sci-Fi
+	Identifier: tt0115698, Title: Blackwater Trail, Type: movie, Year: 1995, Runtime: 97, Genres: Action, Thriller
+	Identifier: tt0112528, Title: Blood Justice, Type: movie, Year: 1995, Runtime: 87, Genres: Action, Crime
+	Identifier: tt0112529, Title: Blood Ring 2, Type: movie, Year: 1995, Runtime: 88, Genres: Action
+	Identifier: tt0112700, Title: Body Count, Type: movie, Year: 1995, Runtime: 93, Genres: Action, Thriller
+	Identifier: tt0342139, Title: Bombmeister, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Adventure, Thriller
+	Identifier: tt0112732, Title: Breach of Trust, Type: movie, Year: 1995, Runtime: 96, Genres: Action, Drama, Thriller
+	Identifier: tt0112581, Title: Broken Bars, Type: movie, Year: 1995, Runtime: 97, Genres: Action, Thriller
+	Identifier: tt0369303, Title: Bukas bibitayin si itay, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama
+	Identifier: tt2357019, Title: Bunso: Isinilang kang palaban!, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Adventure, War
+	Identifier: tt0260772, Title: Buscando salida, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0112613, Title: Caged Heat 3000, Type: movie, Year: 1995, Runtime: 80, Genres: Action, Sci-Fi
+	Identifier: tt5140796, Title: Capt. Manuel Servo: Rebelde, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0112634, Title: Carnosaur 2, Type: movie, Year: 1995, Runtime: 83, Genres: Action, Horror, Sci-Fi
+	Identifier: tt7893386, Title: Chandiyage Putha, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0442945, Title: Chantaje complot criminal, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Crime, Drama
+	Identifier: tt0355313, Title: Chantha, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0115053, Title: China Dragon, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Comedy, Crime
+	Identifier: tt0437126, Title: Chyornye berety, Type: movie, Year: 1995, Runtime: 73, Genres: Action
+	Identifier: tt0367608, Title: City Dragon, Type: movie, Year: 1995, Runtime: 98, Genres: Action, Comedy
+	Identifier: tt0112702, Title: Coldblooded, Type: movie, Year: 1995, Runtime: 92, Genres: Action, Comedy, Thriller
+	Identifier: tt0313914, Title: Colmillos de furia, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Horror
+	Identifier: tt0443960, Title: Condena para un inocente, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Crime, Thriller
+	Identifier: tt0112712, Title: Condition Red, Type: movie, Year: 1995, Runtime: 83, Genres: Action, Drama, Thriller
+	Identifier: tt0112715, Title: Congo, Type: movie, Year: 1995, Runtime: 109, Genres: Action, Adventure, Mystery
+	Identifier: tt0101616, Title: Coolie No. 1, Type: movie, Year: 1995, Runtime: 143, Genres: Action, Comedy, Romance
+	Identifier: tt0296579, Title: Costales, Type: movie, Year: 1995, Runtime: 123, Genres: Action
+	Identifier: tt2098658, Title: Crayon Shin-chan: Unkokusai no Yabou, Type: movie, Year: 1995, Runtime: 94, Genres: Action, Adventure, Animation
+	Identifier: tt0442953, Title: Crimen en Chihuahua, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Crime, Drama
+	Identifier: tt0112740, Title: Crimson Tide, Type: movie, Year: 1995, Runtime: 116, Genres: Action, Drama, Thriller
+	Identifier: tt0115981, Title: Crosscut, Type: movie, Year: 1995, Runtime: 98, Genres: Action, Drama, Thriller
+	Identifier: tt0380284, Title: Cruce en Tijuana, Type: movie, Year: 1995, Runtime: 80, Genres: Action
+	Identifier: tt0112750, Title: Crying Freeman, Type: movie, Year: 1995, Runtime: 102, Genres: Action, Crime, Thriller
+	Identifier: tt0472751, Title: Crónica de una injusticia, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Crime, Drama
+	Identifier: tt0112755, Title: Cuo ti zhui ji zu he, Type: movie, Year: 1995, Runtime: 92, Genres: Action, Crime
+	Identifier: tt0112760, Title: Cutthroat Island, Type: movie, Year: 1995, Runtime: 124, Genres: Action, Adventure, Comedy
+	Identifier: tt0112764, Title: Cyber Vengeance, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Sci-Fi, Thriller
+	Identifier: tt0112763, Title: Cyberjack, Type: movie, Year: 1995, Runtime: 99, Genres: Action, Sci-Fi
+	Identifier: tt0112766, Title: Cyborg Cop III, Type: movie, Year: 1995, Runtime: 94, Genres: Action, Sci-Fi, Thriller
+	Identifier: tt7892188, Title: Dalulana Gini, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0112793, Title: Dangerous Prey, Type: movie, Year: 1995, Runtime: 93, Genres: Action, Crime, Drama
+	Identifier: tt0113029, Title: Dangerous Waters, Type: movie, Year: 1995, Runtime: 85, Genres: Action, Comedy, Thriller
+	Identifier: tt0112814, Title: Dead Badge, Type: movie, Year: 1995, Runtime: 95, Genres: Action, Drama, Thriller
+	Identifier: tt0112816, Title: Dead Giveaway, Type: movie, Year: 1995, Runtime: 92, Genres: Action, Crime
+	Identifier: tt0112819, Title: Dead Presidents, Type: movie, Year: 1995, Runtime: 119, Genres: Action, Crime, Drama
+	Identifier: tt0150287, Title: Deadly Exposure, Type: movie, Year: 1995, Runtime: 85, Genres: Action
+	Identifier: tt0150288, Title: Deadly Law, Type: movie, Year: 1995, Runtime: 80, Genres: Action
+	Identifier: tt0112829, Title: Deadly Past, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Crime, Drama
+	Identifier: tt0112839, Title: Decoy, Type: movie, Year: 1995, Runtime: 98, Genres: Action
+	Identifier: tt5196754, Title: Delinkwente, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0218143, Title: Demoledor, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0112851, Title: Desperado, Type: movie, Year: 1995, Runtime: 104, Genres: Action, Crime, Thriller
+	Identifier: tt0112853, Title: Destination Vegas, Type: movie, Year: 1995, Runtime: 78, Genres: Action
+	Identifier: tt6823074, Title: Deva, Type: movie, Year: 1995, Runtime: 140, Genres: Action, Drama, Romance
+	Identifier: tt2900646, Title: Devaa: The Power Man, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt1942841, Title: Dhee Jatt Di, Type: movie, Year: 1995, Runtime: 146, Genres: Action
+	Identifier: tt0435799, Title: Di mapigil ang init, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama, Thriller
+	Identifier: tt0112864, Title: Die Hard with a Vengeance, Type: movie, Year: 1995, Runtime: 128, Genres: Action, Adventure, Thriller
+	Identifier: tt0112867, Title: Digital Man, Type: movie, Year: 1995, Runtime: 95, Genres: Action, Sci-Fi, Thriller
+	Identifier: tt0112876, Title: Diya Aur Toofan, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama, Thriller
+	Identifier: tt6245094, Title: Djävligt Jagad, Type: movie, Year: 1995, Runtime: 71, Genres: Action, Comedy
+	Identifier: tt0402136, Title: Dobol trobol, Type: movie, Year: 1995, Runtime: 107, Genres: Action, Comedy
+	Identifier: tt8089402, Title: Dodong Scarface, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0437972, Title: Dog Tag: Katarungan sa aking kamay, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0110577, Title: Don't Give a Damn, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Comedy, Thriller
+	Identifier: tt0142236, Title: Dragon Ball Z: Fusion Reborn, Type: movie, Year: 1995, Runtime: 51, Genres: Action, Animation, Sci-Fi
+	Identifier: tt0142243, Title: Dragon Ball Z: Wrath of the Dragon, Type: movie, Year: 1995, Runtime: 52, Genres: Action, Animation, Sci-Fi
+	Identifier: tt0165251, Title: Dragon Fury, Type: movie, Year: 1995, Runtime: 79, Genres: Action, Sci-Fi
+	Identifier: tt0163608, Title: Drifting School, Type: movie, Year: 1995, Runtime: 90, Genres: Action
+	Identifier: tt0112906, Title: Droid Gunner, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Sci-Fi
+	Identifier: tt3854470, Title: Duelo de serpientes, Type: movie, Year: 1995, Runtime: 85, Genres: Action
+	Identifier: tt0112916, Title: Dushmani: A Violent Love Story, Type: movie, Year: 1995, Runtime: 156, Genres: Action, Drama, Romance
+	Identifier: tt0112918, Title: Dvoynik, Type: movie, Year: 1995, Runtime: 80, Genres: Action
+	Identifier: tt7893270, Title: Edath Chandiya Adath Chandiya, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt4488954, Title: Ek Aur Ziddi Man, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt3669162, Title: Ek Ka Jawab Do, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0220306, Title: El amarrador 3, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0445274, Title: El castrado, Type: movie, Year: 1995, Runtime: 83, Genres: Action, Crime, Drama
+	Identifier: tt0446121, Title: El emperador de la muerte, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Crime, Drama
+	Identifier: tt0297121, Title: El fiscal de hierro 4, Type: movie, Year: 1995, Runtime: 83, Genres: Action, Crime, Thriller
+	Identifier: tt0219007, Title: El gatillero de la mafia, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0216804, Title: El hijo del pistolero, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Crime, Drama
+	Identifier: tt0112960, Title: Enemies Within, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Thriller
+	Identifier: tt0115026, Title: Enemy Shadow, Type: movie, Year: 1995, Runtime: 92, Genres: Action, Thriller
+	Identifier: tt0112967, Title: Enter the Blood Ring, Type: movie, Year: 1995, Runtime: 94, Genres: Action
+	Identifier: tt5177634, Title: Epifanio ang bilas ko: NB-Eye, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Comedy
+	Identifier: tt0189500, Title: Equal Impact, Type: movie, Year: 1995, Runtime: 105, Genres: Action
+	Identifier: tt0436279, Title: Escobar: Walang sasantuhin, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama
+	Identifier: tt0112986, Title: Eskapo, Type: movie, Year: 1995, Runtime: 114, Genres: Action, Drama, Thriller
+	Identifier: tt0112993, Title: Evolver, Type: movie, Year: 1995, Runtime: 87, Genres: Action, Horror, Sci-Fi
+	Identifier: tt0112995, Title: Excessive Force II: Force on Force, Type: movie, Year: 1995, Runtime: 88, Genres: Action, Drama
+	Identifier: tt0112998, Title: Expect No Mercy, Type: movie, Year: 1995, Runtime: 91, Genres: Action, Sci-Fi
+	Identifier: tt1671459, Title: Ezharakkoottam, Type: movie, Year: 1995, Runtime: 130, Genres: Action, Comedy
+	Identifier: tt0113010, Title: Fair Game, Type: movie, Year: 1995, Runtime: 91, Genres: Action, Romance, Thriller
+	Identifier: tt2147281, Title: Faisla Main Karungi, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt3669176, Title: Faraar, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0144910, Title: Fatal Choice, Type: movie, Year: 1995, Runtime: 95, Genres: Action, Crime, Drama
+	Identifier: tt1297447, Title: Fauji, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Crime, Drama
+	Identifier: tt0113059, Title: Filmpje!, Type: movie, Year: 1995, Runtime: 104, Genres: Action, Comedy
+	Identifier: tt0113065, Title: Final Equinox, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Sci-Fi
+	Identifier: tt0109802, Title: Finding Interest, Type: movie, Year: 1995, Runtime: 92, Genres: Action, Drama, Thriller
+	Identifier: tt0113071, Title: First Knight, Type: movie, Year: 1995, Runtime: 134, Genres: Action, Adventure, Drama
+	Identifier: tt0113074, Title: Fist of the North Star, Type: movie, Year: 1995, Runtime: 103, Genres: Action, Fantasy, Sci-Fi
+	Identifier: tt0113075, Title: Fists of Iron, Type: movie, Year: 1995, Runtime: 94, Genres: Action
+	Identifier: tt0116332, Title: For Better or Worse, Type: movie, Year: 1995, Runtime: 105, Genres: Action, Comedy, Drama
+	Identifier: tt0116338, Title: For a Few Lousy Dollars, Type: movie, Year: 1995, Runtime: 88, Genres: Action, Comedy, Crime
+	Identifier: tt0114651, Title: Foreign Land, Type: movie, Year: 1995, Runtime: 110, Genres: Action, Crime, Drama
+	Identifier: tt1933565, Title: Frantic, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0359298, Title: Fuerza maldita, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Adventure, Sci-Fi
+	Identifier: tt0113651, Title: Full Throttle, Type: movie, Year: 1995, Runtime: 114, Genres: Action, Drama
+	Identifier: tt5101012, Title: Gabriel Lorenzo: Berdugo, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama
+	Identifier: tt0309618, Title: Gaddaar, Type: movie, Year: 1995, Runtime: 152, Genres: Action, Drama, Romance
+	Identifier: tt0113140, Title: Galaxis, Type: movie, Year: 1995, Runtime: 91, Genres: Action, Sci-Fi, Thriller
+	Identifier: tt0337625, Title: Gambler, Type: movie, Year: 1995, Runtime: 169, Genres: Action, Comedy, Crime
+	Identifier: tt2655748, Title: Gande Log, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt1107907, Title: Gard-e vizheh, Type: movie, Year: 1995, Runtime: 0, Genres: Action, War
+	Identifier: tt0113155, Title: Gentleman, Type: movie, Year: 1995, Runtime: 58, Genres: Action, Crime, Drama
+	Identifier: tt0113568, Title: Ghost in the Shell, Type: movie, Year: 1995, Runtime: 83, Genres: Action, Animation, Crime
+	Identifier: tt0113172, Title: Girl Guide, Type: movie, Year: 1995, Runtime: 93, Genres: Action, Comedy, Romance
+	Identifier: tt0978329, Title: Gising na... ang higanteng natutulog, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama
+	Identifier: tt0109905, Title: Gladiator Cop, Type: movie, Year: 1995, Runtime: 92, Genres: Action, Drama, Fantasy
+	Identifier: tt0113187, Title: Godzilla vs. Destoroyah, Type: movie, Year: 1995, Runtime: 103, Genres: Action, Horror, Sci-Fi
+	Identifier: tt0115061, Title: Golden Bottom, Type: movie, Year: 1995, Runtime: 86, Genres: Action
+	Identifier: tt0113189, Title: GoldenEye, Type: movie, Year: 1995, Runtime: 130, Genres: Action, Adventure, Thriller
+	Identifier: tt0113204, Title: Gracze, Type: movie, Year: 1995, Runtime: 103, Genres: Action, Drama
+	Identifier: tt0381228, Title: Grepor Butch Belgica Story, Type: movie, Year: 1995, Runtime: 110, Genres: Action
+	Identifier: tt0112366, Title: Guardian Angels, Type: movie, Year: 1995, Runtime: 110, Genres: Action, Comedy, Crime
+	Identifier: tt3669184, Title: Gunda Mawali, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0375791, Title: Gundaraj, Type: movie, Year: 1995, Runtime: 140, Genres: Action
+	Identifier: tt0113238, Title: Gunfighter's Moon, Type: movie, Year: 1995, Runtime: 95, Genres: Action, Drama, Romance
+	Identifier: tt0155733, Title: Guns and Lipstick, Type: movie, Year: 1995, Runtime: 96, Genres: Action, Crime, Drama
+	Identifier: tt0260066, Title: Haathkadi, Type: movie, Year: 1995, Runtime: 156, Genres: Action, Comedy, Drama
+	Identifier: tt0465191, Title: Hanggang sa huling bala, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0286672, Title: Haqeeqat, Type: movie, Year: 1995, Runtime: 166, Genres: Action, Drama, Romance
+	Identifier: tt0113260, Title: Hard Evidence, Type: movie, Year: 1995, Runtime: 100, Genres: Action, Drama, Thriller
+	Identifier: tt0499033, Title: Hatulan Bilibid Boys 2, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0113278, Title: Heatseeker, Type: movie, Year: 1995, Runtime: 91, Genres: Action, Drama, Sci-Fi
+	Identifier: tt0380413, Title: Hello Byeon Kang-soe, Type: movie, Year: 1995, Runtime: 85, Genres: Action, Drama
+	Identifier: tt0113297, Title: Hermana, pero ¿qué has hecho?, Type: movie, Year: 1995, Runtime: 93, Genres: Action, Comedy
+	Identifier: tt0114432, Title: Hidden Assassin, Type: movie, Year: 1995, Runtime: 104, Genres: Action, Crime, Drama
+	Identifier: tt0114437, Title: High Risk, Type: movie, Year: 1995, Runtime: 101, Genres: Action, Comedy, Crime
+	Identifier: tt0353534, Title: High Way, Type: movie, Year: 1995, Runtime: 150, Genres: Action, Crime, Thriller
+	Identifier: tt5184424, Title: Hindi ka diyos para santuhin!, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt2636412, Title: Horké léto, Type: movie, Year: 1995, Runtime: 80, Genres: Action, Crime
+	Identifier: tt0110061, Title: Hostile Intentions, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Drama, Thriller
+	Identifier: tt0116564, Title: Hot Ticket, Type: movie, Year: 1995, Runtime: 81, Genres: Action
+	Identifier: tt7799372, Title: Hridoy Amar, Type: movie, Year: 1995, Runtime: 149, Genres: Action, Romance
+	Identifier: tt0113354, Title: Huang Da Xian wu shu, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Crime
+	Identifier: tt0172574, Title: Hulchul, Type: movie, Year: 1995, Runtime: 152, Genres: Action, Comedy, Crime
+	Identifier: tt3669208, Title: Hum Do Bundlebaaz, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0286705, Title: Hum Dono, Type: movie, Year: 1995, Runtime: 154, Genres: Action, Comedy, Thriller
+	Identifier: tt0361721, Title: Hum Sab Chor Hain, Type: movie, Year: 1995, Runtime: 143, Genres: Action, Drama, Romance
+	Identifier: tt3760924, Title: Humse Na Takrana, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0378075, Title: Huwag mong isuko ang laban, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt5156656, Title: Ibigay mo ng todong-todo, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0417774, Title: Ikaw pa... Eh love kita, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Comedy, Romance
+	Identifier: tt0485809, Title: Iligpit si Bobby Ortega: Markang bungo 2, Type: movie, Year: 1995, Runtime: 98, Genres: Action, Drama
+	Identifier: tt0355568, Title: Indian Military Intelligence, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Crime, Thriller
+	Identifier: tt0444188, Title: Instinto asesino II, Type: movie, Year: 1995, Runtime: 93, Genres: Action, Crime, Thriller
+	Identifier: tt0271009, Title: Inteqam Ke Sholay, Type: movie, Year: 1995, Runtime: 146, Genres: Action, Thriller
+	Identifier: tt0113438, Title: Iron Eagle on the Attack, Type: movie, Year: 1995, Runtime: 96, Genres: Action, Drama
+	Identifier: tt3671210, Title: Jai Bharat, Type: movie, Year: 1995, Runtime: 183, Genres: Action
+	Identifier: tt0343850, Title: Jai Vikraanta, Type: movie, Year: 1995, Runtime: 195, Genres: Action, Drama
+	Identifier: tt4649170, Title: Jakhmi Jagirdar, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0113455, Title: Jallaad, Type: movie, Year: 1995, Runtime: 144, Genres: Action, Drama
+	Identifier: tt0113457, Title: Janam Kundli, Type: movie, Year: 1995, Runtime: 157, Genres: Action, Drama
+	Identifier: tt0267613, Title: Jawab, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama, Romance
+	Identifier: tt0237352, Title: Jeeva, Type: movie, Year: 1995, Runtime: 169, Genres: Action
+	Identifier: tt3671260, Title: Jhumka, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0113471, Title: Jian dong shuang hu, Type: movie, Year: 1995, Runtime: 96, Genres: Action, Crime
+	Identifier: tt0113481, Title: Johnny Mnemonic, Type: movie, Year: 1995, Runtime: 103, Genres: Action, Drama, Sci-Fi
+	Identifier: tt0113492, Title: Judge Dredd, Type: movie, Year: 1995, Runtime: 96, Genres: Action, Crime, Sci-Fi
+	Identifier: tt0451766, Title: Judge Max Asuncion: Hukom bitay, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0233989, Title: Jugandose el pellejo, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt9138070, Title: Jungle Ka Qanoon, Type: movie, Year: 1995, Runtime: 153, Genres: Action, Crime, Musical
+	Identifier: tt0110215, Title: Jungleground, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Sci-Fi, Thriller
+	Identifier: tt0113501, Title: Just Cause, Type: movie, Year: 1995, Runtime: 102, Genres: Action, Crime, Drama
+	Identifier: tt0353592, Title: Kaatttile Thadi Thevarude Ana, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Comedy, Drama
+	Identifier: tt1865418, Title: Kabzaa, Type: movie, Year: 1995, Runtime: 94, Genres: Action
+	Identifier: tt0246721, Title: Kahit butas ng karayom, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0451784, Title: Kahit harangan ng bala, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0400565, Title: Kalyug Ke Avtaar, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Romance
+	Identifier: tt0113523, Title: Kamikaze Taxi, Type: movie, Year: 1995, Runtime: 169, Genres: Action
+	Identifier: tt4936408, Title: Kanoon Se Rishta, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0457670, Title: Kapitan Tumba: The Capt. Jose Huevos Story, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0113526, Title: Karan Arjun, Type: movie, Year: 1995, Runtime: 175, Genres: Action, Drama, Fantasy
+	Identifier: tt0184634, Title: Karate Raider, Type: movie, Year: 1995, Runtime: 93, Genres: Action
+	Identifier: tt0355640, Title: Karma, Type: movie, Year: 1995, Runtime: 148, Genres: Action
+	Identifier: tt3005366, Title: Karmon Kee Sazaa, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt8180730, Title: Karnaa, Type: movie, Year: 1995, Runtime: 134, Genres: Action
+	Identifier: tt0113528, Title: Kartavya, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama, Thriller
+	Identifier: tt4978746, Title: Khaidi Inspector, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt1928202, Title: Khel Taqdeeran De, Type: movie, Year: 1995, Runtime: 146, Genres: Action
+	Identifier: tt11491158, Title: Kiba Bugyo ga Yuku, Type: movie, Year: 1995, Runtime: 95, Genres: Action, Drama
+	Identifier: tt12529132, Title: Killing Angel Muhan, Type: movie, Year: 1995, Runtime: 83, Genres: Action
+	Identifier: tt0316112, Title: Kismat, Type: movie, Year: 1995, Runtime: 149, Genres: Action, Drama, Family
+	Identifier: tt0113564, Title: Kleptomania, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Drama, Thriller
+	Identifier: tt0308606, Title: Korean National Flower, Type: movie, Year: 1995, Runtime: 152, Genres: Action, Mystery, Sci-Fi
+	Identifier: tt0113575, Title: Krestonosets, Type: movie, Year: 1995, Runtime: 120, Genres: Action
+	Identifier: tt0113577, Title: Kuang qing sha shou, Type: movie, Year: 1995, Runtime: 92, Genres: Action, Drama
+	Identifier: tt0187223, Title: Kunoichi ninpô-chô V: Jiraiya hishô, Type: movie, Year: 1995, Runtime: 94, Genres: Action, Comedy, Fantasy
+	Identifier: tt0285665, Title: Kuruthipunal, Type: movie, Year: 1995, Runtime: 143, Genres: Action, Drama, Thriller
+	Identifier: tt0353617, Title: Kusruthikaatu, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Comedy, Drama
+	Identifier: tt0436391, Title: La hiena humana, Type: movie, Year: 1995, Runtime: 82, Genres: Action, Crime, Thriller
+	Identifier: tt0203648, Title: La ley de las mujeres, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Crime, Drama
+	Identifier: tt0441346, Title: La ley del cholo, Type: movie, Year: 1995, Runtime: 86, Genres: Action, Crime, Drama
+	Identifier: tt0277274, Title: La revancha, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Crime, Drama
+	Identifier: tt0460924, Title: La sangre de los inocentes, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Horror, Mystery
+	Identifier: tt5572110, Title: Lambardaar, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0113600, Title: Lao ni mei, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Drama
+	Identifier: tt0808341, Title: Last Hit, Type: movie, Year: 1995, Runtime: 82, Genres: Action
+	Identifier: tt1579615, Title: Leader, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0237400, Title: Legend of Crystania: The Motion Picture, Type: movie, Year: 1995, Runtime: 85, Genres: Action, Adventure, Animation
+	Identifier: tt0114555, Title: Legendary Couple, Type: movie, Year: 1995, Runtime: 94, Genres: Action, Crime
+	Identifier: tt0113632, Title: Legion of the Night, Type: movie, Year: 1995, Runtime: 85, Genres: Action, Horror, Sci-Fi
+	Identifier: tt0387350, Title: Lethal Cowboy, Type: movie, Year: 1995, Runtime: 96, Genres: Action, Adventure, Romance
+	Identifier: tt0185422, Title: Lethal Girls 2, Type: movie, Year: 1995, Runtime: 89, Genres: Action, Crime
+	Identifier: tt9303148, Title: Life on the Line, Type: movie, Year: 1995, Runtime: 97, Genres: Action
+	Identifier: tt0121486, Title: Little Heroes Lost in China, Type: movie, Year: 1995, Runtime: 91, Genres: Action
+	Identifier: tt0289731, Title: Llamada anónima, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Mystery, Thriller
+	Identifier: tt0113689, Title: Loose Lately, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Adventure
+	Identifier: tt0223077, Title: Los cómplices del infierno, Type: movie, Year: 1995, Runtime: 88, Genres: Action, Crime, Mystery
+	Identifier: tt0220872, Title: Los ángeles de la muerte, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0151391, Title: Lost at Sea, Type: movie, Year: 1995, Runtime: 90, Genres: Action
+	Identifier: tt0112543, Title: Love, Guns and Glass, Type: movie, Year: 1995, Runtime: 105, Genres: Action, Drama
+	Identifier: tt0114991, Title: Loving You, Type: movie, Year: 1995, Runtime: 84, Genres: Action, Crime, Drama
+	Identifier: tt5163932, Title: Lt. Elmo Ramas: Sundalo, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt6878412, Title: Lt. Rolito Reynoso: Mahirap patayin, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama
+	Identifier: tt0254534, Title: Lucky Man, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Comedy, Fantasy
+	Identifier: tt0113719, Title: Lunarcop, Type: movie, Year: 1995, Runtime: 88, Genres: Action, Drama, Sci-Fi
+	Identifier: tt0170181, Title: Lupin III: Farewell to Nostradamus, Type: movie, Year: 1995, Runtime: 100, Genres: Action, Adventure, Animation
+	Identifier: tt0280889, Title: Maanthrikam, Type: movie, Year: 1995, Runtime: 144, Genres: Action, Comedy, Drama
+	Identifier: tt7860344, Title: Maatho Pettukoku, Type: movie, Year: 1995, Runtime: 147, Genres: Action, Drama, Romance
+	Identifier: tt2330912, Title: Macross Plus Movie Edition, Type: movie, Year: 1995, Runtime: 115, Genres: Action, Animation, Drama
+	Identifier: tt0237424, Title: Madame Rani, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0378297, Title: Magic Kombat, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Adventure, Comedy
+	Identifier: tt0105881, Title: Magkasangga 2000, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt4978736, Title: Mahatma Ka Insaaf, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0267703, Title: Maidan-E-Jung, Type: movie, Year: 1995, Runtime: 155, Genres: Action, Drama
+	Identifier: tt0114891, Title: Man Wanted, Type: movie, Year: 1995, Runtime: 92, Genres: Action, Crime, Thriller
+	Identifier: tt0116977, Title: Man with a Gun, Type: movie, Year: 1995, Runtime: 94, Genres: Action, Drama, Thriller
+	Identifier: tt0335280, Title: Manalo matalo mahal kita, Type: movie, Year: 1995, Runtime: 104, Genres: Action, Comedy, Romance
+	Identifier: tt0369709, Title: Matimbang pa sa dugo, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama
+	Identifier: tt1456877, Title: Matinik na kalaban, Type: movie, Year: 1995, Runtime: 115, Genres: Action, Crime
+	Identifier: tt0262608, Title: Maya Bazaar, Type: movie, Year: 1995, Runtime: 125, Genres: Action, Drama, Romance
+	Identifier: tt0430349, Title: Melencio Magat: Dugo laban dugo, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama
+	Identifier: tt3671606, Title: Mera Kanoon Mera Insaaf, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0206137, Title: Mestizo, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0184552, Title: Mi qing te jing, Type: movie, Year: 1995, Runtime: 84, Genres: Action
+	Identifier: tt0110508, Title: Midnight Man, Type: movie, Year: 1995, Runtime: 93, Genres: Action, Crime, Drama
+	Identifier: tt0293863, Title: Miggi, Type: movie, Year: 1995, Runtime: 101, Genres: Action, Comedy
+	Identifier: tt0113820, Title: Mighty Morphin Power Rangers: The Movie, Type: movie, Year: 1995, Runtime: 95, Genres: Action, Adventure, Family
+	Identifier: tt0113822, Title: Milan, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Crime, Romance
+	Identifier: tt0345663, Title: Minsan pa: Kahit konting pagtingin Part 2, Type: movie, Year: 1995, Runtime: 128, Genres: Action, Drama, Romance
+	Identifier: tt0113827, Title: Mirage, Type: movie, Year: 1995, Runtime: 92, Genres: Action, Thriller
+	Identifier: tt0113835, Title: Mlode wilki, Type: movie, Year: 1995, Runtime: 94, Genres: Action
+	Identifier: tt1433316, Title: Mo Bhai Jaga, Type: movie, Year: 1995, Runtime: 171, Genres: Action
+	Identifier: tt0265342, Title: Money Money, Type: movie, Year: 1995, Runtime: 152, Genres: Action, Comedy, Drama
+	Identifier: tt0113845, Title: Money Train, Type: movie, Year: 1995, Runtime: 110, Genres: Action, Comedy, Crime
+	Identifier: tt0113855, Title: Mortal Kombat, Type: movie, Year: 1995, Runtime: 101, Genres: Action, Adventure, Fantasy
+	Identifier: tt0267761, Title: Mounam, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Romance, Thriller
+	Identifier: tt0852985, Title: Mr. X, Type: movie, Year: 1995, Runtime: 90, Genres: Action
+	Identifier: tt0237475, Title: Munda Bigra Jaye, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Comedy, Romance
+	Identifier: tt0140399, Title: Muthu, Type: movie, Year: 1995, Runtime: 132, Genres: Action, Comedy, Drama
+	Identifier: tt0113885, Title: Muzhskoy talisman, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0113153, Title: My Father is a Hero, Type: movie, Year: 1995, Runtime: 104, Genres: Action, Crime, Drama
+	Identifier: tt0113913, Title: Naajayaz, Type: movie, Year: 1995, Runtime: 157, Genres: Action, Drama
+	Identifier: tt0906051, Title: Nagmula sa lupa, Type: movie, Year: 1995, Runtime: 81, Genres: Action
+	Identifier: tt1525872, Title: Nain Preeto De, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama, Romance
+	Identifier: tt0304456, Title: Nanba kin'yû-den, Minami no teiô: Supesharu gekijô-ban, Type: movie, Year: 1995, Runtime: 95, Genres: Action, Crime
+	Identifier: tt0292606, Title: Nazar Ke Samne, Type: movie, Year: 1995, Runtime: 96, Genres: Action, Crime, Drama
+	Identifier: tt5081824, Title: Nestor Solis: Hari ng OXO, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0113972, Title: Nick of Time, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Crime, Drama
+	Identifier: tt0110668, Title: Night of the Running Man, Type: movie, Year: 1995, Runtime: 93, Genres: Action, Crime, Thriller
+	Identifier: tt0279986, Title: Nirnnayam, Type: movie, Year: 1995, Runtime: 165, Genres: Action, Thriller
+	Identifier: tt0355831, Title: Nishkarsha, Type: movie, Year: 1995, Runtime: 140, Genres: Action, Thriller
+	Identifier: tt0110675, Title: No Contest, Type: movie, Year: 1995, Runtime: 93, Genres: Action, Crime, Drama
+	Identifier: tt0117193, Title: No Way Back, Type: movie, Year: 1995, Runtime: 91, Genres: Action, Crime, Drama
+	Identifier: tt8372328, Title: Oberezhno! Chervona rtut!, Type: movie, Year: 1995, Runtime: 75, Genres: Action, Adventure, Crime
+	Identifier: tt0114029, Title: Odinokiy igrok, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Drama
+	Identifier: tt3189256, Title: Om, Type: movie, Year: 1995, Runtime: 150, Genres: Action, Crime, Drama
+	Identifier: tt5094584, Title: Omar: dugo sa lupang pangako, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0124038, Title: Operation Cobra, Type: movie, Year: 1995, Runtime: 90, Genres: Action
+	Identifier: tt0114048, Title: Operation Dumbo Drop, Type: movie, Year: 1995, Runtime: 107, Genres: Action, Adventure, Comedy
+	Identifier: tt5077734, Title: Oplan baleleng, Type: movie, Year: 1995, Runtime: 88, Genres: Action
+	Identifier: tt0262667, Title: Ore Rickshaw, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama
+	Identifier: tt12324946, Title: Orphan of War, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0114069, Title: Outbreak, Type: movie, Year: 1995, Runtime: 127, Genres: Action, Drama, Thriller
+	Identifier: tt4203766, Title: Paanch Parinde, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0290258, Title: Paandav, Type: movie, Year: 1995, Runtime: 132, Genres: Action, Drama
+	Identifier: tt0347722, Title: Paappi Devataa, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama
+	Identifier: tt0114078, Title: Palermo-Milan One Way, Type: movie, Year: 1995, Runtime: 100, Genres: Action, Crime, Drama
+	Identifier: tt0378516, Title: Pamilya Valderama, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama
+	Identifier: tt1363478, Title: Panther, Type: movie, Year: 1995, Runtime: 83, Genres: Action
+	Identifier: tt6739506, Title: Papi Shatru, Type: movie, Year: 1995, Runtime: 142, Genres: Action, Drama, Romance
+	Identifier: tt7175990, Title: Pards, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0113771, Title: Passion 1995, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Crime
+	Identifier: tt0113292, Title: Peace Hotel, Type: movie, Year: 1995, Runtime: 89, Genres: Action, Crime, Drama
+	Identifier: tt0305952, Title: Peda Rayudu, Type: movie, Year: 1995, Runtime: 165, Genres: Action, Drama
+	Identifier: tt11885368, Title: Piacenza FC vs Juventus FC, Type: movie, Year: 1995, Runtime: 92, Genres: Action
+	Identifier: tt0110846, Title: Play Time, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Drama, Romance
+	Identifier: tt0110847, Title: Playing Dangerous, Type: movie, Year: 1995, Runtime: 86, Genres: Action, Comedy, Crime
+	Identifier: tt0114149, Title: Pocahontas: The Legend, Type: movie, Year: 1995, Runtime: 102, Genres: Action, Drama
+	Identifier: tt0114150, Title: Point Dume, Type: movie, Year: 1995, Runtime: 89, Genres: Action, Crime, Thriller
+	Identifier: tt1579659, Title: Pokiri Raja, Type: movie, Year: 1995, Runtime: 145, Genres: Action
+	Identifier: tt2898694, Title: Police Custody, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt2922060, Title: Police Ki Jung, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0420838, Title: Police Lock-up, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Crime, Drama
+	Identifier: tt3672734, Title: Police Qaidi, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0114153, Title: Policewala Gunda, Type: movie, Year: 1995, Runtime: 146, Genres: Action, Drama
+	Identifier: tt0113240, Title: Power Connection, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Comedy, Drama
+	Identifier: tt0296811, Title: Power King, Type: movie, Year: 1995, Runtime: 71, Genres: Action, Horror, Sci-Fi
+	Identifier: tt0316433, Title: Pratigya, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama
+	Identifier: tt0355911, Title: Prayikkara Pappan, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama
+	Identifier: tt0440698, Title: Pre' hanggang sa huli, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Comedy
+	Identifier: tt0114175, Title: Prem, Type: movie, Year: 1995, Runtime: 167, Genres: Action, Drama, Romance
+	Identifier: tt5161848, Title: Pulis Probinsya II, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0424368, Title: Pulis patola 2, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Comedy
+	Identifier: tt4923102, Title: Pustahan Tayo Mahal Mo Ako, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Comedy, Romance
+	Identifier: tt0355926, Title: Puthukkottayile Puthumanavalan, Type: movie, Year: 1995, Runtime: 130, Genres: Action, Comedy, Drama
+	Identifier: tt4936376, Title: Qayamat Ki Zindagi, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0184841, Title: Qi du xian feng, Type: movie, Year: 1995, Runtime: 91, Genres: Action, Thriller
+	Identifier: tt0114224, Title: Rage, Type: movie, Year: 1995, Runtime: 94, Genres: Action, Crime, Thriller
+	Identifier: tt0114225, Title: Raghuveer, Type: movie, Year: 1995, Runtime: 151, Genres: Action, Drama
+	Identifier: tt0114230, Title: Raja, Type: movie, Year: 1995, Runtime: 168, Genres: Action, Drama, Romance
+	Identifier: tt0114231, Title: Ram Jaane, Type: movie, Year: 1995, Runtime: 122, Genres: Action, Crime, Drama
+	Identifier: tt0114232, Title: Ram Shastra, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama
+	Identifier: tt3756732, Title: Ramgarh Ka Daku, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt1446142, Title: Rana Bhumi, Type: movie, Year: 1995, Runtime: 145, Genres: Action
+	Identifier: tt0114236, Title: Ravan Raaj: A True Story, Type: movie, Year: 1995, Runtime: 153, Genres: Action, Crime, Thriller
+	Identifier: tt0167362, Title: Raw Energy, Type: movie, Year: 1995, Runtime: 85, Genres: Action
+	Identifier: tt0114238, Title: Raw Target, Type: movie, Year: 1995, Runtime: 92, Genres: Action, Thriller
+	Identifier: tt6116992, Title: Rei Tin: Ko redisu!!! Socho saigo no hi, Type: movie, Year: 1995, Runtime: 94, Genres: Action, Crime, Drama
+	Identifier: tt0114261, Title: Reluctant Justice, Type: movie, Year: 1995, Runtime: 93, Genres: Action, Drama, Thriller
+	Identifier: tt0220004, Title: Rescate infernal, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0468091, Title: Reto de ley, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Crime, Thriller
+	Identifier: tt0246198, Title: Rikshavodu, Type: movie, Year: 1995, Runtime: 150, Genres: Action, Comedy, Drama
+	Identifier: tt0117484, Title: Ripper Man, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Horror, Thriller
+	Identifier: tt0161644, Title: Roboman Hakaider, Type: movie, Year: 1995, Runtime: 77, Genres: Action, Sci-Fi
+	Identifier: tt5056898, Title: Rodolfo 'Boy' Fuentes: Libingan ng mga buhay, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Crime, Drama
+	Identifier: tt0438963, Title: Rollerboys, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Adventure, Comedy
+	Identifier: tt2199569, Title: Roy Embrum, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0113326, Title: Rumble in the Bronx, Type: movie, Year: 1995, Runtime: 104, Genres: Action, Comedy, Crime
+	Identifier: tt0366987, Title: Run for Cover, Type: movie, Year: 1995, Runtime: 83, Genres: Action, Thriller
+	Identifier: tt0427805, Title: Sabik sa halik, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Crime, Romance
+	Identifier: tt0114317, Title: Sabse Bada Khiladi, Type: movie, Year: 1995, Runtime: 162, Genres: Action, Crime, Thriller
+	Identifier: tt0112513, Title: Sailor Moon SuperS: The Movie: Black Dream Hole, Type: movie, Year: 1995, Runtime: 60, Genres: Action, Animation, Comedy
+	Identifier: tt0371163, Title: Salto al vacío, Type: movie, Year: 1995, Runtime: 97, Genres: Action, Crime, Thriller
+	Identifier: tt0318659, Title: Santo Enredo, Type: movie, Year: 1995, Runtime: 98, Genres: Action, Comedy, Crime
+	Identifier: tt2265535, Title: Sarboland, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0114337, Title: Sarhad: The Border of Crime, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Crime, Drama
+	Identifier: tt15101878, Title: Sayumkui 2, Type: movie, Year: 1995, Runtime: 92, Genres: Action, Adventure, Comedy
+	Identifier: tt0115007, Title: School Days, Type: movie, Year: 1995, Runtime: 89, Genres: Action, Comedy, Drama
+	Identifier: tt0114364, Title: Score, Type: movie, Year: 1995, Runtime: 88, Genres: Action, Crime
+	Identifier: tt0114371, Title: Search and Destroy, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Comedy, Drama
+	Identifier: tt0381576, Title: Secuestro, Type: movie, Year: 1995, Runtime: 85, Genres: Action
+	Identifier: tt0114385, Title: Segreto di stato, Type: movie, Year: 1995, Runtime: 104, Genres: Action, Thriller
+	Identifier: tt3508452, Title: Seirei Tsukai, Type: movie, Year: 1995, Runtime: 48, Genres: Action, Adventure, Animation
+	Identifier: tt0114390, Title: Sentinel 2099, Type: movie, Year: 1995, Runtime: 75, Genres: Action, Adventure, Drama
+	Identifier: tt0261988, Title: Señalado para morir, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0232622, Title: Shadow Skill, Type: movie, Year: 1995, Runtime: 45, Genres: Action, Animation, Sci-Fi
+	Identifier: tt0117612, Title: Shadow Warriors, Type: movie, Year: 1995, Runtime: 89, Genres: Action, Sci-Fi, Thriller
+	Identifier: tt4593820, Title: Shahazada, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0114420, Title: She Good Fighter, Type: movie, Year: 1995, Runtime: 85, Genres: Action, Crime, Drama
+	Identifier: tt0347997, Title: Sheng si jing tan wang ming fei, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt7698930, Title: Shi cheng shen tan, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt4978768, Title: Shiv Puran, Type: movie, Year: 1995, Runtime: 86, Genres: Action
+	Identifier: tt0114448, Title: Silent Hunter, Type: movie, Year: 1995, Runtime: 97, Genres: Action
+	Identifier: tt6914920, Title: Simha Garjana, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt4649158, Title: Sir Dhad Di Baazi, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0161981, Title: Slayers, Type: movie, Year: 1995, Runtime: 63, Genres: Action, Adventure, Animation
+	Identifier: tt0244216, Title: Smoke n Lightnin, Type: movie, Year: 1995, Runtime: 82, Genres: Action
+	Identifier: tt0114489, Title: Soldier Boyz, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Drama, Thriller
+	Identifier: tt0114495, Title: Someone to Die For, Type: movie, Year: 1995, Runtime: 105, Genres: Action, Drama, Thriller
+	Identifier: tt0292246, Title: Spadikam, Type: movie, Year: 1995, Runtime: 150, Genres: Action, Drama
+	Identifier: tt0114508, Title: Species, Type: movie, Year: 1995, Runtime: 108, Genres: Action, Horror, Sci-Fi
+	Identifier: tt0111264, Title: Spitfire, Type: movie, Year: 1995, Runtime: 95, Genres: Action, Adventure
+	Identifier: tt0286153, Title: Starstruck, Type: movie, Year: 1995, Runtime: 89, Genres: Action, Thriller
+	Identifier: tt0110036, Title: Stories from the Kronen, Type: movie, Year: 1995, Runtime: 95, Genres: Action, Drama
+	Identifier: tt0114558, Title: Strange Days, Type: movie, Year: 1995, Runtime: 145, Genres: Action, Crime, Drama
+	Identifier: tt1579705, Title: Street Fighter, Type: movie, Year: 1995, Runtime: 148, Genres: Action
+	Identifier: tt0114564, Title: Street Law, Type: movie, Year: 1995, Runtime: 98, Genres: Action, Drama
+	Identifier: tt0140575, Title: Strike Back, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0128620, Title: Striking Point, Type: movie, Year: 1995, Runtime: 93, Genres: Action, Crime
+	Identifier: tt0114576, Title: Sudden Death, Type: movie, Year: 1995, Runtime: 111, Genres: Action, Crime, Thriller
+	Identifier: tt11167824, Title: Sultan-e-Azam, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0124852, Title: Sun Valley, Type: movie, Year: 1995, Runtime: 104, Genres: Action, Adventure, Drama
+	Identifier: tt0114582, Title: Superfights, Type: movie, Year: 1995, Runtime: 94, Genres: Action, Crime, Drama
+	Identifier: tt0393835, Title: Sur violento, Type: movie, Year: 1995, Runtime: 90, Genres: Action
+	Identifier: tt0343048, Title: Surakshaa, Type: movie, Year: 1995, Runtime: 148, Genres: Action, Romance, Thriller
+	Identifier: tt0111325, Title: Suspicious Agenda, Type: movie, Year: 1995, Runtime: 97, Genres: Action, Thriller
+	Identifier: tt0400869, Title: Szczur, Type: movie, Year: 1995, Runtime: 97, Genres: Action, Drama
+	Identifier: tt0135666, Title: Takkar, Type: movie, Year: 1995, Runtime: 143, Genres: Action, Crime, Drama
+	Identifier: tt0114608, Title: Tales from the Crypt: Demon Knight, Type: movie, Year: 1995, Runtime: 92, Genres: Action, Fantasy, Horror
+	Identifier: tt0114614, Title: Tank Girl, Type: movie, Year: 1995, Runtime: 104, Genres: Action, Comedy, Sci-Fi
+	Identifier: tt0114615, Title: Taqdeerwala, Type: movie, Year: 1995, Runtime: 162, Genres: Action, Comedy, Fantasy
+	Identifier: tt0115001, Title: Teenage Master, Type: movie, Year: 1995, Runtime: 88, Genres: Action, Comedy
+	Identifier: tt0398360, Title: Teenmoti, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0114424, Title: Ten Brothers, Type: movie, Year: 1995, Runtime: 100, Genres: Action, Comedy, Fantasy
+	Identifier: tt0307554, Title: Terrorist, Type: movie, Year: 1995, Runtime: 108, Genres: Action
+	Identifier: tt0111405, Title: Texas Payback, Type: movie, Year: 1995, Runtime: 96, Genres: Action, Drama
+	Identifier: tt0292267, Title: Thacholi Varghese Chekavar, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama
+	Identifier: tt0356116, Title: Thakshasila, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Crime, Drama
+	Identifier: tt0112772, Title: The Adventurers, Type: movie, Year: 1995, Runtime: 110, Genres: Action, Drama
+	Identifier: tt0113478, Title: The Armed Policewoman, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Comedy
+	Identifier: tt2083354, Title: The Attack on H3, Type: movie, Year: 1995, Runtime: 93, Genres: Action, War
+	Identifier: tt13003220, Title: The Bad One - The Legend, Type: movie, Year: 1995, Runtime: 79, Genres: Action, Crime
+	Identifier: tt0112800, Title: The Blade, Type: movie, Year: 1995, Runtime: 105, Genres: Action
+	Identifier: tt0398881, Title: The Conqueror, Type: movie, Year: 1995, Runtime: 90, Genres: Action
+	Identifier: tt0109536, Title: The Dangerous, Type: movie, Year: 1995, Runtime: 96, Genres: Action, Thriller
+	Identifier: tt0112922, Title: The Day of the Beast, Type: movie, Year: 1995, Runtime: 103, Genres: Action, Adventure, Comedy
+	Identifier: tt0112843, Title: The Demolitionist, Type: movie, Year: 1995, Runtime: 100, Genres: Action, Horror, Sci-Fi
+	Identifier: tt0210000, Title: The Devil's Keep, Type: movie, Year: 1995, Runtime: 110, Genres: Action, Adventure, Thriller
+	Identifier: tt0112886, Title: The Donor, Type: movie, Year: 1995, Runtime: 94, Genres: Action, Thriller
+	Identifier: tt0109760, Title: The Expert, Type: movie, Year: 1995, Runtime: 92, Genres: Action
+	Identifier: tt10100662, Title: The Fighter, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0113063, Title: The Final Cut, Type: movie, Year: 1995, Runtime: 96, Genres: Action, Drama, Thriller
+	Identifier: tt0113066, Title: The Final Goal, Type: movie, Year: 1995, Runtime: 85, Genres: Action, Thriller
+	Identifier: tt0212158, Title: The First Assignment, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0113194, Title: The Five, Type: movie, Year: 1995, Runtime: 109, Genres: Action, Crime, Drama
+	Identifier: tt0965502, Title: The Green Hell, Type: movie, Year: 1995, Runtime: 90, Genres: Action
+	Identifier: tt0113360, Title: The Hunted, Type: movie, Year: 1995, Runtime: 111, Genres: Action, Drama, Thriller
+	Identifier: tt0113394, Title: The Immortals, Type: movie, Year: 1995, Runtime: 98, Genres: Action, Crime, Drama
+	Identifier: tt0271595, Title: The King, Type: movie, Year: 1995, Runtime: 198, Genres: Action, Thriller
+	Identifier: tt0113957, Title: The Net, Type: movie, Year: 1995, Runtime: 114, Genres: Action, Crime, Drama
+	Identifier: tt0114027, Title: The October Brigade, Type: movie, Year: 1995, Runtime: 89, Genres: Action
+	Identifier: tt2077888, Title: The Pit: Emergency Room, Type: movie, Year: 1995, Runtime: 88, Genres: Action, Drama
+	Identifier: tt0114194, Title: The Prophecy, Type: movie, Year: 1995, Runtime: 98, Genres: Action, Crime, Drama
+	Identifier: tt0114214, Title: The Quick and the Dead, Type: movie, Year: 1995, Runtime: 107, Genres: Action, Romance, Thriller
+	Identifier: tt0113350, Title: The Red Wolf, Type: movie, Year: 1995, Runtime: 92, Genres: Action
+	Identifier: tt0112909, Title: The Saint of Gamblers, Type: movie, Year: 1995, Runtime: 98, Genres: Action, Comedy
+	Identifier: tt0371186, Title: The Secret Force, Type: movie, Year: 1995, Runtime: 79, Genres: Action, Crime, Drama
+	Identifier: tt0114397, Title: The Set Up, Type: movie, Year: 1995, Runtime: 93, Genres: Action, Drama, Thriller
+	Identifier: tt0357225, Title: The Tears of Heaven, Type: movie, Year: 1995, Runtime: 93, Genres: Action, Drama, Fantasy
+	Identifier: tt2448442, Title: The Vengeance, Type: movie, Year: 1995, Runtime: 90, Genres: Action
+	Identifier: tt0114851, Title: The Viking Sagas, Type: movie, Year: 1995, Runtime: 83, Genres: Action, Adventure
+	Identifier: tt0114888, Title: The Walking Dead, Type: movie, Year: 1995, Runtime: 88, Genres: Action, Drama, War
+	Identifier: tt0277621, Title: The Way Through Hell, Type: movie, Year: 1995, Runtime: 85, Genres: Action
+	Identifier: tt0115062, Title: The Zone, Type: movie, Year: 1995, Runtime: 96, Genres: Action, Drama, Thriller
+	Identifier: tt0114658, Title: Theodore Rex, Type: movie, Year: 1995, Runtime: 92, Genres: Action, Comedy, Family
+	Identifier: tt0356126, Title: Thumboli Kadappuram, Type: movie, Year: 1995, Runtime: 0, Genres: Action, Drama
+	Identifier: tt0114126, Title: Thunderbolt, Type: movie, Year: 1995, Runtime: 110, Genres: Action, Crime, Thriller
+	Identifier: tt0215255, Title: Tiempo de muerte 2, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0114683, Title: To the Limit, Type: movie, Year: 1995, Runtime: 98, Genres: Action, Crime, Thriller
+	Identifier: tt0114690, Title: Tokyo Fist, Type: movie, Year: 1995, Runtime: 87, Genres: Action, Drama, Thriller
+	Identifier: tt0310236, Title: Tokyo Mafia, Type: movie, Year: 1995, Runtime: 83, Genres: Action, Crime, Drama
+	Identifier: tt0356134, Title: Tom & Jerry, Type: movie, Year: 1995, Runtime: 134, Genres: Action, Comedy
+	Identifier: tt6895744, Title: Tomboy: The Movie, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0114697, Title: Top Dog, Type: movie, Year: 1995, Runtime: 86, Genres: Action, Comedy, Crime
+	Identifier: tt0160996, Title: Tornado Run, Type: movie, Year: 1995, Runtime: 87, Genres: Action
+	Identifier: tt0114014, Title: Tough Beauty and the Sloppy Slop, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0293958, Title: Traficantes de muerte, Type: movie, Year: 1995, Runtime: 83, Genres: Action
+	Identifier: tt0114726, Title: Trimurti, Type: movie, Year: 1995, Runtime: 187, Genres: Action, Drama
+	Identifier: tt0113588, Title: Trouble Maker, Type: movie, Year: 1995, Runtime: 88, Genres: Action, Comedy, Drama
+	Identifier: tt0129027, Title: Tuono di proiettile, Type: movie, Year: 1995, Runtime: 93, Genres: Action, Adventure
+	Identifier: tt0114769, Title: Ultimate Revenge, Type: movie, Year: 1995, Runtime: 101, Genres: Action, Crime, Drama
+	Identifier: tt0278320, Title: Un asesinato perfecto, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0229632, Title: Una papa sin catsup, Type: movie, Year: 1995, Runtime: 95, Genres: Action, Comedy, Crime
+	Identifier: tt0114780, Title: Under Lock and Key, Type: movie, Year: 1995, Runtime: 92, Genres: Action, Crime, Drama
+	Identifier: tt0114781, Title: Under Siege 2: Dark Territory, Type: movie, Year: 1995, Runtime: 100, Genres: Action, Adventure, Thriller
+	Identifier: tt0114783, Title: Under the Gun, Type: movie, Year: 1995, Runtime: 90, Genres: Action
+	Identifier: tt0114784, Title: Under the Hula Moon, Type: movie, Year: 1995, Runtime: 94, Genres: Action, Comedy
+	Identifier: tt0930888, Title: Urban Rangers, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt5090472, Title: Urban Terrorist II, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt6109750, Title: Uubusin ko ang tapang mo, Type: movie, Year: 1995, Runtime: 0, Genres: Action, War
+	Identifier: tt0375177, Title: Uzi ráfaga mortal, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Drama
+	Identifier: tt1027867, Title: Veer, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0395802, Title: Veergati, Type: movie, Year: 1995, Runtime: 166, Genres: Action, Drama
+	Identifier: tt0114829, Title: Vendetta, Type: movie, Year: 1995, Runtime: 135, Genres: Action, Thriller
+	Identifier: tt0261385, Title: Venganza mortal, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0453299, Title: Violencia en la noche, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Crime, Thriller
+	Identifier: tt0773176, Title: Violencia en la obscuridad, Type: movie, Year: 1995, Runtime: 82, Genres: Action, Crime, Mystery
+	Identifier: tt0260511, Title: Violencia en la sierra, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0965236, Title: Virangar, Type: movie, Year: 1995, Runtime: 95, Genres: Action
+	Identifier: tt0114857, Title: Virtuosity, Type: movie, Year: 1995, Runtime: 106, Genres: Action, Crime, Sci-Fi
+	Identifier: tt5226670, Title: Vishnu, Type: movie, Year: 1995, Runtime: 150, Genres: Action, Drama, Romance
+	Identifier: tt0202073, Title: Volchya krov, Type: movie, Year: 1995, Runtime: 85, Genres: Action
+	Identifier: tt0414658, Title: Vrudhanmare Sookshikkuka, Type: movie, Year: 1995, Runtime: 117, Genres: Action, Comedy, Thriller
+	Identifier: tt0300636, Title: Warrior of Justice, Type: movie, Year: 1995, Runtime: 89, Genres: Action
+	Identifier: tt0114898, Title: Waterworld, Type: movie, Year: 1995, Runtime: 135, Genres: Action, Adventure, Sci-Fi
+	Identifier: tt13260742, Title: Wehshi Aurat, Type: movie, Year: 1995, Runtime: 145, Genres: Action
+	Identifier: tt0379020, Title: Widaehan hunter GJ, Type: movie, Year: 1995, Runtime: 98, Genres: Action
+	Identifier: tt0114938, Title: Wild Bill, Type: movie, Year: 1995, Runtime: 98, Genres: Action, Biography, Western
+	Identifier: tt0114941, Title: Wild Side, Type: movie, Year: 1995, Runtime: 96, Genres: Action, Thriller
+	Identifier: tt0431208, Title: Wilson Sorronda: Leader Kuratong Baleleng's Solid Group, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0182537, Title: With Criminal Intent, Type: movie, Year: 1995, Runtime: 105, Genres: Action
+	Identifier: tt0153878, Title: Without Limit, Type: movie, Year: 1995, Runtime: 92, Genres: Action
+	Identifier: tt0114963, Title: Without Mercy, Type: movie, Year: 1995, Runtime: 90, Genres: Action
+	Identifier: tt0185776, Title: Xiao lin lao zu, Type: movie, Year: 1995, Runtime: 93, Genres: Action
+	Identifier: tt0115002, Title: Xiao zui quan, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0829180, Title: Yakuza Ladies: Blood Ties, Type: movie, Year: 1995, Runtime: 114, Genres: Action, Drama
+	Identifier: tt0428057, Title: Yaqui indomable, Type: movie, Year: 1995, Runtime: 75, Genres: Action, Crime, Drama
+	Identifier: tt0115009, Title: Yaraana, Type: movie, Year: 1995, Runtime: 125, Genres: Action, Drama, Musical
+	Identifier: tt0111791, Title: Ye xing de xie hou, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Thriller
+	Identifier: tt0115004, Title: Young Policemen in Love, Type: movie, Year: 1995, Runtime: 82, Genres: Action, Comedy, Romance
+	Identifier: tt2816034, Title: Zaildaar, Type: movie, Year: 1995, Runtime: 171, Genres: Action
+	Identifier: tt0314938, Title: Zakhmi Sipahi, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+	Identifier: tt0115042, Title: Zamaana Deewana, Type: movie, Year: 1995, Runtime: 162, Genres: Action, Comedy, Drama
+	Identifier: tt0115054, Title: Zhong e Lie Che da jie an, Type: movie, Year: 1995, Runtime: 92, Genres: Action, Crime
+	Identifier: tt4406458, Title: Zulm Ka Jawab, Type: movie, Year: 1995, Runtime: 0, Genres: Action
+elapsed time (s): 1.1280545480000015 
+
+processing: YEAR_AND_GENRE movie 2010 Musical
+	Identifier: tt1606158, Title: 2 hati 1 jiwa, Type: movie, Year: 2010, Runtime: 94, Genres: Comedy, Musical, Romance
+	Identifier: tt1561329, Title: A Surprise in Texas, Type: movie, Year: 2010, Runtime: 90, Genres: Documentary, Music, Musical
+	Identifier: tt0882741, Title: AIR: The Musical, Type: movie, Year: 2010, Runtime: 100, Genres: Comedy, Musical, Romance
+	Identifier: tt1753409, Title: Abigail - The Salem Witch Trials Rock Opera, Type: movie, Year: 2010, Runtime: 93, Genres: Musical
+	Identifier: tt3209106, Title: After School, Type: movie, Year: 2010, Runtime: 0, Genres: Musical
+	Identifier: tt1531621, Title: Again, Type: movie, Year: 2010, Runtime: 120, Genres: Drama, Musical
+	Identifier: tt1824147, Title: Aidu Ondala Aidu, Type: movie, Year: 2010, Runtime: 126, Genres: Drama, Family, Musical
+	Identifier: tt1641915, Title: Albert and Alice, Type: movie, Year: 2010, Runtime: 78, Genres: Comedy, Musical, Romance
+	Identifier: tt2049386, Title: Alice in Wonderland, Type: movie, Year: 2010, Runtime: 99, Genres: Fantasy, Musical
+	Identifier: tt1499201, Title: Anjaana Anjaani, Type: movie, Year: 2010, Runtime: 151, Genres: Comedy, Drama, Musical
+	Identifier: tt13626486, Title: Anjana, Type: movie, Year: 2010, Runtime: 79, Genres: Musical, Romance
+	Identifier: tt1718724, Title: Ashiq, Type: movie, Year: 2010, Runtime: 122, Genres: Documentary, Musical
+	Identifier: tt1718130, Title: Barnabus & Bella, Type: movie, Year: 2010, Runtime: 55, Genres: Comedy, Musical
+	Identifier: tt1529233, Title: Basilicata Coast to Coast, Type: movie, Year: 2010, Runtime: 105, Genres: Comedy, Musical
+	Identifier: tt1966368, Title: Bhalobaslei Ghor Bandha Jay Na, Type: movie, Year: 2010, Runtime: 152, Genres: Drama, Musical, Romance
+	Identifier: tt1670948, Title: Bouderbala, Type: movie, Year: 2010, Runtime: 84, Genres: Adventure, Documentary, Musical
+	Identifier: tt11223530, Title: Break! Substance Over Hype, Type: movie, Year: 2010, Runtime: 0, Genres: Musical
+	Identifier: tt1126591, Title: Burlesque, Type: movie, Year: 2010, Runtime: 119, Genres: Drama, Music, Musical
+	Identifier: tt2088838, Title: Burning Kisses, Type: movie, Year: 2010, Runtime: 0, Genres: Musical
+	Identifier: tt1630311, Title: Butterfly Crush, Type: movie, Year: 2010, Runtime: 89, Genres: Drama, Musical, Romance
+	Identifier: tt1643227, Title: Channa Sachi Muchi, Type: movie, Year: 2010, Runtime: 0, Genres: Musical, Romance
+	Identifier: tt3778564, Title: Charlie's Closet, Type: movie, Year: 2010, Runtime: 100, Genres: Musical
+	Identifier: tt1560949, Title: Chhevan Dariya (the Sixth River), Type: movie, Year: 2010, Runtime: 0, Genres: Drama, Musical
+	Identifier: tt1753583, Title: Christmas at the Ritz, Type: movie, Year: 2010, Runtime: 92, Genres: Musical
+	Identifier: tt1482130, Title: Church, Type: movie, Year: 2010, Runtime: 102, Genres: Family, Musical
+	Identifier: tt1821373, Title: Cocktail, Type: movie, Year: 2010, Runtime: 111, Genres: Drama, Musical, Thriller
+	Identifier: tt9254124, Title: Conte de Symphonie déchirée, Type: movie, Year: 2010, Runtime: 54, Genres: Musical
+	Identifier: tt1772791, Title: Countdown 2 Zero, Type: movie, Year: 2010, Runtime: 87, Genres: Drama, Musical, Sci-Fi
+	Identifier: tt1591011, Title: Dance with the Wodaabes, Type: movie, Year: 2010, Runtime: 90, Genres: Documentary, History, Musical
+	Identifier: tt1697894, Title: Dancing Chaplin, Type: movie, Year: 2010, Runtime: 131, Genres: Documentary, Musical
+	Identifier: tt1725957, Title: Dawai 2 Asmara, Type: movie, Year: 2010, Runtime: 113, Genres: Comedy, Drama, Musical
+	Identifier: tt1619021, Title: Dead Hollywood Blondes, Type: movie, Year: 2010, Runtime: 60, Genres: Musical
+	Identifier: tt1556143, Title: Disney High School Musical: China, Type: movie, Year: 2010, Runtime: 94, Genres: Musical, Romance
+	Identifier: tt1651065, Title: Don't Go in the Woods, Type: movie, Year: 2010, Runtime: 83, Genres: Horror, Musical
+	Identifier: tt7399632, Title: Easter at Immanuel: Live, Type: movie, Year: 2010, Runtime: 0, Genres: Musical
+	Identifier: tt1562295, Title: Ed Gein: The Musical, Type: movie, Year: 2010, Runtime: 92, Genres: Comedy, Horror, Musical
+	Identifier: tt1663336, Title: Emir, Type: movie, Year: 2010, Runtime: 135, Genres: Drama, Musical
+	Identifier: tt1740482, Title: Eternity, Type: movie, Year: 2010, Runtime: 190, Genres: Musical
+	Identifier: tt1521784, Title: Eye of the Sandman, Type: movie, Year: 2010, Runtime: 75, Genres: Comedy, Horror, Musical
+	Identifier: tt1704719, Title: Fanes Poem Musical, Type: movie, Year: 2010, Runtime: 48, Genres: Fantasy, Music, Musical
+	Identifier: tt1536053, Title: First Night, Type: movie, Year: 2010, Runtime: 116, Genres: Comedy, Musical, Romance
+	Identifier: tt1690120, Title: Fishnet, Type: movie, Year: 2010, Runtime: 84, Genres: Comedy, Musical, Romance
+	Identifier: tt4944908, Title: Frank Shinobi: An Experimental Musical Movie, Type: movie, Year: 2010, Runtime: 0, Genres: Musical
+	Identifier: tt1552173, Title: Freak Dance, Type: movie, Year: 2010, Runtime: 90, Genres: Comedy, Musical
+	Identifier: tt1740744, Title: Gol a Gol, Type: movie, Year: 2010, Runtime: 89, Genres: Drama, Musical, Sci-Fi
+	Identifier: tt0466553, Title: Golapi Ekhon Bilatey, Type: movie, Year: 2010, Runtime: 0, Genres: Musical
+	Identifier: tt1670390, Title: Gore-e-ography: The Making of Death Harmony, Type: movie, Year: 2010, Runtime: 93, Genres: Comedy, Horror, Musical
+	Identifier: tt5833872, Title: Heyonuvaane, Type: movie, Year: 2010, Runtime: 176, Genres: Drama, Musical
+	Identifier: tt1439229, Title: High School Musical: O Desafio, Type: movie, Year: 2010, Runtime: 90, Genres: Musical
+	Identifier: tt1731145, Title: Héroes verdaderos, Type: movie, Year: 2010, Runtime: 90, Genres: Animation, History, Musical
+	Identifier: tt1656179, Title: I Kissed a Vampire, Type: movie, Year: 2010, Runtime: 91, Genres: Comedy, Musical, Romance
+	Identifier: tt1380130, Title: If You Love, Type: movie, Year: 2010, Runtime: 123, Genres: Drama, Musical, Romance
+	Identifier: tt3663154, Title: Il mondo di Patty - La festa di Patty al cinema, Type: movie, Year: 2010, Runtime: 0, Genres: Musical
+	Identifier: tt1922625, Title: Imágina, Type: movie, Year: 2010, Runtime: 77, Genres: Musical
+	Identifier: tt1744772, Title: Inale, Type: movie, Year: 2010, Runtime: 81, Genres: Musical
+	Identifier: tt1653853, Title: Into Our Own Hands, Type: movie, Year: 2010, Runtime: 88, Genres: Documentary, Musical
+	Identifier: tt1546401, Title: Ironhorse, Type: movie, Year: 2010, Runtime: 83, Genres: Fantasy, Horror, Musical
+	Identifier: tt2106478, Title: Je vous écris du Havre, Type: movie, Year: 2010, Runtime: 51, Genres: Documentary, History, Musical
+	Identifier: tt1866982, Title: Jim Jones Hip Hop Monolouges 2009, Type: movie, Year: 2010, Runtime: 0, Genres: Musical
+	Identifier: tt2914048, Title: Just Maath Maathalli, Type: movie, Year: 2010, Runtime: 133, Genres: Drama, Musical, Romance
+	Identifier: tt1676117, Title: Kalliopes Karavan, Type: movie, Year: 2010, Runtime: 57, Genres: Documentary, Musical
+	Identifier: tt4321320, Title: Kanimozhi, Type: movie, Year: 2010, Runtime: 115, Genres: Musical, Romance
+	Identifier: tt2177668, Title: Kazuo Ohno Trilogy, Type: movie, Year: 2010, Runtime: 133, Genres: Biography, Documentary, Musical
+	Identifier: tt3440246, Title: La Bohème, Type: movie, Year: 2010, Runtime: 121, Genres: Drama, Musical, Romance
+	Identifier: tt1757885, Title: La cerimònia de la llum, Type: movie, Year: 2010, Runtime: 55, Genres: Documentary, Musical
+	Identifier: tt1773531, Title: Las horas del día, Type: movie, Year: 2010, Runtime: 71, Genres: Musical
+	Identifier: tt1748088, Title: Laskar Pemimpi, Type: movie, Year: 2010, Runtime: 0, Genres: Comedy, Musical, War
+	Identifier: tt1693707, Title: Laskar cilik, Type: movie, Year: 2010, Runtime: 0, Genres: Drama, Musical
+	Identifier: tt1733555, Title: Legends of La La, Type: movie, Year: 2010, Runtime: 87, Genres: Comedy, Documentary, Musical
+	Identifier: tt1588335, Title: Leila, Type: movie, Year: 2010, Runtime: 85, Genres: Musical, Romance
+	Identifier: tt1836033, Title: Leo e Bia, Type: movie, Year: 2010, Runtime: 98, Genres: Musical
+	Identifier: tt1754109, Title: Les Misérables in Concert: The 25th Anniversary, Type: movie, Year: 2010, Runtime: 178, Genres: Drama, Music, Musical
+	Identifier: tt1808262, Title: Liefling, Type: movie, Year: 2010, Runtime: 114, Genres: Musical
+	Identifier: tt4085412, Title: Life Is Not a Musical: The Musical, Type: movie, Year: 2010, Runtime: 70, Genres: Musical
+	Identifier: tt1843969, Title: Llits 3D, Type: movie, Year: 2010, Runtime: 0, Genres: Musical
+	Identifier: tt1429451, Title: Madly in Love, Type: movie, Year: 2010, Runtime: 0, Genres: Comedy, Musical, Romance
+	Identifier: tt1728655, Title: Magika, Type: movie, Year: 2010, Runtime: 94, Genres: Musical
+	Identifier: tt13399184, Title: Mamma Mia, Type: movie, Year: 2010, Runtime: 0, Genres: Musical
+	Identifier: tt1556186, Title: Marginais, Type: movie, Year: 2010, Runtime: 75, Genres: Drama, Musical, Romance
+	Identifier: tt5760198, Title: Martha, Type: movie, Year: 2010, Runtime: 0, Genres: Musical
+	Identifier: tt1634800, Title: Maximum Shame, Type: movie, Year: 2010, Runtime: 80, Genres: Fantasy, Horror, Musical
+	Identifier: tt1693734, Title: Melodi, Type: movie, Year: 2010, Runtime: 95, Genres: Drama, Musical
+	Identifier: tt1587223, Title: Miss Tacuarembó, Type: movie, Year: 2010, Runtime: 92, Genres: Comedy, Drama, Musical
+	Identifier: tt1742081, Title: Music from the Big House, Type: movie, Year: 2010, Runtime: 90, Genres: Documentary, Music, Musical
+	Identifier: tt1765939, Title: My Song for You, Type: movie, Year: 2010, Runtime: 50, Genres: Drama, Family, Musical
+	Identifier: tt1152278, Title: NY Export: Opus Jazz, Type: movie, Year: 2010, Runtime: 46, Genres: Drama, Musical
+	Identifier: tt2137710, Title: Natobar Notout, Type: movie, Year: 2010, Runtime: 113, Genres: Comedy, Musical
+	Identifier: tt2919752, Title: Nipe Jibu, Type: movie, Year: 2010, Runtime: 120, Genres: Musical
+	Identifier: tt1616543, Title: Not the Messiah: He's a Very Naughty Boy, Type: movie, Year: 2010, Runtime: 92, Genres: Comedy, Music, Musical
+	Identifier: tt1981672, Title: O Lendário Tio Liceu e os Ngola Ritmos, Type: movie, Year: 2010, Runtime: 55, Genres: Documentary, Musical
+	Identifier: tt1661252, Title: O Navio, Type: movie, Year: 2010, Runtime: 66, Genres: Comedy, Musical, Romance
+	Identifier: tt3563400, Title: On the Road to Femina, Type: movie, Year: 2010, Runtime: 58, Genres: Biography, Documentary, Musical
+	Identifier: tt1748157, Title: Paper Ketchup, Type: movie, Year: 2010, Runtime: 57, Genres: Comedy, Musical, Romance
+	Identifier: tt1790801, Title: Pappeli, Type: movie, Year: 2010, Runtime: 46, Genres: Documentary, History, Musical
+	Identifier: tt1776967, Title: Pattinte Palazhi, Type: movie, Year: 2010, Runtime: 138, Genres: Drama, Family, Musical
+	Identifier: tt1746206, Title: Priklyucheniya v tridesyatom tsarstve, Type: movie, Year: 2010, Runtime: 86, Genres: Family, Musical
+	Identifier: tt1549571, Title: Pure Country 2: The Gift, Type: movie, Year: 2010, Runtime: 112, Genres: Drama, Music, Musical
+	Identifier: tt1786642, Title: Ready 2 Die, Type: movie, Year: 2010, Runtime: 60, Genres: Drama, Music, Musical
+	Identifier: tt1797480, Title: Rhythm City, Type: movie, Year: 2010, Runtime: 95, Genres: Musical
+	Identifier: tt1380190, Title: Ricky Rapper and the Bicycle Thief, Type: movie, Year: 2010, Runtime: 78, Genres: Comedy, Family, Musical
+	Identifier: tt1900964, Title: Rip, Type: movie, Year: 2010, Runtime: 0, Genres: Musical
+	Identifier: tt1558856, Title: Rock It!, Type: movie, Year: 2010, Runtime: 93, Genres: Comedy, Family, Musical
+	Identifier: tt1534834, Title: Rock and Roll Stole My Soul, Type: movie, Year: 2010, Runtime: 72, Genres: Comedy, Drama, Musical
+	Identifier: tt1454542, Title: Sci-Fi High: The Movie Musical, Type: movie, Year: 2010, Runtime: 92, Genres: Comedy, Musical, Romance
+	Identifier: tt1592876, Title: Score: A Hockey Musical, Type: movie, Year: 2010, Runtime: 93, Genres: Comedy, Family, Musical
+	Identifier: tt1553290, Title: Scumbabies, Type: movie, Year: 2010, Runtime: 88, Genres: Musical
+	Identifier: tt1586552, Title: Seguir siendo: Café Tacvba, Type: movie, Year: 2010, Runtime: 80, Genres: Documentary, Music, Musical
+	Identifier: tt1600885, Title: Senioritis, Type: movie, Year: 2010, Runtime: 0, Genres: Musical
+	Identifier: tt12564516, Title: Sesame Street: The Very Best of Elmo, Type: movie, Year: 2010, Runtime: 54, Genres: Musical
+	Identifier: tt1720297, Title: Showtime, Type: movie, Year: 2010, Runtime: 100, Genres: Drama, Fantasy, Musical
+	Identifier: tt1794955, Title: Shulamis, Type: movie, Year: 2010, Runtime: 151, Genres: Drama, Musical
+	Identifier: tt1919073, Title: Single Life: The Musical, Type: movie, Year: 2010, Runtime: 94, Genres: Comedy, Drama, Musical
+	Identifier: tt1534072, Title: Something Missie in the Life of Jordan Bank, Type: movie, Year: 2010, Runtime: 97, Genres: Drama, Fantasy, Musical
+	Identifier: tt1757865, Title: Song of the Lodz Ghetto, Type: movie, Year: 2010, Runtime: 120, Genres: Documentary, Music, Musical
+	Identifier: tt2181912, Title: Sons of Steel - directors cut, Type: movie, Year: 2010, Runtime: 91, Genres: Fantasy, Musical, Sci-Fi
+	Identifier: tt1805136, Title: South of New York, Type: movie, Year: 2010, Runtime: 83, Genres: Comedy, Musical
+	Identifier: tt1483020, Title: Spork, Type: movie, Year: 2010, Runtime: 86, Genres: Comedy, Musical
+	Identifier: tt1303803, Title: Standing Ovation, Type: movie, Year: 2010, Runtime: 105, Genres: Musical
+	Identifier: tt1652418, Title: Steven et Philomène, Type: movie, Year: 2010, Runtime: 122, Genres: Comedy, Musical, Mystery
+	Identifier: tt2061814, Title: Studien zum Untergang des Abendlands, Type: movie, Year: 2010, Runtime: 80, Genres: Musical
+	Identifier: tt1694565, Title: Subha Vivaha, Type: movie, Year: 2010, Runtime: 0, Genres: Drama, Family, Musical
+	Identifier: tt1234540, Title: The Aviatrix of Kazbek, Type: movie, Year: 2010, Runtime: 104, Genres: Drama, Musical, War
+	Identifier: tt1746248, Title: The Beast Pageant, Type: movie, Year: 2010, Runtime: 74, Genres: Adventure, Fantasy, Musical
+	Identifier: tt1629395, Title: The Bigtop, Type: movie, Year: 2010, Runtime: 85, Genres: Drama, Musical
+	Identifier: tt1833537, Title: The Bolshoi Ballet: Live from Moscow - The Nutcracker, Type: movie, Year: 2010, Runtime: 140, Genres: Musical
+	Identifier: tt1883359, Title: The Co(te)lette Film, Type: movie, Year: 2010, Runtime: 58, Genres: Musical
+	Identifier: tt2005376, Title: The Lamb Lies Down on Broadway, Type: movie, Year: 2010, Runtime: 95, Genres: Musical
+	Identifier: tt1855388, Title: The Life Ballet, Type: movie, Year: 2010, Runtime: 69, Genres: Drama, Musical
+	Identifier: tt3791740, Title: The Marriage of Figaro, Type: movie, Year: 2010, Runtime: 0, Genres: Musical
+	Identifier: tt1243631, Title: The Mikado Project, Type: movie, Year: 2010, Runtime: 0, Genres: Comedy, Musical
+	Identifier: tt2477236, Title: The Oldest Story Ever Told, Type: movie, Year: 2010, Runtime: 96, Genres: Musical
+	Identifier: tt1673515, Title: The Sacred Broccoli Uprising, Type: movie, Year: 2010, Runtime: 93, Genres: Musical
+	Identifier: tt1720275, Title: The Sound of Mumbai: A Musical, Type: movie, Year: 2010, Runtime: 63, Genres: Documentary, Musical
+	Identifier: tt1762365, Title: The Truth, Type: movie, Year: 2010, Runtime: 85, Genres: Comedy, Drama, Musical
+	Identifier: tt1701992, Title: The Ugly Duckling, Type: movie, Year: 2010, Runtime: 75, Genres: Animation, Family, Musical
+	Identifier: tt1067090, Title: The Vampires of Zanzibar, Type: movie, Year: 2010, Runtime: 106, Genres: Comedy, Horror, Musical
+	Identifier: tt2229463, Title: Tiempo de Leyenda, Type: movie, Year: 2010, Runtime: 52, Genres: Musical
+	Identifier: tt2023790, Title: Tremendous, Type: movie, Year: 2010, Runtime: 74, Genres: Comedy, Drama, Musical
+	Identifier: tt1685680, Title: Tristan und Isolde, Type: movie, Year: 2010, Runtime: 81, Genres: Drama, Musical, Romance
+	Identifier: tt1805486, Title: Tu Tha Mun Jauchi Rushi, Type: movie, Year: 2010, Runtime: 0, Genres: Drama, Musical, Romance
+	Identifier: tt1161411, Title: Una hora más en Canarias, Type: movie, Year: 2010, Runtime: 96, Genres: Comedy, Musical
+	Identifier: tt2023798, Title: Under the Spotlight, Type: movie, Year: 2010, Runtime: 55, Genres: Documentary, Music, Musical
+	Identifier: tt1733313, Title: Utau hittoman!, Type: movie, Year: 2010, Runtime: 82, Genres: Comedy, Musical
+	Identifier: tt2517594, Title: We Made Our Own Disaster, Type: movie, Year: 2010, Runtime: 79, Genres: Documentary, Musical
+	Identifier: tt1859643, Title: Welcome to the Outside, Type: movie, Year: 2010, Runtime: 0, Genres: Adventure, Musical, Romance
+	Identifier: tt6189784, Title: Write a Book About It, Type: movie, Year: 2010, Runtime: 116, Genres: Horror, Musical
+elapsed time (s): 0.8945997139999946 
+
+processing: YEAR_AND_GENRE movie 1976 War
+	Identifier: tt0074170, Title: 7 Man Army, Type: movie, Year: 1976, Runtime: 100, Genres: Action, Drama, War
+	Identifier: tt0132607, Title: A Sold Life, Type: movie, Year: 1976, Runtime: 0, Genres: War
+	Identifier: tt0351514, Title: A Woman in Jail, Type: movie, Year: 1976, Runtime: 90, Genres: Action, Drama, War
+	Identifier: tt0075627, Title: Aces High, Type: movie, Year: 1976, Runtime: 114, Genres: Action, Drama, War
+	Identifier: tt0252824, Title: Agnostos stratiotis, Type: movie, Year: 1976, Runtime: 91, Genres: Drama, War
+	Identifier: tt0280698, Title: Amagleba, Type: movie, Year: 1976, Runtime: 68, Genres: Drama, War
+	Identifier: tt0074100, Title: And Agnes Chose to Die, Type: movie, Year: 1976, Runtime: 135, Genres: Drama, War
+	Identifier: tt0076646, Title: As Ruínas no Interior, Type: movie, Year: 1976, Runtime: 107, Genres: Drama, War
+	Identifier: tt0075713, Title: Ba bai zhuang shi, Type: movie, Year: 1976, Runtime: 140, Genres: Drama, History, War
+	Identifier: tt0191804, Title: Babatu, Type: movie, Year: 1976, Runtime: 95, Genres: Biography, War
+	Identifier: tt0074972, Title: Black and White in Color, Type: movie, Year: 1976, Runtime: 90, Genres: Comedy, Drama, War
+	Identifier: tt0350918, Title: Boiling Mountains, Type: movie, Year: 1976, Runtime: 107, Genres: War
+	Identifier: tt0315855, Title: Bratyuzhka, Type: movie, Year: 1976, Runtime: 80, Genres: Drama, War
+	Identifier: tt0074286, Title: Carry on England, Type: movie, Year: 1976, Runtime: 89, Genres: Comedy, War
+	Identifier: tt6398618, Title: Chang kong xiong ying, Type: movie, Year: 1976, Runtime: 0, Genres: War
+	Identifier: tt0074515, Title: Coup de Grâce, Type: movie, Year: 1976, Runtime: 97, Genres: Drama, War
+	Identifier: tt0074395, Title: Deported Women of the SS Special Section, Type: movie, Year: 1976, Runtime: 98, Genres: Drama, Thriller, War
+	Identifier: tt0072916, Title: Duma o Kovpake: Buran, Type: movie, Year: 1976, Runtime: 99, Genres: Biography, War
+	Identifier: tt1464605, Title: Everlasting Glory, Type: movie, Year: 1976, Runtime: 116, Genres: Drama, War
+	Identifier: tt0075131, Title: Family Portrait, Type: movie, Year: 1976, Runtime: 92, Genres: Drama, War
+	Identifier: tt0287458, Title: Genkai-nada, Type: movie, Year: 1976, Runtime: 0, Genres: Crime, War
+	Identifier: tt1319091, Title: Hadashi no Gen, Type: movie, Year: 1976, Runtime: 0, Genres: Biography, Drama, War
+	Identifier: tt0071646, Title: Here and Elsewhere, Type: movie, Year: 1976, Runtime: 53, Genres: Documentary, War
+	Identifier: tt0295348, Title: Ilegalët, Type: movie, Year: 1976, Runtime: 87, Genres: Action, War
+	Identifier: tt0391261, Title: Kadihan, Type: movie, Year: 1976, Runtime: 79, Genres: Adventure, History, War
+	Identifier: tt0209079, Title: Kill Alex Kill, Type: movie, Year: 1976, Runtime: 89, Genres: Crime, Drama, War
+	Identifier: tt0133878, Title: L'invasion '1775...1975', Type: movie, Year: 1976, Runtime: 0, Genres: Documentary, History, War
+	Identifier: tt1399203, Title: Lang ya kou, Type: movie, Year: 1976, Runtime: 96, Genres: Adventure, Drama, War
+	Identifier: tt0138539, Title: Le jour de gloire, Type: movie, Year: 1976, Runtime: 94, Genres: Comedy, War
+	Identifier: tt0348721, Title: Le pont de singe, Type: movie, Year: 1976, Runtime: 130, Genres: Documentary, History, War
+	Identifier: tt0125832, Title: Liebes Lager, Type: movie, Year: 1976, Runtime: 103, Genres: Drama, Thriller, War
+	Identifier: tt0074405, Title: Maiden Bridge, Type: movie, Year: 1976, Runtime: 95, Genres: Drama, History, War
+	Identifier: tt5268380, Title: Megher Onek Rong, Type: movie, Year: 1976, Runtime: 109, Genres: History, War
+	Identifier: tt0195050, Title: Mei hua, Type: movie, Year: 1976, Runtime: 0, Genres: Drama, War
+	Identifier: tt0074897, Title: Mgla, Type: movie, Year: 1976, Runtime: 95, Genres: Drama, War
+	Identifier: tt0313450, Title: Murdered with an Axe at Panmunjeom, Type: movie, Year: 1976, Runtime: 75, Genres: War
+	Identifier: tt0073433, Title: Na yasnyy ogon, Type: movie, Year: 1976, Runtime: 88, Genres: Adventure, War
+	Identifier: tt0151713, Title: Nakdongkaneun heureuneunga, Type: movie, Year: 1976, Runtime: 95, Genres: War
+	Identifier: tt2677888, Title: Naznachayeshsya vnuchkoy, Type: movie, Year: 1976, Runtime: 144, Genres: War
+	Identifier: tt0074993, Title: Ocalic miasto, Type: movie, Year: 1976, Runtime: 110, Genres: Drama, War
+	Identifier: tt0078061, Title: Partita na instrument drewniany, Type: movie, Year: 1976, Runtime: 77, Genres: Drama, War
+	Identifier: tt4054920, Title: Pobeditel, Type: movie, Year: 1976, Runtime: 93, Genres: Adventure, War
+	Identifier: tt0302941, Title: Port, Type: movie, Year: 1976, Runtime: 76, Genres: Adventure, War
+	Identifier: tt1863356, Title: Protect and Survive, Type: movie, Year: 1976, Runtime: 66, Genres: Documentary, War
+	Identifier: tt0075153, Title: Redhead, Type: movie, Year: 1976, Runtime: 86, Genres: Drama, War
+	Identifier: tt0073622, Title: Return of the 18 Bronzemen, Type: movie, Year: 1976, Runtime: 93, Genres: Action, Adventure, War
+	Identifier: tt0074768, Title: SS Experiment Love Camp, Type: movie, Year: 1976, Runtime: 94, Genres: Drama, Thriller, War
+	Identifier: tt0075162, Title: Salas u Malom Ritu, Type: movie, Year: 1976, Runtime: 126, Genres: Drama, War
+	Identifier: tt0075163, Title: Salon Kitty, Type: movie, Year: 1976, Runtime: 129, Genres: Drama, War
+	Identifier: tt0213220, Title: Sawa Lakh Se Ek Ladaun, Type: movie, Year: 1976, Runtime: 135, Genres: Action, Drama, War
+	Identifier: tt4972876, Title: Sodybu tustejimo metas, Type: movie, Year: 1976, Runtime: 154, Genres: Drama, War
+	Identifier: tt0076777, Title: Stormtroopers, Type: movie, Year: 1976, Runtime: 110, Genres: Comedy, War
+	Identifier: tt0076668, Title: Submission, Type: movie, Year: 1976, Runtime: 116, Genres: Drama, War
+	Identifier: tt0123945, Title: That Brief Summer, Type: movie, Year: 1976, Runtime: 96, Genres: Drama, War
+	Identifier: tt0075203, Title: The 18 Bronzemen, Type: movie, Year: 1976, Runtime: 95, Genres: Action, Drama, War
+	Identifier: tt0164420, Title: The Blazing Temple, Type: movie, Year: 1976, Runtime: 88, Genres: Action, Drama, War
+	Identifier: tt0074400, Title: The Desert of the Tartars, Type: movie, Year: 1976, Runtime: 140, Genres: Drama, History, War
+	Identifier: tt0075467, Title: The Fifth Seal, Type: movie, Year: 1976, Runtime: 111, Genres: Drama, War
+	Identifier: tt0352660, Title: The Five Commandments, Type: movie, Year: 1976, Runtime: 110, Genres: Action, Drama, War
+	Identifier: tt0072850, Title: The General's Daughter, Type: movie, Year: 1976, Runtime: 97, Genres: Drama, Romance, War
+	Identifier: tt6470526, Title: The Great Wall on the South-china Sea, Type: movie, Year: 1976, Runtime: 0, Genres: Drama, War
+	Identifier: tt0211476, Title: The Last Cause, Type: movie, Year: 1976, Runtime: 163, Genres: Documentary, War
+	Identifier: tt0295211, Title: The Last Winter, Type: movie, Year: 1976, Runtime: 51, Genres: Drama, War
+	Identifier: tt0074891, Title: The Memory of Justice, Type: movie, Year: 1976, Runtime: 278, Genres: Documentary, War
+	Identifier: tt0075407, Title: The Peaks of Zelengore, Type: movie, Year: 1976, Runtime: 101, Genres: War
+	Identifier: tt0382376, Title: The Secret of Wonsan, Type: movie, Year: 1976, Runtime: 115, Genres: Mystery, War
+	Identifier: tt7621592, Title: The Story of the South China Sea, Type: movie, Year: 1976, Runtime: 93, Genres: Drama, War
+	Identifier: tt0075094, Title: The Written Off Return, Type: movie, Year: 1976, Runtime: 95, Genres: Action, War
+	Identifier: tt0125537, Title: Three Years Without God, Type: movie, Year: 1976, Runtime: 124, Genres: Drama, Romance, War
+	Identifier: tt0295727, Title: Tingujt e luftës, Type: movie, Year: 1976, Runtime: 90, Genres: Drama, War
+	Identifier: tt0295729, Title: Tokë e përgjakur, Type: movie, Year: 1976, Runtime: 57, Genres: Drama, War
+	Identifier: tt0416276, Title: Unternehmen V2, Type: movie, Year: 1976, Runtime: 124, Genres: War
+	Identifier: tt13552496, Title: Vise od igre, Type: movie, Year: 1976, Runtime: 110, Genres: Comedy, Drama, War
+	Identifier: tt0075406, Title: Voyage of the Damned, Type: movie, Year: 1976, Runtime: 155, Genres: Drama, War
+	Identifier: tt0337436, Title: Vsegda so mnoyu, Type: movie, Year: 1976, Runtime: 101, Genres: War
+	Identifier: tt0074370, Title: Zero Pilot, Type: movie, Year: 1976, Runtime: 102, Genres: Action, Drama, War
+elapsed time (s): 0.9286687760000021 
+
+processing: YEAR_AND_GENRE videoGame 1999 Horror
+	Identifier: tt0287907, Title: Aliens vs. Predator, Type: videoGame, Year: 1999, Runtime: 0, Genres: Action, Horror, Sci-Fi
+	Identifier: tt0278316, Title: Armorines: Project S.W.A.R.M., Type: videoGame, Year: 1999, Runtime: 0, Genres: Action, Horror, Sci-Fi
+	Identifier: tt0862919, Title: Blair Witch Project: Official Interactive Companion, Type: videoGame, Year: 1999, Runtime: 0, Genres: Horror, Mystery
+	Identifier: tt0268197, Title: Blue Stinger, Type: videoGame, Year: 1999, Runtime: 0, Genres: Action, Adventure, Horror
+	Identifier: tt0457314, Title: Countdown Vampires, Type: videoGame, Year: 1999, Runtime: 0, Genres: Action, Horror, Mystery
+	Identifier: tt0417563, Title: D2, Type: videoGame, Year: 1999, Runtime: 0, Genres: Action, Adventure, Horror
+	Identifier: tt0228217, Title: Dino Crisis, Type: videoGame, Year: 1999, Runtime: 0, Genres: Action, Adventure, Horror
+	Identifier: tt7996214, Title: Dylan Dog: Horror Luna Park, Type: videoGame, Year: 1999, Runtime: 0, Genres: Adventure, Animation, Horror
+	Identifier: tt0138458, Title: Gabriel Knight 3: Blood of the Sacred, Blood of the Damned, Type: videoGame, Year: 1999, Runtime: 0, Genres: Adventure, Drama, Horror
+	Identifier: tt0363260, Title: Half-Life: Opposing Force, Type: videoGame, Year: 1999, Runtime: 0, Genres: Action, Adventure, Horror
+	Identifier: tt2085821, Title: Inagawa Junji: Kyoufu no yashiki, Type: videoGame, Year: 1999, Runtime: 0, Genres: Horror
+	Identifier: tt0272164, Title: Koudelka, Type: videoGame, Year: 1999, Runtime: 0, Genres: Action, Horror
+	Identifier: tt0214964, Title: Mortal Kombat Gold, Type: videoGame, Year: 1999, Runtime: 0, Genres: Action, Fantasy, Horror
+	Identifier: tt0436638, Title: Nocturne, Type: videoGame, Year: 1999, Runtime: 0, Genres: Action, Adventure, Horror
+	Identifier: tt0262673, Title: Parasite Eve II, Type: videoGame, Year: 1999, Runtime: 0, Genres: Action, Drama, Horror
+	Identifier: tt0454922, Title: R-Type Delta, Type: videoGame, Year: 1999, Runtime: 0, Genres: Action, Fantasy, Horror
+	Identifier: tt0207701, Title: Resident Evil 3: Nemesis, Type: videoGame, Year: 1999, Runtime: 0, Genres: Action, Adventure, Horror
+	Identifier: tt0308956, Title: System Shock 2, Type: videoGame, Year: 1999, Runtime: 0, Genres: Action, Horror, Sci-Fi
+	Identifier: tt0277738, Title: The House of the Dead 2, Type: videoGame, Year: 1999, Runtime: 0, Genres: Action, Horror, Sci-Fi
+	Identifier: tt0194044, Title: The Rocky Interactive Horror Show, Type: videoGame, Year: 1999, Runtime: 0, Genres: Adventure, Comedy, Horror
+elapsed time (s): 0.8607445549999895 
+
+processing: YEAR_AND_GENRE tvSeries 1997 Reality-TV
+	Identifier: tt0195498, Title: A Taste of Life, Type: tvSeries, Year: 1997, Runtime: 30, Genres: Reality-TV
+	Identifier: tt0159847, Title: Antiques Roadshow, Type: tvSeries, Year: 1997, Runtime: 0, Genres: Reality-TV
+	Identifier: tt0401914, Title: Boogie Woogie Kids Championship, Type: tvSeries, Year: 1997, Runtime: 0, Genres: Game-Show, Music, Reality-TV
+	Identifier: tt8211636, Title: Born to Ride TV, Type: tvSeries, Year: 1997, Runtime: 0, Genres: Reality-TV
+	Identifier: tt13322516, Title: Brottslingar, Type: tvSeries, Year: 1997, Runtime: 25, Genres: Crime, Reality-TV, Talk-Show
+	Identifier: tt0126222, Title: Brutale meiden, Type: tvSeries, Year: 1997, Runtime: 0, Genres: Reality-TV
+	Identifier: tt0174384, Title: Comics on Delivery, Type: tvSeries, Year: 1997, Runtime: 30, Genres: Comedy, Reality-TV
+	Identifier: tt13702892, Title: En Casa de Lucy, Type: tvSeries, Year: 1997, Runtime: 0, Genres: Reality-TV
+	Identifier: tt11740280, Title: Erotodikeio, Type: tvSeries, Year: 1997, Runtime: 0, Genres: Reality-TV, Talk-Show
+	Identifier: tt0264245, Title: Expedition: Robinson, Type: tvSeries, Year: 1997, Runtime: 60, Genres: Adventure, Game-Show, Reality-TV
+	Identifier: tt7974536, Title: Fix It Up!, Type: tvSeries, Year: 1997, Runtime: 0, Genres: Reality-TV
+	Identifier: tt14470908, Title: Flatmates, Type: tvSeries, Year: 1997, Runtime: 21, Genres: Reality-TV
+	Identifier: tt0391606, Title: Ground Breakers, Type: tvSeries, Year: 1997, Runtime: 30, Genres: Reality-TV
+	Identifier: tt0131170, Title: Holiday Reps, Type: tvSeries, Year: 1997, Runtime: 30, Genres: Reality-TV
+	Identifier: tt10225086, Title: Imagens Reais, Type: tvSeries, Year: 1997, Runtime: 0, Genres: Horror, Reality-TV, Talk-Show
+	Identifier: tt0235927, Title: Judge Joe Brown, Type: tvSeries, Year: 1997, Runtime: 0, Genres: Crime, Reality-TV
+	Identifier: tt0367347, Title: Judgment Day, Type: tvSeries, Year: 1997, Runtime: 0, Genres: Family, Reality-TV
+	Identifier: tt2962972, Title: K1 Magazin, Type: tvSeries, Year: 1997, Runtime: 60, Genres: Reality-TV
+	Identifier: tt0980542, Title: La hora de Pau, Type: tvSeries, Year: 1997, Runtime: 45, Genres: Reality-TV, Talk-Show
+	Identifier: tt1441641, Title: Lie Detector, Type: tvSeries, Year: 1997, Runtime: 0, Genres: Reality-TV
+	Identifier: tt1132530, Title: MTV Probe, Type: tvSeries, Year: 1997, Runtime: 30, Genres: Reality-TV
+	Identifier: tt10914244, Title: Memories, Type: tvSeries, Year: 1997, Runtime: 0, Genres: Reality-TV
+	Identifier: tt5438364, Title: När & Fjärran, Type: tvSeries, Year: 1997, Runtime: 45, Genres: Reality-TV
+	Identifier: tt1963400, Title: One House Two Looks, Type: tvSeries, Year: 1997, Runtime: 0, Genres: Reality-TV
+	Identifier: tt9686306, Title: Power Rock, Type: tvSeries, Year: 1997, Runtime: 0, Genres: Reality-TV
+	Identifier: tt2757994, Title: På rymmen, Type: tvSeries, Year: 1997, Runtime: 45, Genres: Reality-TV
+	Identifier: tt1096640, Title: Sex Bytes, Type: tvSeries, Year: 1997, Runtime: 0, Genres: Reality-TV
+	Identifier: tt0238807, Title: Split Screen, Type: tvSeries, Year: 1997, Runtime: 0, Genres: Reality-TV, Talk-Show
+	Identifier: tt7615142, Title: TILT!, Type: tvSeries, Year: 1997, Runtime: 0, Genres: Reality-TV
+	Identifier: tt9686342, Title: TV Team, Type: tvSeries, Year: 1997, Runtime: 10, Genres: Reality-TV
+	Identifier: tt1024698, Title: Takeshi no dare demo Pikaso, Type: tvSeries, Year: 1997, Runtime: 0, Genres: Reality-TV
+	Identifier: tt0391694, Title: Tales from the Back Seat, Type: tvSeries, Year: 1997, Runtime: 0, Genres: Documentary, Reality-TV
+	Identifier: tt4884998, Title: Taste of Life, Type: tvSeries, Year: 1997, Runtime: 30, Genres: Reality-TV
+	Identifier: tt0123357, Title: The People's Court, Type: tvSeries, Year: 1997, Runtime: 60, Genres: Crime, Reality-TV
+	Identifier: tt0215445, Title: Trauma: Life in the E.R., Type: tvSeries, Year: 1997, Runtime: 24, Genres: Documentary, Reality-TV
+	Identifier: tt0281500, Title: Treasure Island, Type: tvSeries, Year: 1997, Runtime: 30, Genres: Family, Game-Show, Reality-TV
+	Identifier: tt9686364, Title: Wacky Wake-Up, Type: tvSeries, Year: 1997, Runtime: 0, Genres: Reality-TV
+	Identifier: tt0292870, Title: Wild On..., Type: tvSeries, Year: 1997, Runtime: 60, Genres: Reality-TV
+	Identifier: tt0217970, Title: World's Scariest Police Chases..., Type: tvSeries, Year: 1997, Runtime: 0, Genres: Reality-TV
+	Identifier: tt0305473, Title: Äntligen hemma, Type: tvSeries, Year: 1997, Runtime: 30, Genres: Reality-TV
+elapsed time (s): 0.8851131809999941 
+
+processing: YEAR_AND_GENRE tvEpisode 1974 Biography
+	Identifier: tt4039624, Title: A Circus for a School, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt1285644, Title: A Past and a Future, Type: tvEpisode, Year: 1974, Runtime: 52, Genres: Biography, Drama, History
+	Identifier: tt1285645, Title: A Perfect Darling, Type: tvEpisode, Year: 1974, Runtime: 52, Genres: Biography, Drama, History
+	Identifier: tt4053118, Title: Acting a Part?, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt4053144, Title: Alan Price: Between Today & Yesterday, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt0721466, Title: Arthur Askey, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt0721476, Title: Barry Briggs, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt4053126, Title: Beethoven's 9th Symphony, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt0767663, Title: Beryl Grey, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt0721494, Title: Bill Maynard, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt0767670, Title: Chay Blyth, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt0721543, Title: Christopher Lee, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt1518505, Title: Claire Bloom, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt14491308, Title: Claude Lévi-Strauss: 1ère émission, Type: tvEpisode, Year: 1974, Runtime: 59, Genres: Biography, Documentary
+	Identifier: tt14491422, Title: Claude Lévi-Strauss: 2ème émission, Type: tvEpisode, Year: 1974, Runtime: 58, Genres: Biography, Documentary
+	Identifier: tt14496418, Title: Claude Lévi-Strauss: 3ème émission, Type: tvEpisode, Year: 1974, Runtime: 57, Genres: Biography, Documentary
+	Identifier: tt14496514, Title: Claude Lévi-Strauss: 4ème émission, Type: tvEpisode, Year: 1974, Runtime: 53, Genres: Biography, Documentary
+	Identifier: tt4053136, Title: Crystal Palace-The Great Glass Hive, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt1578054, Title: Cuckoo: A Celebration of Mr. Laurel and Mr. Hardy, Type: tvEpisode, Year: 1974, Runtime: 67, Genres: Biography, Documentary, Music
+	Identifier: tt4053174, Title: Dame Ninette De Valois, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt0767677, Title: David Hemmery, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt0767680, Title: Derek Dougan, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt0721583, Title: Deryck Guyler, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt0721588, Title: Dick Francis, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt0721593, Title: Don Revie, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt3974240, Title: Don't Take It for Granted, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt6377438, Title: Eamonn Andrews, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt1283015, Title: Eleonore, Type: tvEpisode, Year: 1974, Runtime: 52, Genres: Biography, Drama, History
+	Identifier: tt1512987, Title: Ella Fitzgerald at Ronnie Scott's, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt1512988, Title: Ella Fitzgerald's Other Show, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt2954208, Title: Episode #1.1, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography
+	Identifier: tt2954242, Title: Episode #1.2, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography
+	Identifier: tt2954224, Title: Episode #1.3, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography
+	Identifier: tt2954250, Title: Episode #1.4, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography
+	Identifier: tt2954282, Title: Episode #1.5, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography
+	Identifier: tt3974242, Title: Ernest Brown: Pioneer Photographer, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt0071501, Title: Find Me, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt6433962, Title: Francis Blanche, Type: tvEpisode, Year: 1974, Runtime: 43, Genres: Biography
+	Identifier: tt1283016, Title: Georgina, Type: tvEpisode, Year: 1974, Runtime: 53, Genres: Biography, Drama, History
+	Identifier: tt0722002, Title: Gordon Ostlere, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt4053116, Title: Great Orchestras: The London Symphony, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt1736943, Title: Henry Moore: The Language of Sculpture, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt1285646, Title: His Borrowed Plumes, Type: tvEpisode, Year: 1974, Runtime: 52, Genres: Biography, Drama, History
+	Identifier: tt0949592, Title: Internacionala, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Drama, History
+	Identifier: tt0721691, Title: Jack Ashley, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt0721695, Title: Jack Howarth, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt7822266, Title: Jacques Chazot, Type: tvEpisode, Year: 1974, Runtime: 60, Genres: Biography
+	Identifier: tt14485208, Title: Jean Giraudoux, Type: tvEpisode, Year: 1974, Runtime: 48, Genres: Biography, Documentary
+	Identifier: tt1285647, Title: Jennie Jerome, Type: tvEpisode, Year: 1974, Runtime: 52, Genres: Biography, Drama, History
+	Identifier: tt0721723, Title: Jimmy Jewel, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt0721734, Title: John Alderton, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt0721735, Title: John Conteh, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt0721736, Title: John Dankworth, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt6433538, Title: Johnny Hallyday, Type: tvEpisode, Year: 1974, Runtime: 52, Genres: Biography
+	Identifier: tt3974244, Title: Joseph Conrad, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt8027594, Title: Joseph Delteil: 1ère émission, Type: tvEpisode, Year: 1974, Runtime: 26, Genres: Biography, Documentary
+	Identifier: tt8027596, Title: Joseph Delteil: 2ème émission, Type: tvEpisode, Year: 1974, Runtime: 26, Genres: Biography, Documentary
+	Identifier: tt8027598, Title: Joseph Delteil: 3ème émission, Type: tvEpisode, Year: 1974, Runtime: 26, Genres: Biography, Documentary
+	Identifier: tt8027600, Title: Joseph Delteil: 4ème émission, Type: tvEpisode, Year: 1974, Runtime: 26, Genres: Biography, Documentary
+	Identifier: tt8027606, Title: Joseph Delteil: 5ème émission, Type: tvEpisode, Year: 1974, Runtime: 26, Genres: Biography, Documentary
+	Identifier: tt8027612, Title: Joseph Delteil: 6ème émission, Type: tvEpisode, Year: 1974, Runtime: 26, Genres: Biography, Documentary
+	Identifier: tt1283017, Title: Josephine, Type: tvEpisode, Year: 1974, Runtime: 52, Genres: Biography, Drama, History
+	Identifier: tt1522609, Title: Kafka's Castle, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt1285648, Title: Lady Randolph, Type: tvEpisode, Year: 1974, Runtime: 52, Genres: Biography, Drama, History
+	Identifier: tt0721792, Title: Lionel Blair, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt1283018, Title: Louise, Type: tvEpisode, Year: 1974, Runtime: 51, Genres: Biography, Drama, History
+	Identifier: tt1283019, Title: Maria Luisa, Type: tvEpisode, Year: 1974, Runtime: 52, Genres: Biography, Drama, History
+	Identifier: tt1283020, Title: Maria Walewska, Type: tvEpisode, Year: 1974, Runtime: 52, Genres: Biography, Drama, History
+	Identifier: tt0949593, Title: Mart, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Drama, History
+	Identifier: tt6434040, Title: Maxime Le Forestier, Type: tvEpisode, Year: 1974, Runtime: 45, Genres: Biography
+	Identifier: tt0860877, Title: Mrs. Lincoln's Husband, Type: tvEpisode, Year: 1974, Runtime: 50, Genres: Biography, Drama, History
+	Identifier: tt2289161, Title: Muhammad Ali- Der lange Weg zurück, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt4039604, Title: Music from the Flames, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt0933267, Title: Na velikoj skoli, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Drama, History
+	Identifier: tt3230340, Title: Napadenie, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Crime, History
+	Identifier: tt4053114, Title: Nureyev, Type: tvEpisode, Year: 1974, Runtime: 47, Genres: Biography, Documentary, Music
+	Identifier: tt0949594, Title: Obnavljanje, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Drama, History
+	Identifier: tt1522613, Title: Oscar Peterson & André Previn, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt0721875, Title: Patrick Moore, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt6434030, Title: Paulette Merval et Marcel Merkès, Type: tvEpisode, Year: 1974, Runtime: 40, Genres: Biography
+	Identifier: tt1283021, Title: Pauline, Type: tvEpisode, Year: 1974, Runtime: 52, Genres: Biography, Drama, History
+	Identifier: tt0321060, Title: Pauline Carton, Type: tvEpisode, Year: 1974, Runtime: 44, Genres: Biography
+	Identifier: tt7858458, Title: Pétula Clark, Type: tvEpisode, Year: 1974, Runtime: 45, Genres: Biography
+	Identifier: tt0949595, Title: Radjanje, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Drama, History
+	Identifier: tt0949596, Title: Rat, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Drama, History
+	Identifier: tt1285649, Title: Recovery, Type: tvEpisode, Year: 1974, Runtime: 52, Genres: Biography, Drama, History
+	Identifier: tt2289165, Title: Richard Bach - Vogelflug und die Länder der Sterne, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt0721923, Title: Richard O'Sullivan, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt6433460, Title: Rika Zaraï, Type: tvEpisode, Year: 1974, Runtime: 52, Genres: Biography
+	Identifier: tt0721930, Title: Robert Dougall, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt0721933, Title: Robert Morley, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt1283022, Title: Rose, Type: tvEpisode, Year: 1974, Runtime: 52, Genres: Biography, Drama, History
+	Identifier: tt0721946, Title: Roy Dotrice, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt7821312, Title: Rufus, Type: tvEpisode, Year: 1974, Runtime: 50, Genres: Biography
+	Identifier: tt2289169, Title: Russell Means- Tomahawk und Onkel Tom, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt0721956, Title: Sam Kydd, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt0767770, Title: Sheila Scott, Type: tvEpisode, Year: 1974, Runtime: 42, Genres: Biography, Documentary
+	Identifier: tt0767773, Title: Sir William Coles, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt0949597, Title: Sukobi, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Drama, History
+	Identifier: tt2289173, Title: Surabhi Patel- Nachdenken über Auroville, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt0721991, Title: Terry Biddlecombe, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary
+	Identifier: tt0130501, Title: The Ambassador, Type: tvEpisode, Year: 1974, Runtime: 90, Genres: Biography, Drama, History
+	Identifier: tt4053120, Title: The Art of the Potter, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt1283023, Title: The End of Love, Type: tvEpisode, Year: 1974, Runtime: 53, Genres: Biography, Drama, History
+	Identifier: tt4039602, Title: The Goldwyn Touch, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt1522618, Title: The Invasion of Space: Novgorod Father of Russia, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt4039612, Title: The Jean Rhys Woman, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt4039614, Title: The Need for Nightmare, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt4039610, Title: The O De Cologne Show, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt0312019, Title: The Whirlwind, Type: tvEpisode, Year: 1974, Runtime: 75, Genres: Biography, Drama, History
+	Identifier: tt3992230, Title: Tommy Steele: My Life, My Song, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt1285650, Title: Triumph and Tragedy, Type: tvEpisode, Year: 1974, Runtime: 52, Genres: Biography, Drama, History
+	Identifier: tt3230352, Title: Trudnaya osen, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Crime, History
+	Identifier: tt2173177, Title: Uzdignuta Cela, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Drama, History
+	Identifier: tt3230356, Title: V ogne, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Crime, History
+	Identifier: tt4053146, Title: W.B.Yeats and the Coming Times, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt4053134, Title: Wish You Were Here, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt1518512, Title: Words by Johnny Mercer, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
+	Identifier: tt6434054, Title: Yvan Rebroff, Type: tvEpisode, Year: 1974, Runtime: 45, Genres: Biography
+elapsed time (s): 1.0830993220000096

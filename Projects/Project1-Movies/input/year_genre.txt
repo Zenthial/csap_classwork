@@ -1,0 +1,6 @@
+YEAR_AND_GENRE movie 1995 Action
+YEAR_AND_GENRE movie 2010 Musical
+YEAR_AND_GENRE movie 1976 War
+YEAR_AND_GENRE videoGame 1999 Horror
+YEAR_AND_GENRE tvSeries 1997 Reality-TV
+YEAR_AND_GENRE tvEpisode 1974 Biography
