@@ -4,7 +4,7 @@ import sorts
 
 from classes import Movie, Rating
 
-def _parse_line(line: str, movies: dict[str, Movie], ratings: dict[str, Rating]):
+def _parse_line(line: str, movies: dict[str, Movie], ratings: dict[str, Rating], sorted_ratings_votes: list[Rating]):
     line_array = line.strip("\n").split(" ")
     type = line_array[0]
     print("processing: ", end="")
@@ -28,7 +28,7 @@ def _parse_line(line: str, movies: dict[str, Movie], ratings: dict[str, Rating])
     elif type == "MOST_VOTES":
         title_type = line_array[1]
         count = int(line_array[2])
-        functions.most_votes(movies, ratings, title_type, count)
+        functions.most_votes(movies, sorted_ratings_votes, title_type, count)
     elif type == "TOP":
         title_type = line_array[1]
         count = int(line_array[2])
@@ -38,8 +38,14 @@ def _parse_line(line: str, movies: dict[str, Movie], ratings: dict[str, Rating])
 
 
 def parse_input(movies: dict[str, Movie], ratings: dict[str, Rating]):
+    rat_table = []
+    for rating in ratings.values():
+        rat_table.append(rating)
+        
+    sorted_ratings_votes = sorts.quick_sort_class(rat_table, "num_votes")
+
     input = sys.stdin
     line = input.readline()
     while line:
-        _parse_line(line, movies, ratings)
+        _parse_line(line, movies, ratings, sorted_ratings_votes)
         line = input.readline()

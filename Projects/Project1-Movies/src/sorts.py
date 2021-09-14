@@ -96,7 +96,7 @@ def quick_sort_class_nested(arr: list, prop: str, index) -> list:
 MOVIE_ELM = 1
 RATING_ELM = 0
 def quick_sort_top(arr: list[list[(Rating, Movie)]]) -> list[list[(Rating, Movie)]]:
-    return quick_sort_class_nested(quick_sort_class_nested(quick_sort_class_nested(arr, "primary_title", MOVIE_ELM), "average_rating", RATING_ELM)[::-1], "num_votes", RATING_ELM)[::-1]
+    return quick_sort_class_nested(quick_sort_class_nested(quick_sort_class_nested(arr, "primary_title", MOVIE_ELM), "num_votes", RATING_ELM), "average_rating", RATING_ELM)[::-1]
 
 
 def quick_sort_most_votes(arr):
