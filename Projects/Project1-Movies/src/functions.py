@@ -33,7 +33,7 @@ def contains(movies: dict[str, Movie], title_type: str, words: str):
     if len(matches) == 0:
         print("\tNo match found!")
     else:
-        matches = sorts.quick_sort_class(matches, "primary_title")
+        # matches = sorts.quick_sort_class(matches, "primary_title") # per discussions, don't need to sort alphabetically
         for match in matches:
             print(f"\t{get_movie_info(match)}")
 
