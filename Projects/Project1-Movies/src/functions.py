@@ -122,22 +122,20 @@ def top(movies: dict[str, Movie], ratings: dict[str, Rating], title_type: str, c
     rat_table = [x for x in ratings.values()]
     years = list(range(start_year, end_year+1))
     years_dict: dict[int, list[str]] = {}
-    years_count: dict[int, int] = {}
 
     for year in years:
-        years_dict[year] = sorts.quick_sort_top([[x, movies.get(x.tconst)] for x in rat_table if movies.get(x.tconst).start_year == year and movies.get(x.tconst).title_type == title_type and x.num_votes >= 1000])[:count]
-        years_count[year] = 0
-
-    # for rating in ratings.values():
-    #     movie_info = movies.get(rating.tconst)
-    #     if rating.num_votes > 1000:
-    #         if movie_info.start_year in years and years_count[movie_info.start_year] < count:
-    #             years_count[movie_info.start_year] += 1
-    #             years_dict[movie_info.start_year].append([rating, movie_info])
+        tab = []
+        cnt = 0
+        for rating in rat_table:
+            movie_info = movies.get(rating.tconst)
+            if movie_info.start_year == year and movie_info.title_type == title_type and rating.num_votes >= 1000:
+                tab.append([rating, movie_info])
+                cnt += 1
+                if cnt >= count:
+                    break
                 
-    # for year in years:
-    #     if len(years_dict[year]) != 0:
-    #         years_dict[year] = sorts.quick_sort_top(years_dict[year])
+        tab = sorts.quick_sort_top(tab)
+        years_dict[year] = tab
 
     for year in years_dict:
         return_str += f"\tYEAR: {year}\n"
