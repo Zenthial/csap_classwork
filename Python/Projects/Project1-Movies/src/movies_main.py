@@ -13,13 +13,17 @@ def main():
     else:
         file_name = "../output/actual/out.txt"
         
-    f = open(file_name, "w")
+    f = open(file_name, "w", encoding="utf8")
     
     print(f"Running. Writing contents to {file_name}")
 
     movies_dict, rating_dict = reader.read_data(small, f)
-    f.write(f"Total movies: {len(movies_dict)}\n")
-    f.write(f"Total ratings: {len(rating_dict)}\n\n")
+    movies_out = f"Total movies: {len(movies_dict)}\n"
+    ratings_out = f"Total ratings: {len(rating_dict)}\n\n"
+    f.write(movies_out)
+    f.write(ratings_out)
+    print(movies_out)
+    print(ratings_out)
     processor.parse_input(movies_dict, rating_dict, f)
     
     print("Contents written")

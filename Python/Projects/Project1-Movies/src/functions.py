@@ -2,10 +2,10 @@ from classes import Movie, Rating
 from timeit import default_timer as timer
 import sorts
 
-def get_movie_info(movie_info: Movie) -> str:
+def _get_movie_info(movie_info: Movie) -> str:
     return f"Identifier: {movie_info.tconst}, Title: {movie_info.primary_title}, Type: {movie_info.title_type}, Year: {movie_info.start_year}, Runtime: {movie_info.runtime}, Genres: {', '.join(movie_info.genres)}"
 
-def get_rating_info(rating_info: Rating) -> str:
+def _get_rating_info(rating_info: Rating) -> str:
     return f"Identifier: {rating_info.tconst}, Rating: {rating_info.average_rating}, Votes: {rating_info.num_votes}"
 
 def lookup(movies: dict[str, Movie], ratings: dict[str, Rating], tconst: str):
@@ -16,12 +16,15 @@ def lookup(movies: dict[str, Movie], ratings: dict[str, Rating], tconst: str):
     rating_info = ratings.get(tconst)
 
     if movie_info is not None and rating_info is not None:
-        return_str += f"\tMOVIE: {get_movie_info(movie_info)}\n"
-        return_str += f"\tRATING: {get_rating_info(rating_info)}\n"
+        return_str += f"\tMOVIE: {_get_movie_info(movie_info)}\n"
+        return_str += f"\tRATING: {_get_rating_info(rating_info)}\n"
     else:
         return_str += "\tMovie not found!\nRating not found!\n"
     
     return_str += f"elapsed time (s): {timer() - start}\n\n"
+
+    print(return_str)
+
     return return_str
 
 def contains(movies: dict[str, Movie], title_type: str, words: str):
@@ -39,10 +42,13 @@ def contains(movies: dict[str, Movie], title_type: str, words: str):
     else:
         # matches = sorts.quick_sort_class(matches, "primary_title") # per discussions, don't need to sort alphabetically
         for match in matches:
-            return_str += f"\t{get_movie_info(match)}\n"
+            return_str += f"\t{_get_movie_info(match)}\n"
 
     
     return_str += f"elapsed time (s): {timer() - start}\n\n"
+
+    print(return_str)
+
     return return_str
 
 def year_and_genre(movies: dict[str, Movie], title_type: str, start_year: int, genre: str):
@@ -62,9 +68,12 @@ def year_and_genre(movies: dict[str, Movie], title_type: str, start_year: int, g
         return_str += "\tNo match found!\n"
     else:
         for movie in found_movies:
-            return_str += f"\t{get_movie_info(movie)}\n"
+            return_str += f"\t{_get_movie_info(movie)}\n"
     
     return_str += f"elapsed time (s): {timer() - start}\n\n"
+
+    print(return_str)
+
     return return_str
 
 def runtime(movies: dict[str, Movie], title_type: str, start_time: int, end_time: int):
@@ -82,9 +91,12 @@ def runtime(movies: dict[str, Movie], title_type: str, start_time: int, end_time
         return_str += "\tNo match found!\n"
     else:
         for match in matches:
-            return_str += f"\t{get_movie_info(match)}\n"
+            return_str += f"\t{_get_movie_info(match)}\n"
     
     return_str += f"elapsed time (s): {timer() - start}\n\n"
+
+    print(return_str)
+
     return return_str
 
 def most_votes(movies: dict[str, Movie], ratings: list[Rating], title_type: str, count: int):
@@ -106,11 +118,13 @@ def most_votes(movies: dict[str, Movie], ratings: list[Rating], title_type: str,
     else:
         i = 1
         for entry in matches:
-            output += f"\t{i}. VOTES: {entry[0].num_votes}, MOVIE: {get_movie_info(entry[1])}\n"
+            output += f"\t{i}. VOTES: {entry[0].num_votes}, MOVIE: {_get_movie_info(entry[1])}\n"
             i += 1
     
     output += f"elapsed time (s): {timer() - start}\n\n"
     return_str += output
+
+    print(return_str)
     
     return return_str
 
@@ -121,33 +135,29 @@ def top(movies: dict[str, Movie], ratings: dict[str, Rating], title_type: str, c
     
     rat_table = [x for x in ratings.values()]
     years = list(range(start_year, end_year+1))
-    years_dict: dict[int, list[str]] = {}
+    years_dict: dict[int, list[str]] = {x: [] for x in range(start_year, end_year+1)}
+    
+    for rating in rat_table:
+        movie_info = movies.get(rating.tconst)
+        if movie_info.start_year in years and movie_info.title_type == title_type and rating.num_votes >= 1000:
+            years_dict[movie_info.start_year].append([rating, movie_info])
 
-    for year in years:
-        tab = []
-        cnt = 0
-        for rating in rat_table:
-            movie_info = movies.get(rating.tconst)
-            if movie_info.start_year == year and movie_info.title_type == title_type and rating.num_votes >= 1000:
-                tab.append([rating, movie_info])
-                cnt += 1
-                if cnt >= count:
-                    break
-                
-        tab = sorts.quick_sort_top(tab)
+    for year in years:         
+        tab = sorts.quick_sort_top(years_dict[year])[:count]
         years_dict[year] = tab
 
-    for year in years_dict:
         return_str += f"\tYEAR: {year}\n"
         entry = years_dict[year]
         if len(entry) > 0:
             i = 1
             for line in entry:
-                return_str += f"\t\t{i}. RATING: {line[0].average_rating}, VOTES: {line[0].num_votes}, MOVIE: {get_movie_info(line[1])}\n"
+                return_str += f"\t\t{i}. RATING: {line[0].average_rating}, VOTES: {line[0].num_votes}, MOVIE: {_get_movie_info(line[1])}\n"
                 i += 1
         else:
-            return_str += "\t\tNo match found!\n"
+            return_str += "\t\tNo match found!\n"        
     
     return_str += f"elapsed time (s): {timer() - start}\n\n"
+
+    print(return_str)
     
     return return_str

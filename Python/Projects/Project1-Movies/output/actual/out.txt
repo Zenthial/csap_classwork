@@ -1,8 +1,8 @@
 reading ../data/title.basics.tsv into dict...
-elapsed movies time (s): 71.71408642300001
+elapsed time (s): 140.1081791
 
 reading ../data/title.ratings.tsv into dict...
-elapsed ratings time (s): 5.317457364999996
+elapsed time (s): 3.658068700000001
 
 Total movies: 7965199
 Total ratings: 1161579
@@ -10,12 +10,12 @@ Total ratings: 1161579
 processing: LOOKUP tt0081505
 	MOVIE: Identifier: tt0081505, Title: The Shining, Type: movie, Year: 1980, Runtime: 146, Genres: Drama, Horror
 	RATING: Identifier: tt0081505, Rating: 8.4, Votes: 937410
-elapsed time (s): 2.0690999988914882e-05
+elapsed time (s): 1.589999999396241e-05
 
 processing: LOOKUP tt9999999
 	Movie not found!
 Rating not found!
-elapsed time (s): 1.6259999995327235e-06
+elapsed time (s): 4.099999983964153e-06
 
 processing: CONTAINS movie Avengers
 	Identifier: tt0034639, Title: The Avengers, Type: movie, Year: 1942, Runtime: 98, Genres: Drama, War
@@ -45,7 +45,7 @@ processing: CONTAINS movie Avengers
 	Identifier: tt7870278, Title: The Lesbian Avengers Eat Fire, Too, Type: movie, Year: 1993, Runtime: 56, Genres: Documentary
 	Identifier: tt8875872, Title: Avengers: Reassembled, Type: movie, Year: 2018, Runtime: 52, Genres: Sci-Fi
 	Identifier: tt9303032, Title: Avengers: Legacy, Type: movie, Year: 2020, Runtime: 87, Genres: Sci-Fi
-elapsed time (s): 1.52046752199999
+elapsed time (s): 0.9588056000000051
 
 processing: CONTAINS videoGame Silent Hill
 	Identifier: tt0194376, Title: Silent Hill, Type: videoGame, Year: 1999, Runtime: 0, Genres: Action, Adventure, Drama
@@ -60,7 +60,7 @@ processing: CONTAINS videoGame Silent Hill
 	Identifier: tt6435172, Title: Silent Hill HD Collection, Type: videoGame, Year: 2012, Runtime: 0, Genres: Action, Fantasy, Horror
 	Identifier: tt9832476, Title: Silent Hill: The Arcade, Type: videoGame, Year: 2007, Runtime: 0, Genres: Action, Horror
 	Identifier: tt9832508, Title: Silent Hill: Play Novel, Type: videoGame, Year: 2001, Runtime: 0, Genres: Adventure, Horror
-elapsed time (s): 0.95983923
+elapsed time (s): 0.799165400000021
 
 processing: YEAR_AND_GENRE movie 1995 Action
 	Identifier: tt0978555, Title: 155 Alo Polis, Type: movie, Year: 1995, Runtime: 90, Genres: Action, Drama
@@ -622,7 +622,7 @@ processing: YEAR_AND_GENRE movie 1995 Action
 	Identifier: tt0115042, Title: Zamaana Deewana, Type: movie, Year: 1995, Runtime: 162, Genres: Action, Comedy, Drama
 	Identifier: tt0115054, Title: Zhong e Lie Che da jie an, Type: movie, Year: 1995, Runtime: 92, Genres: Action, Crime
 	Identifier: tt4406458, Title: Zulm Ka Jawab, Type: movie, Year: 1995, Runtime: 0, Genres: Action
-elapsed time (s): 1.0101077709999942
+elapsed time (s): 0.7951596999999992
 
 processing: YEAR_AND_GENRE tvEpisode 1974 Biography
 	Identifier: tt4039624, Title: A Circus for a School, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
@@ -744,7 +744,7 @@ processing: YEAR_AND_GENRE tvEpisode 1974 Biography
 	Identifier: tt4053134, Title: Wish You Were Here, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
 	Identifier: tt1518512, Title: Words by Johnny Mercer, Type: tvEpisode, Year: 1974, Runtime: 0, Genres: Biography, Documentary, Music
 	Identifier: tt6434054, Title: Yvan Rebroff, Type: tvEpisode, Year: 1974, Runtime: 45, Genres: Biography
-elapsed time (s): 1.3233084289999937
+elapsed time (s): 1.0403341999999896
 
 processing: RUNTIME movie 142 168
 	Identifier: tt0389715, Title: 15th August, Type: movie, Year: 1993, Runtime: 168, Genres: Drama
@@ -10108,7 +10108,7 @@ processing: RUNTIME movie 142 168
 	Identifier: tt0390653, Title: Zimbo, Type: movie, Year: 1958, Runtime: 142, Genres: Adventure, Drama, Thriller
 	Identifier: tt0860578, Title: Zolykha's Secret, Type: movie, Year: 2006, Runtime: 142, Genres: Drama
 	Identifier: tt0057831, Title: Zorba the Greek, Type: movie, Year: 1964, Runtime: 142, Genres: Comedy, Drama
-elapsed time (s): 1.1314658520000052
+elapsed time (s): 1.114093099999991
 
 processing: RUNTIME tvEpisode 245 250
 	Identifier: tt11165940, Title: Game 3, Type: tvEpisode, Year: 2019, Runtime: 250, Genres: Sport
@@ -10160,7 +10160,7 @@ processing: RUNTIME tvEpisode 245 250
 	Identifier: tt4808714, Title: Round 13: Sydney vs Richmond, Type: tvEpisode, Year: 2015, Runtime: 245, Genres: Sport
 	Identifier: tt12484254, Title: Thank You Game of Thrones, Doctor Who, and Star Trek Discovery! 100K Charity Celebration, Type: tvEpisode, Year: 2019, Runtime: 245, Genres: Talk-Show
 	Identifier: tt14301068, Title: The Calm Before the Storm, Type: tvEpisode, Year: 2021, Runtime: 245, Genres: Adventure, Fantasy
-elapsed time (s): 1.2086902279999947
+elapsed time (s): 1.4772490000000005
 
 processing: MOST_VOTES movie 20
 	1. VOTES: 2450782, MOVIE: Identifier: tt0111161, Title: The Shawshank Redemption, Type: movie, Year: 1994, Runtime: 142, Genres: Drama
@@ -10183,7 +10183,7 @@ processing: MOST_VOTES movie 20
 	18. VOTES: 1325741, MOVIE: Identifier: tt0361748, Title: Inglourious Basterds, Type: movie, Year: 2009, Runtime: 153, Genres: Adventure, Drama, War
 	19. VOTES: 1325278, MOVIE: Identifier: tt0102926, Title: The Silence of the Lambs, Type: movie, Year: 1991, Runtime: 118, Genres: Crime, Drama, Thriller
 	20. VOTES: 1303088, MOVIE: Identifier: tt0848228, Title: The Avengers, Type: movie, Year: 2012, Runtime: 143, Genres: Action, Adventure, Sci-Fi
-elapsed time (s): 1.3661143419999888
+elapsed time (s): 1.3585585999999807
 
 processing: MOST_VOTES videoGame 10
 	1. VOTES: 54364, MOVIE: Identifier: tt2140553, Title: The Last of Us, Type: videoGame, Year: 2013, Runtime: 0, Genres: Action, Adventure, Drama
@@ -10196,7 +10196,7 @@ processing: MOST_VOTES videoGame 10
 	8. VOTES: 25248, MOVIE: Identifier: tt1282022, Title: Batman: Arkham Asylum, Type: videoGame, Year: 2009, Runtime: 0, Genres: Action, Adventure, Crime
 	9. VOTES: 24711, MOVIE: Identifier: tt1479962, Title: Red Dead Redemption, Type: videoGame, Year: 2010, Runtime: 0, Genres: Action, Adventure, Crime
 	10. VOTES: 24652, MOVIE: Identifier: tt0314123, Title: Grand Theft Auto: Vice City, Type: videoGame, Year: 2002, Runtime: 0, Genres: Action, Adventure, Crime
-elapsed time (s): 1.3548239840000065
+elapsed time (s): 1.468342199999995
 
 processing: TOP movie 10 2015 2019
 	YEAR: 2015
@@ -10254,7 +10254,7 @@ processing: TOP movie 10 2015 2019
 		8. RATING: 8.6, VOTES: 11953, MOVIE: Identifier: tt8413338, Title: Kumbalangi Nights, Type: movie, Year: 2019, Runtime: 135, Genres: Comedy, Drama, Romance
 		9. RATING: 8.6, VOTES: 11591, MOVIE: Identifier: tt8948790, Title: Jersey, Type: movie, Year: 2019, Runtime: 157, Genres: Drama, Sport
 		10. RATING: 8.6, VOTES: 1556, MOVIE: Identifier: tt8747560, Title: KD (A) Karuppudurai, Type: movie, Year: 2019, Runtime: 123, Genres: Drama
-elapsed time (s): 5.030674293000004
+elapsed time (s): 1.223004000000003
 
 processing: TOP videoGame 5 2010 2020
 	YEAR: 2010
@@ -10323,5 +10323,5 @@ processing: TOP videoGame 5 2010 2020
 		3. RATING: 8.7, VOTES: 2011, MOVIE: Identifier: tt8550890, Title: Doom Eternal, Type: videoGame, Year: 2020, Runtime: 0, Genres: Action, Adventure, Animation
 		4. RATING: 8.6, VOTES: 2817, MOVIE: Identifier: tt12496734, Title: Spider-Man: Miles Morales, Type: videoGame, Year: 2020, Runtime: 0, Genres: Action, Adventure, Crime
 		5. RATING: 8.5, VOTES: 1464, MOVIE: Identifier: tt12354406, Title: Mafia: Definitive Edition, Type: videoGame, Year: 2020, Runtime: 0, Genres: Action, Crime, Drama
-elapsed time (s): 10.98752851799999
+elapsed time (s): 0.933945599999987
 
