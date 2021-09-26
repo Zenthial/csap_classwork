@@ -3,12 +3,38 @@ from timeit import default_timer as timer
 import sorts
 
 def _get_movie_info(movie_info: Movie) -> str:
+    """Private function that formats a movie into it's key information
+
+    Args:
+        movie_info (Movie): The Movie class to be formatted
+
+    Returns:
+        str: Formatted string of all the Movie's information
+    """
     return f"Identifier: {movie_info.tconst}, Title: {movie_info.primary_title}, Type: {movie_info.title_type}, Year: {movie_info.start_year}, Runtime: {movie_info.runtime}, Genres: {', '.join(movie_info.genres)}"
 
 def _get_rating_info(rating_info: Rating) -> str:
+    """Private function that formats a rating into it's key information
+
+    Args:
+        rating_info (Rating): The Rating class to be formatted
+
+    Returns:
+        str: Formatted string of all the Rating's information
+    """
     return f"Identifier: {rating_info.tconst}, Rating: {rating_info.average_rating}, Votes: {rating_info.num_votes}"
 
-def lookup(movies: dict[str, Movie], ratings: dict[str, Rating], tconst: str):
+def lookup(movies: dict[str, Movie], ratings: dict[str, Rating], tconst: str) -> str:
+    """Performs the lookup query
+
+    Args:
+        movies (dict[str, Movie]): A dict with tconsts as the keys and Movie classes as the values
+        ratings (dict[str, Rating]): A dict with tconsts as the keys and Rating classes as the values
+        tconst (str): The tconst to search for
+
+    Returns:
+        str: Output string
+    """
     return_str = ""
     return_str += f"LOOKUP {tconst}\n"
     start = timer()
@@ -27,7 +53,17 @@ def lookup(movies: dict[str, Movie], ratings: dict[str, Rating], tconst: str):
 
     return return_str
 
-def contains(movies: dict[str, Movie], title_type: str, words: str):
+def contains(movies: dict[str, Movie], title_type: str, words: str) -> str:
+    """Performs the contains query
+
+    Args:
+        movies (dict[str, Movie]): A dict with tconsts as the keys and Movie classes as the values
+        title_type (str): A string used to filter with Movie.title_type
+        words (str): A string of words to look for in the title
+
+    Returns:
+        str: Output string
+    """
     return_str = ""
     return_str += f"CONTAINS {title_type} {words}\n"
     
@@ -51,7 +87,18 @@ def contains(movies: dict[str, Movie], title_type: str, words: str):
 
     return return_str
 
-def year_and_genre(movies: dict[str, Movie], title_type: str, start_year: int, genre: str):
+def year_and_genre(movies: dict[str, Movie], title_type: str, start_year: int, genre: str) -> str:
+    """Performs the year and genre query
+
+    Args:
+        movies (dict[str, Movie]): A dict with tconsts as the keys and Movie classes as the values
+        title_type (str): A string used to filter with Movie.title_type
+        start_year (int): A start year used to filter with Movie.start_year
+        genre (str): A type of genre to look for in Movie.genres
+
+    Returns:
+        str: Output string
+    """
     return_str = ""
     return_str += f"YEAR_AND_GENRE {title_type} {start_year} {genre}\n"
     start = timer()
@@ -76,7 +123,18 @@ def year_and_genre(movies: dict[str, Movie], title_type: str, start_year: int, g
 
     return return_str
 
-def runtime(movies: dict[str, Movie], title_type: str, start_time: int, end_time: int):
+def runtime(movies: dict[str, Movie], title_type: str, start_time: int, end_time: int) -> str:
+    """Performs the runtime query
+
+    Args:
+        movies (dict[str, Movie]): A dict with tconsts as the keys and Movie classes as the values
+        title_type (str): A string used to filter with Movie.title_type
+        start_time (int): An int used to filter with Movie.runtime
+        end_time (int): An int used to filter with Movie.runtime
+
+    Returns:
+        str: Output string
+    """
     return_str = ""
     return_str += f"RUNTIME {title_type} {start_time} {end_time}\n"
     start = timer()
@@ -99,7 +157,18 @@ def runtime(movies: dict[str, Movie], title_type: str, start_time: int, end_time
 
     return return_str
 
-def most_votes(movies: dict[str, Movie], ratings: list[Rating], title_type: str, count: int):
+def most_votes(movies: dict[str, Movie], ratings: list[Rating], title_type: str, count: int) -> str:
+    """Performs the most votes query
+
+    Args:
+        movies (dict[str, Movie]): A dict with tconsts as the keys and Movie classes as the values
+        ratings (list[Rating]): A dict with tconsts as the keys and Rating classes as the values
+        title_type (str): A string used to filter with Movie.title_type
+        count (int): An int saying how many should be displayed
+
+    Returns:
+        str: Output string
+    """
     return_str = ""
     return_str += f"MOST_VOTES {title_type} {count}\n"
     start = timer()
@@ -128,7 +197,20 @@ def most_votes(movies: dict[str, Movie], ratings: list[Rating], title_type: str,
     
     return return_str
 
-def top(movies: dict[str, Movie], ratings: dict[str, Rating], title_type: str, count: int, start_year: int, end_year: int):
+def top(movies: dict[str, Movie], ratings: dict[str, Rating], title_type: str, count: int, start_year: int, end_year: int) -> str:
+    """Performs the top query
+
+    Args:
+        movies (dict[str, Movie]): A dict with tconsts as the keys and Movie classes as the values
+        ratings (dict[str, Rating]): A dict with tconsts as the keys and Rating classes as the values
+        title_type (str): A string used to filter with Movie.title_type
+        count (int): How many movies should be displayed per year
+        start_year (int): First year to display
+        end_year (int): Last year to display, includes everything in between it and the start_year
+
+    Returns:
+        str: Output String
+    """
     return_str = ""
     return_str += f"TOP {title_type} {count} {start_year} {end_year}\n"
     start = timer()
