@@ -6,6 +6,7 @@ import sorts
 from classes import Movie, Rating
 
 def _parse_line(line: str, movies: dict[str, Movie], ratings: dict[str, Rating], sorted_ratings_votes: list[Rating], f: TextIOWrapper):
+    """Private helper method to parse individual lines"""
     if line == "": return
     line_array = line.strip("\n").split(" ")
     type = line_array[0]
@@ -41,6 +42,13 @@ def _parse_line(line: str, movies: dict[str, Movie], ratings: dict[str, Rating],
 
 
 def parse_input(movies: dict[str, Movie], ratings: dict[str, Rating], f: TextIOWrapper):
+    """Parses the input file pipped in on the command line
+
+    Args:
+        movies (dict[str, Movie]): A dict with tconsts as the keys and Movie classes as the values
+        ratings (dict[str, Rating]): A dict with tconsts as the keys and Rating classes as the values
+        f (TextIOWrapper): The output file
+    """
     rat_table = []
     for rating in ratings.values():
         rat_table.append(rating)
@@ -53,4 +61,5 @@ def parse_input(movies: dict[str, Movie], ratings: dict[str, Rating], f: TextIOW
         _parse_line(line, movies, ratings, sorted_ratings_votes, f)
         line = input.readline()
         
+    # Please note the file closes here
     f.close()

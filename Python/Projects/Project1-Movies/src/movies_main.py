@@ -3,6 +3,7 @@ import processor
 import sys
 
 def main():
+    """Main entry point of the program"""
     small = False
     if len(sys.argv) == 2:
         if sys.argv[1] == "small":
