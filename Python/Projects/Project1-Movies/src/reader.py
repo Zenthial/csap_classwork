@@ -1,14 +1,26 @@
+"""
+    The reader file provides all the functionality to read and parse the provided files.
+    This returns the formatted data from the files in two dictionaries, a Movie dict and a Rating dict
+    
+    Author: Thomas Schollenberger
+"""
+
 from io import TextIOWrapper
 from classes import Movie, Rating
 from timeit import default_timer as timer
 
 TITLE_BASICS = "../data/title.basics.tsv"
+"""Path to large basics file"""
 TITLE_RATINGS = "../data/title.ratings.tsv"
+"""Path to large ratings file"""
 
 SMALL_BASICS = "../data/small.basics.tsv"
+"""Path to small basics file"""
 SMALL_RATINGS = "../data/small.ratings.tsv"
+"""Path to small ratings file"""
 
-def _get_movies_dict(movies: dict[str, Movie], small: bool, f: TextIOWrapper):
+def _get_movies_dict(movies: dict[str, Movie], small: bool, f: TextIOWrapper) -> dict[str, Movie]:
+    """Private helper method to read from the movies file and return a movie dictionary"""
     file = TITLE_BASICS if small == False else SMALL_BASICS
     out = f"reading {file} into dict...\n"
     f.write(out)
@@ -51,7 +63,8 @@ def _get_movies_dict(movies: dict[str, Movie], small: bool, f: TextIOWrapper):
     
     return movies
 
-def _get_ratings_dict(ratings: dict[str, Rating], movies: dict[str, Movie], small: bool, f: TextIOWrapper):
+def _get_ratings_dict(ratings: dict[str, Rating], movies: dict[str, Movie], small: bool, f: TextIOWrapper) -> dict[str, Rating]:
+    """Private helper method to read from the ratings file and return a ratings dictionary"""
     file = TITLE_RATINGS if small == False else SMALL_RATINGS
     out = f"reading {file} into dict...\n"
     f.write(out)
@@ -70,7 +83,8 @@ def _get_ratings_dict(ratings: dict[str, Rating], movies: dict[str, Movie], smal
     
     return ratings
         
-def _get_movies(movies: dict[str, Movie], small: bool, f: TextIOWrapper):
+def _get_movies(movies: dict[str, Movie], small: bool, f: TextIOWrapper) -> dict[str, Movie]:
+    """Private helper method to get the movies dict"""
     start = timer()
     _get_movies_dict(movies, small, f)
     out = f"elapsed time (s): {timer() - start}\n\n"
@@ -79,7 +93,8 @@ def _get_movies(movies: dict[str, Movie], small: bool, f: TextIOWrapper):
     
     return movies
 
-def _get_ratings(ratings: dict[str, Rating], movies: dict[str, Movie], small: bool, f: TextIOWrapper):
+def _get_ratings(ratings: dict[str, Rating], movies: dict[str, Movie], small: bool, f: TextIOWrapper) -> dict[str, Rating]:
+    """Private helper method to get the ratings dict"""
     start = timer()
     _get_ratings_dict(ratings, movies, small, f)
     out = f"elapsed time (s): {timer() - start}\n\n"
@@ -89,6 +104,15 @@ def _get_ratings(ratings: dict[str, Rating], movies: dict[str, Movie], small: bo
     return ratings
 
 def read_data(small: bool, f: TextIOWrapper):
+    """Main file reading method
+
+    Args:
+        small (bool): Boolean that says if we are reading from the small or large files
+        f (TextIOWrapper): The output file
+
+    Returns:
+        Tuple: Movie dict and Ratings dict
+    """
     movies = {}
     ratings = {}
     
