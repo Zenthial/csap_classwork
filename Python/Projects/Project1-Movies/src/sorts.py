@@ -1,3 +1,10 @@
+"""
+    The sorts file provides two different types of methods. The first is query specific quick sorts, like for top and most_votes.
+    The second is for accessing any method of a class and sorting by that (see _part_rating_class where we use __getattribute__)
+    
+    Author: Tom Schollenberger, with modified Sean Strout code
+"""
+
 from classes import Rating, Movie
 
 def _part_rating_class(arr: list, pivot: Rating, prop: str) -> (list):
@@ -94,10 +101,14 @@ def quick_sort_class_nested(arr: list, prop: str, index) -> list:
         return quick_sort_class_nested(left, prop, index) + middle + quick_sort_class_nested(right, prop, index)
     
 MOVIE_ELM = 1
+"""Place holder index variable"""
 RATING_ELM = 0
+"""Place holder index variable"""
 def quick_sort_top(arr: list[list[(Rating, Movie)]]) -> list[list[(Rating, Movie)]]:
+    """Performs the quick sort method for the top query"""
     return quick_sort_class_nested(quick_sort_class_nested(quick_sort_class_nested(arr, "primary_title", MOVIE_ELM), "num_votes", RATING_ELM), "average_rating", RATING_ELM)[::-1]
 
 
 def quick_sort_most_votes(arr):
+    """Performs the quick sort method for the most votes query"""
     return quick_sort_class_nested(quick_sort_class_nested(arr, "primary_title", MOVIE_ELM), "num_votes", RATING_ELM)[::-1]
