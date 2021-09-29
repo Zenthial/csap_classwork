@@ -1,3 +1,8 @@
+""" Contains all the query functions to perform, and two private helper methods
+
+    Author: Thomas Schollenberger
+"""
+
 from classes import Movie, Rating
 from timeit import default_timer as timer
 import sorts

@@ -1,3 +1,11 @@
+""" This project processed the over 8 million lines of IMDB data and performs 6 different queries on the data.
+    This project takes command line arguments and piped queries as instructions.
+
+    ALL FILE PATHS ASSUME YOU ARE INSIDE THE SRC FILE, WITH THE DATA FOLDER IN THE SRC PARENT DIRECTORY
+    
+    Author: Thomas Schollenberger
+"""
+
 import reader
 import processor
 import sys
