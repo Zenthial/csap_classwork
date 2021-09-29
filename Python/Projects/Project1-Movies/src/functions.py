@@ -50,7 +50,7 @@ def lookup(movies: dict[str, Movie], ratings: dict[str, Rating], tconst: str) ->
         return_str += f"\tMOVIE: {_get_movie_info(movie_info)}\n"
         return_str += f"\tRATING: {_get_rating_info(rating_info)}\n"
     else:
-        return_str += "\tMovie not found!\nRating not found!\n"
+        return_str += "\tMovie not found!\n\nRating not found!\n"
     
     return_str += f"elapsed time (s): {timer() - start}\n\n"
 
