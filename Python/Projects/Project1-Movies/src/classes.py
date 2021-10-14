@@ -1,3 +1,8 @@
+""" This file defines the two dataclasses used to store each entry from each file
+
+    Author: Thomas Schollenberger
+"""
+
 from dataclasses import dataclass
 
 

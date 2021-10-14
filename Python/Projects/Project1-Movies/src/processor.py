@@ -1,3 +1,8 @@
+""" Processes the input pipped into the file and read from stdin. Calls the related query method that corresponds to the passed line
+
+    Author: Thomas Schollenberger
+"""
+
 from io import TextIOWrapper
 import sys
 import functions
