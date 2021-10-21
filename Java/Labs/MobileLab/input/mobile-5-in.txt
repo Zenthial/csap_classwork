@@ -1,0 +1,66 @@
+load data/mobile-5.txt
+root
+balanced
+find ROD_A
+height ROD_A
+width ROD_A
+weight ROD_A
+find ROD_B
+height ROD_B
+width ROD_B
+weight ROD_B
+find ROD_C
+height ROD_C
+width ROD_C
+weight ROD_C
+find ROD_D
+height ROD_D
+width ROD_D
+weight ROD_D
+find ROD_E
+height ROD_E
+width ROD_E
+weight ROD_E
+find ROD_F
+height ROD_F
+width ROD_F
+weight ROD_F
+find ROD_G
+height ROD_G
+width ROD_G
+weight ROD_G
+find SUN
+height SUN
+width SUN
+weight SUN
+find JUPITER
+height JUPITER
+width JUPITER
+weight JUPITER
+find SATURN
+height SATURN
+width SATURN
+weight SATURN
+find NEPTUNE
+height NEPTUNE
+width NEPTUNE
+weight NEPTUNE
+find MERCURY
+height MERCURY
+width MERCURY
+weight MERCURY
+find URANUS
+height URANUS
+width URANUS
+weight URANUS
+find PLUTO
+height PLUTO
+width PLUTO
+weight PLUTO
+find VENUS
+height VENUS
+width VENUS
+weight VENUS
+infix
+print
+quit

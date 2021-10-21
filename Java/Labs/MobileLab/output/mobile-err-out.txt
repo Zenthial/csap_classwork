@@ -1,0 +1,15 @@
+> Failed to load: mobile-6.txt
+ROD_A unbalanced by -400
+> Failed to load: mobile-7.txt
+Left node ROD_B unbalanced by: -60
+> Failed to load: mobile-8.txt
+Missing data in mobile file!
+> Failed to load: mobile-9.txt
+Unrecognized line: This line should be a rod or ball!
+> Failed to load: mobile-10.txt
+For input string: "XXX"
+> Failed to load: missing-file.txt
+missing-file.txt (No such file or directory)
+> mobile-5.txt loaded and parsed!
+> XXX not found!
+>

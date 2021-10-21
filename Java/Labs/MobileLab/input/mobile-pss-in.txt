@@ -1,0 +1,29 @@
+load mobile-1.txt
+root
+weight
+balanced
+load mobile-2.txt
+root
+weight
+balanced
+load mobile-3.txt
+root
+weight
+balanced
+load mobile-4.txt
+root
+weight
+balanced
+load mobile-5.txt
+root
+weight
+balanced
+load mobile-6.txt
+root
+weight
+balanced
+load data/mobile-7.txt
+root
+weight
+balanced
+quit

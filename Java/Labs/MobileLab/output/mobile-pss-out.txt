@@ -1,0 +1,36 @@
+> mobile-1.txt loaded and parsed!
+> root: Ball(name=EARTH, cord=30, radius=60, weight=20)
+> EARTH weight? 20
+> EARTH balanced? true
+Imbalance amount: 0
+> mobile-2.txt loaded and parsed!
+> root: Rod(name=ROD_A, cord=60, leftArm=40, leftChild=Ball(name=NEPTUNE, cord=50, radius=40, weight=60), rightArm=80, rightChild=Ball(name=MERCURY, cord=40, radius=30, weight=30))
+> ROD_A weight? 90
+> ROD_A balanced? true
+Imbalance amount: 0
+> mobile-3.txt loaded and parsed!
+> root: Rod(name=ROD_A, cord=70, leftArm=60, leftChild=Ball(name=BALL_A, cord=50, radius=30, weight=90), rightArm=90, rightChild=Rod(name=ROD_B, cord=170, leftArm=100, leftChild=Ball(name=BALL_B, cord=90, radius=40, weight=20), rightArm=50, rightChild=Ball(name=BALL_C, cord=60, radius=35, weight=40)))
+> ROD_A weight? 150
+> ROD_A balanced? true
+Imbalance amount: 0
+> mobile-4.txt loaded and parsed!
+> root: Rod(name=ROD_A, cord=100, leftArm=50, leftChild=Rod(name=ROD_B, cord=100, leftArm=60, leftChild=Ball(name=BALL_A, cord=65, radius=30, weight=24), rightArm=40, rightChild=Rod(name=ROD_C, cord=150, leftArm=250, leftChild=Ball(name=BALL_B, cord=100, radius=50, weight=16), rightArm=200, rightChild=Ball(name=BALL_C, cord=100, radius=35, weight=20))), rightArm=60, rightChild=Ball(name=BALL_D, cord=40, radius=40, weight=50))
+> ROD_A weight? 110
+> ROD_A balanced? true
+Imbalance amount: 0
+> mobile-5.txt loaded and parsed!
+> root: Rod(name=ROD_A, cord=85, leftArm=40, leftChild=Rod(name=ROD_B, cord=200, leftArm=200, leftChild=Ball(name=JUPITER, cord=50, radius=40, weight=120), rightArm=120, rightChild=Rod(name=ROD_C, cord=50, leftArm=150, leftChild=Rod(name=ROD_D, cord=80, leftArm=80, leftChild=Ball(name=SATURN, cord=40, radius=30, weight=50), rightArm=80, rightChild=Rod(name=ROD_E, cord=75, leftArm=40, leftChild=Ball(name=NEPTUNE, cord=45, radius=30, weight=30), rightArm=60, rightChild=Ball(name=MERCURY, cord=60, radius=30, weight=20))), rightArm=150, rightChild=Rod(name=ROD_F, cord=65, leftArm=80, leftChild=Ball(name=URANUS, cord=50, radius=30, weight=60), rightArm=120, rightChild=Rod(name=ROD_G, cord=90, leftArm=50, leftChild=Ball(name=PLUTO, cord=50, radius=30, weight=20), rightArm=50, rightChild=Ball(name=VENUS, cord=50, radius=30, weight=20))))), rightArm=100, rightChild=Ball(name=SUN, cord=40, radius=60, weight=128))
+> ROD_A weight? 448
+> ROD_A balanced? true
+Imbalance amount: 0
+> mobile-6.txt loaded and parsed!
+> root: Rod(name=ROD_A, cord=60, leftArm=40, leftChild=Ball(name=BALL_A, cord=50, radius=40, weight=60), rightArm=80, rightChild=Ball(name=BALL_B, cord=40, radius=30, weight=35))
+> ROD_A weight? 95
+> ROD_A balanced? false
+Imbalance amount: -400
+> mobile-7.txt loaded and parsed!
+> root: Rod(name=ROD_A, cord=100, leftArm=50, leftChild=Rod(name=ROD_B, cord=100, leftArm=60, leftChild=Ball(name=BALL_A, cord=65, radius=30, weight=23), rightArm=40, rightChild=Rod(name=ROD_C, cord=150, leftArm=250, leftChild=Ball(name=BALL_B, cord=100, radius=50, weight=16), rightArm=200, rightChild=Ball(name=BALL_C, cord=100, radius=35, weight=20))), rightArm=60, rightChild=Ball(name=BALL_D, cord=40, radius=40, weight=50))
+> ROD_A weight? 109
+> ROD_A balanced? false
+Imbalance amount: -50
+>

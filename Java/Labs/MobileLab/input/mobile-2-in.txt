@@ -1,0 +1,18 @@
+load data/mobile-2.txt
+root
+balanced
+find ROD_A
+height ROD_A
+width ROD_A
+weight ROD_A
+find NEPTUNE
+height NEPTUNE
+width NEPTUNE
+weight NEPTUNE
+find MERCURY
+height MERCURY
+width MERCURY
+weight MERCURY
+infix
+print
+quit

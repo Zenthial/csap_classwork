@@ -1,0 +1,5 @@
+ROD ROD_A 60 40 80
+BALL NEPTUNE 50 40 60
+BALL MERCURY 40 30 30
+
+A balanced mobile with 1 rod and 2 balls

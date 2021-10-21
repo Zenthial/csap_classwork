@@ -1,0 +1,3 @@
+BALL EARTH 30 60 XXX
+
+Oh no the earth has an invalid weight!

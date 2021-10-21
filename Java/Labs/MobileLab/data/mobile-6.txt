@@ -1,0 +1,6 @@
+ROD ROD_A 60 40 80
+BALL BALL_A 50 40 60
+BALL BALL_B 40 30 35
+
+An unbalanced mobile with 1 rod and 2 balls.  The imbalance
+happens because BALL_B should weigh 30.
