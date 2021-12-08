@@ -1,0 +1,42 @@
+/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin/java -Djava.library.path=/usr/local/lib/javafx-17/lib -javaagent:/Users/sps/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/212.5284.40/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=61155:/Users/sps/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/212.5284.40/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /usr/local/lib/javafx-17/lib/javafx-swt.jar:/usr/local/lib/javafx-17/lib/javafx.web.jar:/usr/local/lib/javafx-17/lib/javafx.fxml.jar:/usr/local/lib/javafx-17/lib/javafx.media.jar:/usr/local/lib/javafx-17/lib/javafx.swing.jar -p /Users/sps/Documents/CSapx/20211/Labs/06-Mobiles/out/production/Mobiles:/usr/local/lib/javafx-17/lib/javafx.graphics.jar:/usr/local/lib/javafx-17/lib/javafx.base.jar:/usr/local/lib/javafx-17/lib/javafx.controls.jar -m Mobiles/mobiles.Mobiles
+> mobile-3.txt loaded and parsed!
+> root: Rod(name=ROD_A, cord=70, leftArm=60, leftChild=Ball(name=BALL_A, cord=50, radius=30, weight=90), rightArm=90, rightChild=Rod(name=ROD_B, cord=170, leftArm=100, leftChild=Ball(name=BALL_B, cord=90, radius=40, weight=20), rightArm=50, rightChild=Ball(name=BALL_C, cord=60, radius=35, weight=40)))
+> ROD_A balanced? true
+Imbalance amount: 0
+> Found: Rod(name=ROD_A, cord=70, leftArm=60, leftChild=Ball(name=BALL_A, cord=50, radius=30, weight=90), rightArm=90, rightChild=Rod(name=ROD_B, cord=170, leftArm=100, leftChild=Ball(name=BALL_B, cord=90, radius=40, weight=20), rightArm=50, rightChild=Ball(name=BALL_C, cord=60, radius=35, weight=40)))
+> ROD_A height? 410
+> ROD_A width? 265
+ROD_A left width? 90
+ROD_A right width? 175
+> ROD_A weight? 150
+> Found: Rod(name=ROD_B, cord=170, leftArm=100, leftChild=Ball(name=BALL_B, cord=90, radius=40, weight=20), rightArm=50, rightChild=Ball(name=BALL_C, cord=60, radius=35, weight=40))
+> ROD_B height? 340
+> ROD_B width? 225
+ROD_B left width? 140
+ROD_B right width? 85
+> ROD_B weight? 60
+> Found: Ball(name=BALL_A, cord=50, radius=30, weight=90)
+> BALL_A height? 110
+> BALL_A width? 60
+BALL_A left width? 30
+BALL_A right width? 30
+> BALL_A weight? 90
+> Found: Ball(name=BALL_B, cord=90, radius=40, weight=20)
+> BALL_B height? 170
+> BALL_B width? 80
+BALL_B left width? 40
+BALL_B right width? 40
+> BALL_B weight? 20
+> Found: Ball(name=BALL_C, cord=60, radius=35, weight=40)
+> BALL_C height? 130
+> BALL_C width? 70
+BALL_C left width? 35
+BALL_C right width? 35
+> BALL_C weight? 40
+> (( BALL_A ) ROD_A (( BALL_B ) ROD_B ( BALL_C )))
+> ROD_A
+	BALL_A
+	ROD_B
+		BALL_B
+		BALL_C
+>

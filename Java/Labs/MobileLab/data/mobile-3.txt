@@ -1,0 +1,7 @@
+ROD ROD_A 70 60 90
+BALL BALL_A 50 30 90
+ROD ROD_B 170 100 50
+BALL BALL_B 90 40 20
+BALL BALL_C 60 35 40
+
+A balanced mobile with 2 rods and 3 balls

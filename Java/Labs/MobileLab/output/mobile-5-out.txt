@@ -1,0 +1,111 @@
+> mobile-5.txt loaded and parsed!
+> root: Rod(name=ROD_A, cord=85, leftArm=40, leftChild=Rod(name=ROD_B, cord=200, leftArm=200, leftChild=Ball(name=JUPITER, cord=50, radius=40, weight=120), rightArm=120, rightChild=Rod(name=ROD_C, cord=50, leftArm=150, leftChild=Rod(name=ROD_D, cord=80, leftArm=80, leftChild=Ball(name=SATURN, cord=40, radius=30, weight=50), rightArm=80, rightChild=Rod(name=ROD_E, cord=75, leftArm=40, leftChild=Ball(name=NEPTUNE, cord=45, radius=30, weight=30), rightArm=60, rightChild=Ball(name=MERCURY, cord=60, radius=30, weight=20))), rightArm=150, rightChild=Rod(name=ROD_F, cord=65, leftArm=80, leftChild=Ball(name=URANUS, cord=50, radius=30, weight=60), rightArm=120, rightChild=Rod(name=ROD_G, cord=90, leftArm=50, leftChild=Ball(name=PLUTO, cord=50, radius=30, weight=20), rightArm=50, rightChild=Ball(name=VENUS, cord=50, radius=30, weight=20))))), rightArm=100, rightChild=Ball(name=SUN, cord=40, radius=60, weight=128))
+> ROD_A balanced? true
+Imbalance amount: 0
+> Found: Rod(name=ROD_A, cord=85, leftArm=40, leftChild=Rod(name=ROD_B, cord=200, leftArm=200, leftChild=Ball(name=JUPITER, cord=50, radius=40, weight=120), rightArm=120, rightChild=Rod(name=ROD_C, cord=50, leftArm=150, leftChild=Rod(name=ROD_D, cord=80, leftArm=80, leftChild=Ball(name=SATURN, cord=40, radius=30, weight=50), rightArm=80, rightChild=Rod(name=ROD_E, cord=75, leftArm=40, leftChild=Ball(name=NEPTUNE, cord=45, radius=30, weight=30), rightArm=60, rightChild=Ball(name=MERCURY, cord=60, radius=30, weight=20))), rightArm=150, rightChild=Rod(name=ROD_F, cord=65, leftArm=80, leftChild=Ball(name=URANUS, cord=50, radius=30, weight=60), rightArm=120, rightChild=Rod(name=ROD_G, cord=90, leftArm=50, leftChild=Ball(name=PLUTO, cord=50, radius=30, weight=20), rightArm=50, rightChild=Ball(name=VENUS, cord=50, radius=30, weight=20))))), rightArm=100, rightChild=Ball(name=SUN, cord=40, radius=60, weight=128))
+> ROD_A height? 610
+> ROD_A width? 710
+ROD_A left width? 280
+ROD_A right width? 430
+> ROD_A weight? 448
+> Found: Rod(name=ROD_B, cord=200, leftArm=200, leftChild=Ball(name=JUPITER, cord=50, radius=40, weight=120), rightArm=120, rightChild=Rod(name=ROD_C, cord=50, leftArm=150, leftChild=Rod(name=ROD_D, cord=80, leftArm=80, leftChild=Ball(name=SATURN, cord=40, radius=30, weight=50), rightArm=80, rightChild=Rod(name=ROD_E, cord=75, leftArm=40, leftChild=Ball(name=NEPTUNE, cord=45, radius=30, weight=30), rightArm=60, rightChild=Ball(name=MERCURY, cord=60, radius=30, weight=20))), rightArm=150, rightChild=Rod(name=ROD_F, cord=65, leftArm=80, leftChild=Ball(name=URANUS, cord=50, radius=30, weight=60), rightArm=120, rightChild=Rod(name=ROD_G, cord=90, leftArm=50, leftChild=Ball(name=PLUTO, cord=50, radius=30, weight=20), rightArm=50, rightChild=Ball(name=VENUS, cord=50, radius=30, weight=20)))))
+> ROD_B height? 525
+> ROD_B width? 710
+ROD_B left width? 240
+ROD_B right width? 470
+> ROD_B weight? 320
+> Found: Rod(name=ROD_C, cord=50, leftArm=150, leftChild=Rod(name=ROD_D, cord=80, leftArm=80, leftChild=Ball(name=SATURN, cord=40, radius=30, weight=50), rightArm=80, rightChild=Rod(name=ROD_E, cord=75, leftArm=40, leftChild=Ball(name=NEPTUNE, cord=45, radius=30, weight=30), rightArm=60, rightChild=Ball(name=MERCURY, cord=60, radius=30, weight=20))), rightArm=150, rightChild=Rod(name=ROD_F, cord=65, leftArm=80, leftChild=Ball(name=URANUS, cord=50, radius=30, weight=60), rightArm=120, rightChild=Rod(name=ROD_G, cord=90, leftArm=50, leftChild=Ball(name=PLUTO, cord=50, radius=30, weight=20), rightArm=50, rightChild=Ball(name=VENUS, cord=50, radius=30, weight=20))))
+> ROD_C height? 325
+> ROD_C width? 610
+ROD_C left width? 260
+ROD_C right width? 350
+> ROD_C weight? 200
+> Found: Rod(name=ROD_D, cord=80, leftArm=80, leftChild=Ball(name=SATURN, cord=40, radius=30, weight=50), rightArm=80, rightChild=Rod(name=ROD_E, cord=75, leftArm=40, leftChild=Ball(name=NEPTUNE, cord=45, radius=30, weight=30), rightArm=60, rightChild=Ball(name=MERCURY, cord=60, radius=30, weight=20)))
+> ROD_D height? 275
+> ROD_D width? 280
+ROD_D left width? 110
+ROD_D right width? 170
+> ROD_D weight? 100
+> Found: Rod(name=ROD_E, cord=75, leftArm=40, leftChild=Ball(name=NEPTUNE, cord=45, radius=30, weight=30), rightArm=60, rightChild=Ball(name=MERCURY, cord=60, radius=30, weight=20))
+> ROD_E height? 195
+> ROD_E width? 160
+ROD_E left width? 70
+ROD_E right width? 90
+> ROD_E weight? 50
+> Found: Rod(name=ROD_F, cord=65, leftArm=80, leftChild=Ball(name=URANUS, cord=50, radius=30, weight=60), rightArm=120, rightChild=Rod(name=ROD_G, cord=90, leftArm=50, leftChild=Ball(name=PLUTO, cord=50, radius=30, weight=20), rightArm=50, rightChild=Ball(name=VENUS, cord=50, radius=30, weight=20)))
+> ROD_F height? 265
+> ROD_F width? 310
+ROD_F left width? 110
+ROD_F right width? 200
+> ROD_F weight? 100
+> Found: Rod(name=ROD_G, cord=90, leftArm=50, leftChild=Ball(name=PLUTO, cord=50, radius=30, weight=20), rightArm=50, rightChild=Ball(name=VENUS, cord=50, radius=30, weight=20))
+> ROD_G height? 200
+> ROD_G width? 160
+ROD_G left width? 80
+ROD_G right width? 80
+> ROD_G weight? 40
+> Found: Ball(name=SUN, cord=40, radius=60, weight=128)
+> SUN height? 160
+> SUN width? 120
+SUN left width? 60
+SUN right width? 60
+> SUN weight? 128
+> Found: Ball(name=JUPITER, cord=50, radius=40, weight=120)
+> JUPITER height? 130
+> JUPITER width? 80
+JUPITER left width? 40
+JUPITER right width? 40
+> JUPITER weight? 120
+> Found: Ball(name=SATURN, cord=40, radius=30, weight=50)
+> SATURN height? 100
+> SATURN width? 60
+SATURN left width? 30
+SATURN right width? 30
+> SATURN weight? 50
+> Found: Ball(name=NEPTUNE, cord=45, radius=30, weight=30)
+> NEPTUNE height? 105
+> NEPTUNE width? 60
+NEPTUNE left width? 30
+NEPTUNE right width? 30
+> NEPTUNE weight? 30
+> Found: Ball(name=MERCURY, cord=60, radius=30, weight=20)
+> MERCURY height? 120
+> MERCURY width? 60
+MERCURY left width? 30
+MERCURY right width? 30
+> MERCURY weight? 20
+> Found: Ball(name=URANUS, cord=50, radius=30, weight=60)
+> URANUS height? 110
+> URANUS width? 60
+URANUS left width? 30
+URANUS right width? 30
+> URANUS weight? 60
+> Found: Ball(name=PLUTO, cord=50, radius=30, weight=20)
+> PLUTO height? 110
+> PLUTO width? 60
+PLUTO left width? 30
+PLUTO right width? 30
+> PLUTO weight? 20
+> Found: Ball(name=VENUS, cord=50, radius=30, weight=20)
+> VENUS height? 110
+> VENUS width? 60
+VENUS left width? 30
+VENUS right width? 30
+> VENUS weight? 20
+> ((( JUPITER ) ROD_B ((( SATURN ) ROD_D (( NEPTUNE ) ROD_E ( MERCURY ))) ROD_C (( URANUS ) ROD_F (( PLUTO ) ROD_G ( VENUS ))))) ROD_A ( SUN ))
+> ROD_A
+	ROD_B
+		JUPITER
+		ROD_C
+			ROD_D
+				SATURN
+				ROD_E
+					NEPTUNE
+					MERCURY
+			ROD_F
+				URANUS
+				ROD_G
+					PLUTO
+					VENUS
+	SUN
+>

@@ -1,0 +1,10 @@
+ROD ROD_A 100 50 60
+ROD ROD_B 100 60 40
+BALL BALL_A 65 30 23
+ROD ROD_C 150 250 200
+BALL BALL_B 100 50 16
+BALL BALL_C 100 35 20
+BALL BALL_D 40 40 50
+
+An unbalanced mobile with 3 rods and 4 balls.  The imbalance
+occurs at ROD_B because BALL_A should weigh 24.
