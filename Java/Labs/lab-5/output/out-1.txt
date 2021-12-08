@@ -1,0 +1,14 @@
+$ java ThruwaySimulator data1.txt
+LOG: Entering: Vehicle ID: ABC1234, Entry=45, Exit=UNKNOWN
+
+INCOMPLETE TRIPS:
+================
+1 vehicles are still on the road:
+	ABC1234
+
+Exit 45-"Rochester E. I-490":
+	ABC1234
+
+BILLING INFORMATION:
+===================
+Total Due: $0.00

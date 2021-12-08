@@ -1,0 +1,52 @@
+Puzzle input01.txt
+Backtracker debugging enabled...
+Current config:
+. .
+1 .
+Successor:
+# .
+1 .
+Invalid!
+Successor:
+@ .
+1 .
+Valid!
+Current config:
+@ .
+1 .
+Successor:
+@ #
+1 .
+Invalid!
+Successor:
+@ @
+1 .
+Valid!
+Current config:
+@ @
+1 .
+Successor:
+@ @
+1 .
+Valid!
+Current config:
+@ @
+1 .
+Successor:
+@ @
+1 #
+Invalid!
+Successor:
+@ @
+1 @
+Valid!
+Current config:
+@ @
+1 @
+Goal config:
+@ @
+1 @
+Elapsed time: 0.001 seconds.
+Solution:
+@ @
+1 @

@@ -1,0 +1,9 @@
+Puzzle input05.txt
+Elapsed time: 0.136 seconds.
+Solution:
+# 3 @ # # #
+@ # @ @ @ 4
+@ @ @ # 2 @
+2 # @ @ @ @
+@ @ @ # # @
+2 # @ 4 # @

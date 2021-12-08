@@ -1,0 +1,53 @@
+$ java ThruwaySimulator data4.txt
+LOG: Entering: Vehicle ID: ABC1234, Entry=45, Exit=UNKNOWN
+LOG: Entering: Vehicle ID: DEF5678, Entry=48A, Exit=UNKNOWN
+LOG: Exiting: Vehicle ID: ABC1234, Entry=45, Exit=50
+LOG: Entering: Vehicle ID: GHI9012, Entry=29, Exit=UNKNOWN
+LOG: Entering: Vehicle ID: ABC1234, Entry=49, Exit=UNKNOWN
+LOG: Entering: Vehicle ID: JKL3456, Entry=31, Exit=UNKNOWN
+LOG: Exiting: Vehicle ID: ABC1234, Entry=49, Exit=17
+LOG: Entering: Vehicle ID: MNO7890, Entry=18, Exit=UNKNOWN
+LOG: Entering: Vehicle ID: ABC1234, Entry=20, Exit=UNKNOWN
+LOG: Entering: Vehicle ID: PQR1234, Entry=33, Exit=UNKNOWN
+LOG: Exiting: Vehicle ID: ABC1234, Entry=20, Exit=26
+LOG: Entering: Vehicle ID: STU5678, Entry=35, Exit=UNKNOWN
+LOG: Entering: Vehicle ID: ABC1234, Entry=26, Exit=UNKNOWN
+LOG: Entering: Vehicle ID: VWX9012, Entry=19, Exit=UNKNOWN
+LOG: Exiting: Vehicle ID: ABC1234, Entry=26, Exit=20
+
+INCOMPLETE TRIPS:
+================
+7 vehicles are still on the road:
+	MNO7890
+	VWX9012
+	GHI9012
+	JKL3456
+	PQR1234
+	STU5678
+	DEF5678
+
+Exit 18-"New Paltz":
+	MNO7890
+Exit 19-"Kingston":
+	VWX9012
+Exit 29-"Canajoharie":
+	GHI9012
+Exit 31-"Utica":
+	JKL3456
+Exit 33-"Verona-Rome":
+	PQR1234
+Exit 35-"Syracuse E.":
+	STU5678
+Exit 48A-"Pembroke":
+	DEF5678
+
+BILLING INFORMATION:
+===================
+Tag: ABC1234
+	From 20-"Saugerties" to 26-"Schenectady W.", Toll: $2.90
+	From 26-"Schenectady W." to 20-"Saugerties", Toll: $2.90
+	From 45-"Rochester E. I-490" to 50-"Buffalo I-290", Toll: $3.30
+	From 49-"Depew" to 17-"Newburgh I-84", Toll: $16.80
+	Total due: $25.90
+
+Total Due: $25.90

@@ -1,0 +1,89 @@
+$ java ThruwaySimulator data5.txt
+LOG: Entering: Vehicle ID: HIJ890, Entry=37, Exit=UNKNOWN
+LOG: Entering: Vehicle ID: ABC123, Entry=17, Exit=UNKNOWN
+LOG: Exiting: Vehicle ID: ABC123, Entry=17, Exit=26
+LOG: Entering: Vehicle ID: ABC123, Entry=26, Exit=UNKNOWN
+LOG: Exiting: Vehicle ID: ABC123, Entry=26, Exit=17
+LOG: Entering: Vehicle ID: BCD234, Entry=40, Exit=UNKNOWN
+LOG: Entering: Vehicle ID: DEF456, Entry=45, Exit=UNKNOWN
+LOG: Exiting: Vehicle ID: BCD234, Entry=40, Exit=50
+LOG: Entering: Vehicle ID: FGH678, Entry=17, Exit=UNKNOWN
+LOG: Exiting: Vehicle ID: FGH678, Entry=17, Exit=19
+LOG: Entering: Vehicle ID: GHI789, Entry=17, Exit=UNKNOWN
+LOG: Entering: Vehicle ID: BCD234, Entry=50, Exit=UNKNOWN
+LOG: Exiting: Vehicle ID: BCD234, Entry=50, Exit=40
+LOG: Entering: Vehicle ID: IDQ822, Entry=45, Exit=UNKNOWN
+LOG: Entering: Vehicle ID: BCD234, Entry=50, Exit=UNKNOWN
+LOG: Entering: Vehicle ID: CDE345, Entry=46, Exit=UNKNOWN
+LOG: Exiting: Vehicle ID: BCD234, Entry=50, Exit=40
+LOG: Entering: Vehicle ID: BCD234, Entry=40, Exit=UNKNOWN
+LOG: Entering: Vehicle ID: EFG567, Entry=50, Exit=UNKNOWN
+LOG: Entering: Vehicle ID: MTW143, Entry=17, Exit=UNKNOWN
+LOG: Exiting: Vehicle ID: BCD234, Entry=40, Exit=50
+LOG: Entering: Vehicle ID: BCD234, Entry=50, Exit=UNKNOWN
+LOG: Exiting: Vehicle ID: BCD234, Entry=50, Exit=40
+LOG: Entering: Vehicle ID: BCD234, Entry=40, Exit=UNKNOWN
+LOG: Exiting: Vehicle ID: CDE345, Entry=46, Exit=38
+LOG: Exiting: Vehicle ID: EFG567, Entry=50, Exit=18
+LOG: Entering: Vehicle ID: EFG567, Entry=17, Exit=UNKNOWN
+LOG: Exiting: Vehicle ID: EFG567, Entry=17, Exit=50
+LOG: Entering: Vehicle ID: FGH678, Entry=34, Exit=UNKNOWN
+LOG: Exiting: Vehicle ID: HIJ890, Entry=37, Exit=34
+LOG: Entering: Vehicle ID: QRS817, Entry=17, Exit=UNKNOWN
+
+INCOMPLETE TRIPS:
+================
+7 vehicles are still on the road:
+	GHI789
+	MTW143
+	QRS817
+	FGH678
+	BCD234
+	DEF456
+	IDQ822
+
+Exit 17-"Newburgh I-84":
+	QRS817
+	MTW143
+	GHI789
+Exit 34-"Canastota":
+	FGH678
+Exit 40-"Weedsport":
+	BCD234
+Exit 45-"Rochester E. I-490":
+	IDQ822
+	DEF456
+
+BILLING INFORMATION:
+===================
+Tag: ABC123
+	From 17-"Newburgh I-84" to 26-"Schenectady W.", Toll: $4.80
+	From 26-"Schenectady W." to 17-"Newburgh I-84", Toll: $4.80
+	Total due: $9.60
+
+Tag: BCD234
+	From 40-"Weedsport" to 50-"Buffalo I-290", Toll: $5.50
+	From 40-"Weedsport" to 50-"Buffalo I-290", Toll: $5.50
+	From 50-"Buffalo I-290" to 40-"Weedsport", Toll: $5.50
+	From 50-"Buffalo I-290" to 40-"Weedsport", Toll: $5.50
+	From 50-"Buffalo I-290" to 40-"Weedsport", Toll: $5.50
+	Total due: $27.50
+
+Tag: CDE345
+	From 46-"Rochester I-390" to 38-"Syracuse - Liverpool", Toll: $3.60
+	Total due: $3.60
+
+Tag: EFG567
+	From 17-"Newburgh I-84" to 50-"Buffalo I-290", Toll: $16.95
+	From 50-"Buffalo I-290" to 18-"New Paltz", Toll: $16.20
+	Total due: $33.15
+
+Tag: FGH678
+	From 17-"Newburgh I-84" to 19-"Kingston", Toll: $1.50
+	Total due: $1.50
+
+Tag: HIJ890
+	From 37-"Electronics Parkway" to 34-"Canastota", Toll: $1.05
+	Total due: $1.05
+
+Total Due: $76.40

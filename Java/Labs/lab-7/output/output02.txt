@@ -1,0 +1,162 @@
+Puzzle input02.txt
+Backtracker debugging enabled...
+Current config:
+1 . .
+. . 3
+1 . .
+Successor:
+1 . .
+. . 3
+1 . .
+Valid!
+Current config:
+1 . .
+. . 3
+1 . .
+Successor:
+1 # .
+. . 3
+1 . .
+Invalid!
+Successor:
+1 @ .
+. . 3
+1 . .
+Valid!
+Current config:
+1 @ .
+. . 3
+1 . .
+Successor:
+1 @ #
+. . 3
+1 . .
+Valid!
+Current config:
+1 @ #
+. . 3
+1 . .
+Successor:
+1 @ #
+# . 3
+1 . .
+Invalid!
+Successor:
+1 @ #
+@ . 3
+1 . .
+Valid!
+Current config:
+1 @ #
+@ . 3
+1 . .
+Successor:
+1 @ #
+@ # 3
+1 . .
+Valid!
+Current config:
+1 @ #
+@ # 3
+1 . .
+Successor:
+1 @ #
+@ # 3
+1 . .
+Valid!
+Current config:
+1 @ #
+@ # 3
+1 . .
+Successor:
+1 @ #
+@ # 3
+1 . .
+Valid!
+Current config:
+1 @ #
+@ # 3
+1 . .
+Successor:
+1 @ #
+@ # 3
+1 # .
+Invalid!
+Successor:
+1 @ #
+@ # 3
+1 @ .
+Valid!
+Current config:
+1 @ #
+@ # 3
+1 @ .
+Successor:
+1 @ #
+@ # 3
+1 @ #
+Invalid!
+Successor:
+1 @ #
+@ # 3
+1 @ @
+Invalid!
+Successor:
+1 @ #
+@ @ 3
+1 . .
+Valid!
+Current config:
+1 @ #
+@ @ 3
+1 . .
+Successor:
+1 @ #
+@ @ 3
+1 . .
+Valid!
+Current config:
+1 @ #
+@ @ 3
+1 . .
+Successor:
+1 @ #
+@ @ 3
+1 . .
+Valid!
+Current config:
+1 @ #
+@ @ 3
+1 . .
+Successor:
+1 @ #
+@ @ 3
+1 # .
+Invalid!
+Successor:
+1 @ #
+@ @ 3
+1 @ .
+Valid!
+Current config:
+1 @ #
+@ @ 3
+1 @ .
+Successor:
+1 @ #
+@ @ 3
+1 @ #
+Valid!
+Current config:
+1 @ #
+@ @ 3
+1 @ #
+Goal config:
+1 @ #
+@ @ 3
+1 @ #
+Elapsed time: 0.002 seconds.
+Solution:
+1 @ #
+@ @ 3
+1 @ #

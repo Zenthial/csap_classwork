@@ -1,0 +1,16 @@
+$ java ThruwaySimulator data2.txt
+LOG: Entering: Vehicle ID: ABC1234, Entry=45, Exit=UNKNOWN
+LOG: Exiting: Vehicle ID: ABC1234, Entry=45, Exit=48A
+
+INCOMPLETE TRIPS:
+================
+0 vehicles are still on the road:
+
+
+BILLING INFORMATION:
+===================
+Tag: ABC1234
+	From 45-"Rochester E. I-490" to 48A-"Pembroke", Toll: $2.40
+	Total due: $2.40
+
+Total Due: $2.40

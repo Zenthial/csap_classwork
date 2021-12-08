@@ -1,0 +1,13 @@
+> mobile-1.txt loaded and parsed!
+> root: Ball(name=EARTH, cord=30, radius=60, weight=20)
+> EARTH balanced? true
+Imbalance amount: 0
+> Found: Ball(name=EARTH, cord=30, radius=60, weight=20)
+> EARTH height? 150
+> EARTH width? 120
+EARTH left width? 60
+EARTH right width? 60
+> EARTH weight? 20
+> ( EARTH )
+> EARTH
+>

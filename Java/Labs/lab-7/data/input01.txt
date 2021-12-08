@@ -1,0 +1,8 @@
+2 2
+. .
+1 .
+
+A 2x2 puzzle with a solution:
+
+@ @
+1 @

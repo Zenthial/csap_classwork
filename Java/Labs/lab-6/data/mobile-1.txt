@@ -1,0 +1,3 @@
+BALL EARTH 30 60 20
+
+A balanced mobile with a single ball

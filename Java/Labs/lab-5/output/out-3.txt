@@ -1,0 +1,20 @@
+$ java ThruwaySimulator data3.txt
+LOG: Entering: Vehicle ID: ABC1234, Entry=45, Exit=UNKNOWN
+LOG: Entering: Vehicle ID: DEF5678, Entry=17, Exit=UNKNOWN
+LOG: Exiting: Vehicle ID: ABC1234, Entry=45, Exit=50
+
+INCOMPLETE TRIPS:
+================
+1 vehicles are still on the road:
+	DEF5678
+
+Exit 17-"Newburgh I-84":
+	DEF5678
+
+BILLING INFORMATION:
+===================
+Tag: ABC1234
+	From 45-"Rochester E. I-490" to 50-"Buffalo I-290", Toll: $3.30
+	Total due: $3.30
+
+Total Due: $3.30

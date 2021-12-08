@@ -1,0 +1,152 @@
+Puzzle input01.txt
+Backtracker debugging enabled...
+Current config:
+. .
+1 .
+
+	Valid successor:
+# .
+1 .
+
+Current config:
+# .
+1 .
+
+	Valid successor:
+# #
+1 .
+
+Current config:
+# #
+1 .
+
+	Valid successor:
+# #
+1 .
+
+Current config:
+# #
+1 .
+
+	Valid successor:
+# #
+1 #
+
+Current config:
+# #
+1 #
+
+	Valid successor:
+# #
+1 @
+
+Current config:
+# #
+1 @
+
+	Valid successor:
+# @
+1 .
+
+Current config:
+# @
+1 .
+
+	Valid successor:
+# @
+1 .
+
+Current config:
+# @
+1 .
+
+	Valid successor:
+# @
+1 #
+
+Current config:
+# @
+1 #
+
+	Valid successor:
+# @
+1 @
+
+Current config:
+# @
+1 @
+
+	Valid successor:
+@ .
+1 .
+
+Current config:
+@ .
+1 .
+
+	Valid successor:
+@ #
+1 .
+
+Current config:
+@ #
+1 .
+
+	Valid successor:
+@ #
+1 .
+
+Current config:
+@ #
+1 .
+
+	Valid successor:
+@ #
+1 #
+
+Current config:
+@ #
+1 #
+
+	Valid successor:
+@ #
+1 @
+
+Current config:
+@ #
+1 @
+
+	Valid successor:
+@ @
+1 .
+
+Current config:
+@ @
+1 .
+
+	Valid successor:
+@ @
+1 .
+
+Current config:
+@ @
+1 .
+
+	Valid successor:
+@ @
+1 #
+
+Current config:
+@ @
+1 #
+
+	Valid successor:
+@ @
+1 @
+
+Current config:
+@ @
+1 @
+
+Elapsed time: 0.016 seconds.
+No solution!

@@ -1,0 +1,26 @@
+load data/mobile-3.txt
+root
+balanced
+find ROD_A
+height ROD_A
+width ROD_A
+weight ROD_A
+find ROD_B
+height ROD_B
+width ROD_B
+weight ROD_B
+find BALL_A
+height BALL_A
+width BALL_A
+weight BALL_A
+find BALL_B
+height BALL_B
+width BALL_B
+weight BALL_B
+find BALL_C
+height BALL_C
+width BALL_C
+weight BALL_C
+infix
+print
+quit
